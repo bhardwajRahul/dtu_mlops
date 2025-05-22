@@ -16,7 +16,7 @@
       
       
       <link rel="icon" href="../../figures/favicon.png">
-      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.5.34">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.12">
     
     
       
@@ -24,7 +24,7 @@
       
     
     
-      <link rel="stylesheet" href="../../assets/stylesheets/main.35f28582.min.css">
+      <link rel="stylesheet" href="../../assets/stylesheets/main.2afb09e1.min.css">
       
         
         <link rel="stylesheet" href="../../assets/stylesheets/palette.06af60db.min.css">
@@ -45,6 +45,10 @@
         <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
       
     
+    
+      <link rel="stylesheet" href="../../assets/_markdown_exec_pyodide.css">
+    
+      <link rel="stylesheet" href="../../assets/_markdown_exec_ansi.css">
     
     <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
@@ -154,11 +158,13 @@
     
     
     
-      <label class="md-header__button md-icon" for="__search">
-        
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
-      </label>
-      <div class="md-search" data-md-component="search" role="dialog">
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
   <label class="md-search__overlay" for="__search"></label>
   <div class="md-search__inner" role="search">
     <form class="md-search__form" name="search">
@@ -192,13 +198,14 @@
     </div>
   </div>
 </div>
+      
     
     
       <div class="md-header__source">
         <a href="https://github.com/SkafteNicki/dtu_mlops" title="Go to repository" class="md-source" data-md-component="source">
   <div class="md-source__icon md-icon">
     
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><!--! Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6m-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3m44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9M244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8M97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1m-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7m32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1m-11.4-14.7c-1.6 1-1.6 3.6 0 5.9s4.3 3.3 5.6 2.3c1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2"/></svg>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><!--! Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6m-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3m44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9M244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8M97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1m-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7m32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1m-11.4-14.7c-1.6 1-1.6 3.6 0 5.9s4.3 3.3 5.6 2.3c1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2"/></svg>
   </div>
   <div class="md-source__repository">
     GitHub
@@ -243,7 +250,7 @@
       <a href="https://github.com/SkafteNicki/dtu_mlops" title="Go to repository" class="md-source" data-md-component="source">
   <div class="md-source__icon md-icon">
     
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><!--! Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6m-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3m44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9M244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8M97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1m-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7m32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1m-11.4-14.7c-1.6 1-1.6 3.6 0 5.9s4.3 3.3 5.6 2.3c1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2"/></svg>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><!--! Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6m-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3m44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9M244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8M97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1m-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7m32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1m-11.4-14.7c-1.6 1-1.6 3.6 0 5.9s4.3 3.3 5.6 2.3c1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2"/></svg>
   </div>
   <div class="md-source__repository">
     GitHub
@@ -263,8 +270,10 @@
       <a href="../.." class="md-nav__link">
         
   
+  
   <span class="md-ellipsis">
     Home
+    
   </span>
   
 
@@ -283,8 +292,10 @@
       <a href="../../pages/timeplan/" class="md-nav__link">
         
   
+  
   <span class="md-ellipsis">
-    Timeplan
+    Time plan
+    
   </span>
   
 
@@ -317,6 +328,7 @@
     
     
     
+    
     <li class="md-nav__item md-nav__item--nested">
       
         
@@ -324,13 +336,14 @@
         <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
         
           
-          
           <div class="md-nav__link md-nav__container">
             <a href="../../s1_development_environment/" class="md-nav__link ">
               
   
+  
   <span class="md-ellipsis">
     S1 - Development Environment 💻
+    
   </span>
   
 
@@ -362,8 +375,10 @@
       <a href="../../s1_development_environment/command_line/" class="md-nav__link">
         
   
+  
   <span class="md-ellipsis">
     M1 - The command line
+    
   </span>
   
 
@@ -383,8 +398,10 @@
       <a href="../../s1_development_environment/package_manager/" class="md-nav__link">
         
   
+  
   <span class="md-ellipsis">
     M2 - Package Manager
+    
   </span>
   
 
@@ -404,8 +421,10 @@
       <a href="../../s1_development_environment/editor/" class="md-nav__link">
         
   
+  
   <span class="md-ellipsis">
     M3 - Editor
+    
   </span>
   
 
@@ -425,8 +444,10 @@
       <a href="../../s1_development_environment/deep_learning_software/" class="md-nav__link">
         
   
+  
   <span class="md-ellipsis">
     M4 - Deep Learning Software
+    
   </span>
   
 
@@ -469,6 +490,7 @@
     
     
     
+    
     <li class="md-nav__item md-nav__item--nested">
       
         
@@ -476,13 +498,14 @@
         <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" >
         
           
-          
           <div class="md-nav__link md-nav__container">
             <a href="../../s2_organisation_and_version_control/" class="md-nav__link ">
               
   
+  
   <span class="md-ellipsis">
     S2 - Organisation and Version Control 📁
+    
   </span>
   
 
@@ -514,8 +537,10 @@
       <a href="../../s2_organisation_and_version_control/git/" class="md-nav__link">
         
   
+  
   <span class="md-ellipsis">
     M5 - Git
+    
   </span>
   
 
@@ -535,8 +560,10 @@
       <a href="../../s2_organisation_and_version_control/code_structure/" class="md-nav__link">
         
   
+  
   <span class="md-ellipsis">
     M6 - Code structure
+    
   </span>
   
 
@@ -556,8 +583,10 @@
       <a href="../../s2_organisation_and_version_control/good_coding_practice/" class="md-nav__link">
         
   
+  
   <span class="md-ellipsis">
     M7 - Good coding practice
+    
   </span>
   
 
@@ -577,8 +606,10 @@
       <a href="../../s2_organisation_and_version_control/dvc/" class="md-nav__link">
         
   
+  
   <span class="md-ellipsis">
     M8 - Data version control
+    
   </span>
   
 
@@ -598,8 +629,10 @@
       <a href="../../s2_organisation_and_version_control/cli/" class="md-nav__link">
         
   
+  
   <span class="md-ellipsis">
     M9 - Command Line Interfaces
+    
   </span>
   
 
@@ -638,6 +671,7 @@
     
     
     
+    
     <li class="md-nav__item md-nav__item--active md-nav__item--nested">
       
         
@@ -645,13 +679,14 @@
         <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" checked>
         
           
-          
           <div class="md-nav__link md-nav__container">
             <a href="../" class="md-nav__link ">
               
   
+  
   <span class="md-ellipsis">
-    S3 - Reproduceability ♻️
+    S3 - Reproducibility ♻️
+    
   </span>
   
 
@@ -667,7 +702,7 @@
         <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_5">
             <span class="md-nav__icon md-icon"></span>
-            S3 - Reproduceability ♻️
+            S3 - Reproducibility ♻️
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
             
@@ -692,8 +727,10 @@
         <label class="md-nav__link md-nav__link--active" for="__toc">
           
   
+  
   <span class="md-ellipsis">
     M10 - Docker
+    
   </span>
   
 
@@ -703,8 +740,10 @@
       <a href="./" class="md-nav__link md-nav__link--active">
         
   
+  
   <span class="md-ellipsis">
     M10 - Docker
+    
   </span>
   
 
@@ -780,8 +819,10 @@
       <a href="../config_files/" class="md-nav__link">
         
   
+  
   <span class="md-ellipsis">
     M11 - Config Files
+    
   </span>
   
 
@@ -822,6 +863,7 @@
     
     
     
+    
     <li class="md-nav__item md-nav__item--nested">
       
         
@@ -829,13 +871,14 @@
         <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6" >
         
           
-          
           <div class="md-nav__link md-nav__container">
             <a href="../../s4_debugging_and_logging/" class="md-nav__link ">
               
   
+  
   <span class="md-ellipsis">
     S4 - Debugging, Profiling and Logging ⏱️
+    
   </span>
   
 
@@ -867,8 +910,10 @@
       <a href="../../s4_debugging_and_logging/debugging/" class="md-nav__link">
         
   
+  
   <span class="md-ellipsis">
     M12 - Debugging
+    
   </span>
   
 
@@ -888,8 +933,10 @@
       <a href="../../s4_debugging_and_logging/profiling/" class="md-nav__link">
         
   
+  
   <span class="md-ellipsis">
     M13 - Profiling
+    
   </span>
   
 
@@ -909,8 +956,10 @@
       <a href="../../s4_debugging_and_logging/logging/" class="md-nav__link">
         
   
+  
   <span class="md-ellipsis">
     M14 - Logging
+    
   </span>
   
 
@@ -930,8 +979,10 @@
       <a href="../../s4_debugging_and_logging/boilerplate/" class="md-nav__link">
         
   
+  
   <span class="md-ellipsis">
     M15 - Boilerplate
+    
   </span>
   
 
@@ -972,6 +1023,7 @@
     
     
     
+    
     <li class="md-nav__item md-nav__item--nested">
       
         
@@ -979,13 +1031,14 @@
         <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_7" >
         
           
-          
           <div class="md-nav__link md-nav__container">
             <a href="../../s5_continuous_integration/" class="md-nav__link ">
               
   
+  
   <span class="md-ellipsis">
     S5 - Continuous Integration ✔️
+    
   </span>
   
 
@@ -1017,8 +1070,10 @@
       <a href="../../s5_continuous_integration/unittesting/" class="md-nav__link">
         
   
+  
   <span class="md-ellipsis">
     M16 - Unit testing
+    
   </span>
   
 
@@ -1038,8 +1093,10 @@
       <a href="../../s5_continuous_integration/github_actions/" class="md-nav__link">
         
   
+  
   <span class="md-ellipsis">
-    M17 - Github Actions
+    M17 - GitHub Actions
+    
   </span>
   
 
@@ -1059,8 +1116,10 @@
       <a href="../../s5_continuous_integration/pre_commit/" class="md-nav__link">
         
   
+  
   <span class="md-ellipsis">
     M18 - Pre-commit
+    
   </span>
   
 
@@ -1080,8 +1139,10 @@
       <a href="../../s5_continuous_integration/cml/" class="md-nav__link">
         
   
+  
   <span class="md-ellipsis">
     M19 - Continuous Machine Learning
+    
   </span>
   
 
@@ -1118,6 +1179,7 @@
     
     
     
+    
     <li class="md-nav__item md-nav__item--nested">
       
         
@@ -1125,13 +1187,14 @@
         <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_8" >
         
           
-          
           <div class="md-nav__link md-nav__container">
             <a href="../../s6_the_cloud/" class="md-nav__link ">
               
   
+  
   <span class="md-ellipsis">
     S6 - The cloud 🌐
+    
   </span>
   
 
@@ -1163,8 +1226,10 @@
       <a href="../../s6_the_cloud/cloud_setup/" class="md-nav__link">
         
   
+  
   <span class="md-ellipsis">
     M20 - Cloud Setup
+    
   </span>
   
 
@@ -1184,8 +1249,10 @@
       <a href="../../s6_the_cloud/using_the_cloud/" class="md-nav__link">
         
   
+  
   <span class="md-ellipsis">
     M21 - Using the Cloud
+    
   </span>
   
 
@@ -1223,6 +1290,9 @@
       
         
       
+        
+      
+    
     
     
     
@@ -1233,13 +1303,14 @@
         <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_9" >
         
           
-          
           <div class="md-nav__link md-nav__container">
             <a href="../../s7_deployment/" class="md-nav__link ">
               
   
+  
   <span class="md-ellipsis">
     S7 - Deployment 📦
+    
   </span>
   
 
@@ -1271,29 +1342,10 @@
       <a href="../../s7_deployment/apis/" class="md-nav__link">
         
   
+  
   <span class="md-ellipsis">
     M22 - Requests and APIs
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../s7_deployment/local_deployment/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    M23 - Local Deployment
+    
   </span>
   
 
@@ -1313,8 +1365,10 @@
       <a href="../../s7_deployment/cloud_deployment/" class="md-nav__link">
         
   
+  
   <span class="md-ellipsis">
-    M24 - Cloud Deployment
+    M23 - Cloud Deployment
+    
   </span>
   
 
@@ -1334,8 +1388,56 @@
       <a href="../../s7_deployment/testing_apis/" class="md-nav__link">
         
   
+  
   <span class="md-ellipsis">
-    M25 - API Testing
+    M24 - API Testing
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../s7_deployment/ml_deployment/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    M25 - ML deployment
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../s7_deployment/frontend/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    M26 - Frontend
+    
   </span>
   
 
@@ -1372,6 +1474,7 @@
     
     
     
+    
     <li class="md-nav__item md-nav__item--nested">
       
         
@@ -1379,13 +1482,14 @@
         <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_10" >
         
           
-          
           <div class="md-nav__link md-nav__container">
             <a href="../../s8_monitoring/" class="md-nav__link ">
               
   
+  
   <span class="md-ellipsis">
     S8 - Monitoring 📊
+    
   </span>
   
 
@@ -1417,8 +1521,10 @@
       <a href="../../s8_monitoring/data_drifting/" class="md-nav__link">
         
   
+  
   <span class="md-ellipsis">
-    M26 - Data Drifting
+    M27 - Data Drifting
+    
   </span>
   
 
@@ -1438,8 +1544,10 @@
       <a href="../../s8_monitoring/monitoring/" class="md-nav__link">
         
   
+  
   <span class="md-ellipsis">
-    M27 - System Monitoring
+    M28 - System Monitoring
+    
   </span>
   
 
@@ -1478,6 +1586,7 @@
     
     
     
+    
     <li class="md-nav__item md-nav__item--nested">
       
         
@@ -1485,13 +1594,14 @@
         <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_11" >
         
           
-          
           <div class="md-nav__link md-nav__container">
             <a href="../../s9_scalable_applications/" class="md-nav__link ">
               
   
+  
   <span class="md-ellipsis">
     S9 - Scalable applications ⚖️
+    
   </span>
   
 
@@ -1523,8 +1633,10 @@
       <a href="../../s9_scalable_applications/data_loading/" class="md-nav__link">
         
   
+  
   <span class="md-ellipsis">
-    M28 - Distributed Data Loading
+    M29 - Distributed Data Loading
+    
   </span>
   
 
@@ -1544,8 +1656,10 @@
       <a href="../../s9_scalable_applications/distributed_training/" class="md-nav__link">
         
   
+  
   <span class="md-ellipsis">
-    M29 - Distributed Training
+    M30 - Distributed Training
+    
   </span>
   
 
@@ -1565,8 +1679,10 @@
       <a href="../../s9_scalable_applications/inference/" class="md-nav__link">
         
   
+  
   <span class="md-ellipsis">
-    M30 - Scalable Inference
+    M31 - Scalable Inference
+    
   </span>
   
 
@@ -1602,10 +1718,7 @@
       
         
       
-        
-      
-        
-      
+    
     
     
     
@@ -1616,13 +1729,14 @@
         <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_12" >
         
           
-          
           <div class="md-nav__link md-nav__container">
             <a href="../../s10_extra/" class="md-nav__link ">
               
   
+  
   <span class="md-ellipsis">
     S10 - Extra 🔥
+    
   </span>
   
 
@@ -1654,8 +1768,10 @@
       <a href="../../s10_extra/documentation/" class="md-nav__link">
         
   
+  
   <span class="md-ellipsis">
-    M31 - Documentation
+    M32 - Documentation
+    
   </span>
   
 
@@ -1675,8 +1791,10 @@
       <a href="../../s10_extra/hyperparameters/" class="md-nav__link">
         
   
+  
   <span class="md-ellipsis">
-    M32 - Hyperparameter optimization
+    M33 - Hyperparameter optimization
+    
   </span>
   
 
@@ -1696,50 +1814,10 @@
       <a href="../../s10_extra/high_performance_clusters/" class="md-nav__link">
         
   
-  <span class="md-ellipsis">
-    M33 - High Performance Clusters
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../s10_extra/frontend/" class="md-nav__link">
-        
   
   <span class="md-ellipsis">
-    M34 - Frontend
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../s10_extra/ml_deployment/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    M35 - ML deployment
+    M34 - High Performance Clusters
+    
   </span>
   
 
@@ -1766,8 +1844,10 @@
       <a href="../../pages/overview/" class="md-nav__link">
         
   
+  
   <span class="md-ellipsis">
     Summary
+    
   </span>
   
 
@@ -1786,8 +1866,10 @@
       <a href="../../pages/projects/" class="md-nav__link">
         
   
+  
   <span class="md-ellipsis">
     Projects
+    
   </span>
   
 
@@ -1806,8 +1888,10 @@
       <a href="../../pages/faq/" class="md-nav__link">
         
   
+  
   <span class="md-ellipsis">
     FAQ
+    
   </span>
   
 
@@ -1892,6 +1976,7 @@
                 
                   
 
+
   
     <a href="https://github.com/SkafteNicki/dtu_mlops/edit/main/s3_reproducibility/docker.md" title="Edit this page" class="md-content__button md-icon">
       
@@ -1932,7 +2017,7 @@ To truly achieve reproducibility, we need to capture system-level components suc
 <p>Docker provides this kind of system-level reproducibility by creating isolated program dependencies. In addition to
 providing reproducibility, one of the key features of Docker is scalability, which is important when we later discuss
 deployment. Because Docker ensures system-level reproducibility, it does not (conceptually) matter whether we try to
-start our program on a single machine or on 1000 machines at once.</p>
+start our program on a single machine or on 1,000 machines at once.</p>
 <h2 id="docker-overview">Docker Overview</h2>
 <p>Docker has three main concepts: <strong>Dockerfile</strong>, <strong>Docker image</strong>, and <strong>Docker container</strong>:</p>
 <figure>
@@ -1965,30 +2050,30 @@ your own container.</p>
 </li>
 <li>
 <p>After building the image ourselves, we can choose to upload it to an <em>image registry</em> such as
-    <a href="https://hub.docker.com/">Docker Hub</a>, where others can get our image by simply running <code>docker pull</code>, making them
-    able to instantaneously run it as a container, as shown in the figure below:</p>
+    <a href="https://hub.docker.com/">Docker Hub</a>, where others can get our image by simply running <code>docker pull</code>, allowing them
+    to instantaneously run it as a container, as shown in the figure below:</p>
 </li>
 </ul>
 <figure>
 <p><a class="glightbox" href="../../figures/docker_share.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="Image" src="../../figures/docker_share.png" width="1000" /></a></p>
-<figcaption> <a href="https://www.ravirajag.dev/blog/mlops-docker"> Image credit </a> </figcaption>
+<figcaption> <a href="https://deep-learning-blogs.vercel.app/blog/mlops-docker"> Image credit </a> </figcaption>
 </figure>
 <h2 id="exercises">❔ Exercises</h2>
-<p>In the following exercises, we guide you on how to build a docker file for your MNIST repository that will make the
+<p>In the following exercises, we guide you on how to build a dockerfile for your MNIST repository that will make the
 training and prediction a self-contained application. Please make sure that you somewhat understand each step and do
-not just copy the exercise. Also, note that you probably need to execute the exercise from an elevated terminal e.g.
+not just copy the exercise. Also, note that you probably need to execute the exercise from an elevated terminal, i.e.
 with administrative privilege.</p>
 <p>The exercises today are only an introduction to docker and some of the steps are going to be unoptimized from a
 production setting view. For example, we often want to keep the size of the docker image as small as possible, which we
 are not focusing on for these exercises.</p>
 <p>If you are using <code>VScode</code> then we recommend installing the
-<a href="https://code.visualstudio.com/docs/containers/overview">VScode docker extension</a> for easy getting an overview of
+<a href="https://code.visualstudio.com/docs/containers/overview">VScode docker extension</a> for easily getting an overview of
 which images have been building and which are running. Additionally, the extension named <em>Dev Containers</em> may also be
 beneficial for you to download.</p>
 <ol>
 <li>
 <p>Start by <a href="https://docs.docker.com/get-docker/">installing docker</a>. How much trouble you need to go through
-    depends on your operating system. For Windows and Mac, we recommend they install <em>Docker Desktop</em>, which comes with
+    depends on your operating system. For Windows and Mac, we recommend you install <em>Docker Desktop</em>, which comes with
     a graphical user interface (GUI) for quickly viewing docker images and docker containers currently built/in use.
     Windows users that have not installed WSL yet are going to have to do it now (as docker needs it as a backend for
     starting virtual machines) but you do not need to install docker in WSL. After installing docker we recommend that
@@ -2017,7 +2102,7 @@ shell utilities, etc.</p>
 <p>which should show you all available images. You should see the <code>busybox</code> image that we just downloaded.</p>
 </li>
 <li>
-<p>Let's try to run this image</p>
+<p>Let's try to run this image.</p>
 <div class="language-bash highlight"><pre><span></span><code><span id="__span-4-1"><a id="__codelineno-4-1" name="__codelineno-4-1" href="#__codelineno-4-1"></a>docker<span class="w"> </span>run<span class="w"> </span>busybox
 </span></code></pre></div>
 <p>You will see that nothing happens! The reason for that is we did not provide any commands to <code>docker run</code>. We
@@ -2029,13 +2114,13 @@ again, this time with</p>
 and kill it afterward.</p>
 </li>
 <li>
-<p>Try running</p>
+<p>Try running:</p>
 <div class="language-bash highlight"><pre><span></span><code><span id="__span-6-1"><a id="__codelineno-6-1" name="__codelineno-6-1" href="#__codelineno-6-1"></a>docker<span class="w"> </span>ps
 </span></code></pre></div>
 <p>What does this command do? What if you add <code>-a</code> to the end?</p>
 </li>
 <li>
-<p>If we want to run multiple commands within the virtual machine, we can start it in <em>interactive mode</em></p>
+<p>If we want to run multiple commands within the virtual machine, we can start it in <em>interactive mode</em>.</p>
 <div class="language-bash highlight"><pre><span></span><code><span id="__span-7-1"><a id="__codelineno-7-1" name="__codelineno-7-1" href="#__codelineno-7-1"></a>docker<span class="w"> </span>run<span class="w"> </span>-it<span class="w"> </span>busybox
 </span></code></pre></div>
 <p>This can be a great way to investigate what the filesystem of our virtual machine looks like.</p>
@@ -2043,29 +2128,33 @@ and kill it afterward.</p>
 <li>
 <p>As you may have already noticed by now, each time we execute <code>docker run</code>, we can still see small remnants of the
     containers using <code>docker ps -a</code>. These stray containers can end up taking up a lot of disk space. To remove them,
-    use <code>docker rm</code> where you provide the container ID that you want to delete</p>
+    use <code>docker rm</code> where you provide the container ID that you want to delete.</p>
 <div class="language-bash highlight"><pre><span></span><code><span id="__span-8-1"><a id="__codelineno-8-1" name="__codelineno-8-1" href="#__codelineno-8-1"></a>docker<span class="w"> </span>rm<span class="w"> </span>&lt;container_id&gt;
 </span></code></pre></div>
+<p>In general we recommend using the <code>--rm</code> flag when running a container, e.g.</p>
+<div class="language-bash highlight"><pre><span></span><code><span id="__span-9-1"><a id="__codelineno-9-1" name="__codelineno-9-1" href="#__codelineno-9-1"></a>docker<span class="w"> </span>run<span class="w"> </span>--rm<span class="w"> </span>&lt;image&gt;
+</span></code></pre></div>
+<p>which will automatically remove the container after it has finished running.</p>
 </li>
 <li>
 <p>Let's now move on to trying to construct a Dockerfile ourselves for our MNIST project. Create a file called
-    <code>trainer.dockerfile</code>. The intention is that we want to develop one Dockerfile for running our training script and
-    one for doing predictions.</p>
+    <code>train.dockerfile</code>. The intention is that we want to develop one Dockerfile for running our training script and
+    one for making predictions.</p>
 </li>
 <li>
 <p>Instead of starting from scratch, we nearly always want to start from some base image. For this exercise, we are
-    going to start from a simple <code>python</code> image. Add the following to your <code>Dockerfile</code></p>
-<div class="language-docker highlight"><pre><span></span><code><span id="__span-9-1"><a id="__codelineno-9-1" name="__codelineno-9-1" href="#__codelineno-9-1"></a><span class="c"># Base image</span>
-</span><span id="__span-9-2"><a id="__codelineno-9-2" name="__codelineno-9-2" href="#__codelineno-9-2"></a><span class="k">FROM</span><span class="w"> </span><span class="s">python:3.9-slim</span>
+    going to start from a simple <code>python</code> image. Add the following to your <code>Dockerfile</code>:</p>
+<div class="language-docker highlight"><pre><span></span><code><span id="__span-10-1"><a id="__codelineno-10-1" name="__codelineno-10-1" href="#__codelineno-10-1"></a><span class="c"># Base image</span>
+</span><span id="__span-10-2"><a id="__codelineno-10-2" name="__codelineno-10-2" href="#__codelineno-10-2"></a><span class="k">FROM</span><span class="w"> </span><span class="s">python:3.11-slim</span>
 </span></code></pre></div>
 </li>
 <li>
 <p>Next, we are going to install some essentials in our image. The essentials more or less consist of a Python
     installation. These instructions may seem familiar if you are using Linux:</p>
-<div class="language-docker highlight"><pre><span></span><code><span id="__span-10-1"><a id="__codelineno-10-1" name="__codelineno-10-1" href="#__codelineno-10-1"></a><span class="c"># Install Python</span>
-</span><span id="__span-10-2"><a id="__codelineno-10-2" name="__codelineno-10-2" href="#__codelineno-10-2"></a><span class="k">RUN</span><span class="w"> </span>apt<span class="w"> </span>update<span class="w"> </span><span class="o">&amp;&amp;</span><span class="w"> </span><span class="se">\</span>
-</span><span id="__span-10-3"><a id="__codelineno-10-3" name="__codelineno-10-3" href="#__codelineno-10-3"></a><span class="w">    </span>apt<span class="w"> </span>install<span class="w"> </span>--no-install-recommends<span class="w"> </span>-y<span class="w"> </span>build-essential<span class="w"> </span>gcc<span class="w"> </span><span class="o">&amp;&amp;</span><span class="w"> </span><span class="se">\</span>
-</span><span id="__span-10-4"><a id="__codelineno-10-4" name="__codelineno-10-4" href="#__codelineno-10-4"></a><span class="w">    </span>apt<span class="w"> </span>clean<span class="w"> </span><span class="o">&amp;&amp;</span><span class="w"> </span>rm<span class="w"> </span>-rf<span class="w"> </span>/var/lib/apt/lists/*
+<div class="language-docker highlight"><pre><span></span><code><span id="__span-11-1"><a id="__codelineno-11-1" name="__codelineno-11-1" href="#__codelineno-11-1"></a><span class="c"># Install Python</span>
+</span><span id="__span-11-2"><a id="__codelineno-11-2" name="__codelineno-11-2" href="#__codelineno-11-2"></a><span class="k">RUN</span><span class="w"> </span>apt<span class="w"> </span>update<span class="w"> </span><span class="o">&amp;&amp;</span><span class="w"> </span><span class="se">\</span>
+</span><span id="__span-11-3"><a id="__codelineno-11-3" name="__codelineno-11-3" href="#__codelineno-11-3"></a><span class="w">    </span>apt<span class="w"> </span>install<span class="w"> </span>--no-install-recommends<span class="w"> </span>-y<span class="w"> </span>build-essential<span class="w"> </span>gcc<span class="w"> </span><span class="o">&amp;&amp;</span><span class="w"> </span><span class="se">\</span>
+</span><span id="__span-11-4"><a id="__codelineno-11-4" name="__codelineno-11-4" href="#__codelineno-11-4"></a><span class="w">    </span>apt<span class="w"> </span>clean<span class="w"> </span><span class="o">&amp;&amp;</span><span class="w"> </span>rm<span class="w"> </span>-rf<span class="w"> </span>/var/lib/apt/lists/*
 </span></code></pre></div>
 </li>
 <li>
@@ -2074,10 +2163,10 @@ and kill it afterward.</p>
 <ol>
 <li>
 <p>Let's copy over our application (the essential parts) from our computer to the container:</p>
-<div class="language-docker highlight"><pre><span></span><code><span id="__span-11-1"><a id="__codelineno-11-1" name="__codelineno-11-1" href="#__codelineno-11-1"></a><span class="k">COPY</span><span class="w"> </span>requirements.txt<span class="w"> </span>requirements.txt
-</span><span id="__span-11-2"><a id="__codelineno-11-2" name="__codelineno-11-2" href="#__codelineno-11-2"></a><span class="k">COPY</span><span class="w"> </span>pyproject.toml<span class="w"> </span>pyproject.toml
-</span><span id="__span-11-3"><a id="__codelineno-11-3" name="__codelineno-11-3" href="#__codelineno-11-3"></a><span class="k">COPY</span><span class="w"> </span>&lt;project-name&gt;/<span class="w"> </span>&lt;project-name&gt;/
-</span><span id="__span-11-4"><a id="__codelineno-11-4" name="__codelineno-11-4" href="#__codelineno-11-4"></a><span class="k">COPY</span><span class="w"> </span>data/<span class="w"> </span>data/
+<div class="language-docker highlight"><pre><span></span><code><span id="__span-12-1"><a id="__codelineno-12-1" name="__codelineno-12-1" href="#__codelineno-12-1"></a><span class="k">COPY</span><span class="w"> </span>requirements.txt<span class="w"> </span>requirements.txt
+</span><span id="__span-12-2"><a id="__codelineno-12-2" name="__codelineno-12-2" href="#__codelineno-12-2"></a><span class="k">COPY</span><span class="w"> </span>pyproject.toml<span class="w"> </span>pyproject.toml
+</span><span id="__span-12-3"><a id="__codelineno-12-3" name="__codelineno-12-3" href="#__codelineno-12-3"></a><span class="k">COPY</span><span class="w"> </span>src/<span class="w"> </span>src/
+</span><span id="__span-12-4"><a id="__codelineno-12-4" name="__codelineno-12-4" href="#__codelineno-12-4"></a><span class="k">COPY</span><span class="w"> </span>data/<span class="w"> </span>data/
 </span></code></pre></div>
 <p>Remember that we only want the essential parts to keep our Docker image as small as possible. Why do we need
 each of these files/folders to run training in our Docker container?</p>
@@ -2086,24 +2175,24 @@ each of these files/folders to run training in our Docker container?</p>
 <p class="annotate">Let's set the working directory in our container and add commands that install the dependencies (1):</p>
 <ol>
 <li>
-<p><img alt="🙋‍♂️" class="twemoji" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@15.0.3/assets/svg/1f64b-200d-2642-fe0f.svg" title=":man_raising_hand:" /> We split the installation into two steps so that Docker can cache our project dependencies
+<p><img alt="🙋‍♂️" class="twemoji" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@15.1.0/assets/svg/1f64b-200d-2642-fe0f.svg" title=":man_raising_hand:" /> We split the installation into two steps so that Docker can cache our project dependencies
     separately from our application code. This means that if we change our application code, we do not need to
     reinstall all the dependencies. This is a common strategy for Docker images.</p>
-<p><img alt="🙋‍♂️" class="twemoji" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@15.0.3/assets/svg/1f64b-200d-2642-fe0f.svg" title=":man_raising_hand:" /> As an alternative, you can use <code>RUN make requirements</code> if you have a <code>Makefile</code> that
+<p><img alt="🙋‍♂️" class="twemoji" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@15.1.0/assets/svg/1f64b-200d-2642-fe0f.svg" title=":man_raising_hand:" /> As an alternative, you can use <code>RUN make requirements</code> if you have a <code>Makefile</code> that
 installs the dependencies. Just remember to also copy over the <code>Makefile</code> into the Docker image.</p>
 </li>
 </ol>
-<div class="language-dockerfile highlight"><pre><span></span><code><span id="__span-12-1"><a id="__codelineno-12-1" name="__codelineno-12-1" href="#__codelineno-12-1"></a><span class="k">WORKDIR</span><span class="w"> </span><span class="s">/</span>
-</span><span id="__span-12-2"><a id="__codelineno-12-2" name="__codelineno-12-2" href="#__codelineno-12-2"></a><span class="k">RUN</span><span class="w"> </span>pip<span class="w"> </span>install<span class="w"> </span>-r<span class="w"> </span>requirements.txt<span class="w"> </span>--no-cache-dir
-</span><span id="__span-12-3"><a id="__codelineno-12-3" name="__codelineno-12-3" href="#__codelineno-12-3"></a><span class="k">RUN</span><span class="w"> </span>pip<span class="w"> </span>install<span class="w"> </span>.<span class="w"> </span>--no-deps<span class="w"> </span>--no-cache-dir
+<div class="language-dockerfile highlight"><pre><span></span><code><span id="__span-13-1"><a id="__codelineno-13-1" name="__codelineno-13-1" href="#__codelineno-13-1"></a><span class="k">WORKDIR</span><span class="w"> </span><span class="s">/</span>
+</span><span id="__span-13-2"><a id="__codelineno-13-2" name="__codelineno-13-2" href="#__codelineno-13-2"></a><span class="k">RUN</span><span class="w"> </span>pip<span class="w"> </span>install<span class="w"> </span>-r<span class="w"> </span>requirements.txt<span class="w"> </span>--no-cache-dir
+</span><span id="__span-13-3"><a id="__codelineno-13-3" name="__codelineno-13-3" href="#__codelineno-13-3"></a><span class="k">RUN</span><span class="w"> </span>pip<span class="w"> </span>install<span class="w"> </span>.<span class="w"> </span>--no-deps<span class="w"> </span>--no-cache-dir
 </span></code></pre></div>
 <p>The <code>--no-cache-dir</code> is quite important. Can you explain what it does and why it is important in relation to
 Docker?</p>
 </li>
 <li>
 <p>Finally, we are going to name our training script as the <em>entrypoint</em> for our Docker image. The <em>entrypoint</em> is
-    the application that we want to run when the image is being executed:</p>
-<div class="language-docker highlight"><pre><span></span><code><span id="__span-13-1"><a id="__codelineno-13-1" name="__codelineno-13-1" href="#__codelineno-13-1"></a><span class="k">ENTRYPOINT</span><span class="w"> </span><span class="p">[</span><span class="s2">&quot;python&quot;</span><span class="p">,</span><span class="w"> </span><span class="s2">&quot;-u&quot;</span><span class="p">,</span><span class="w"> </span><span class="s2">&quot;&lt;project_name&gt;/train_model.py&quot;</span><span class="p">]</span>
+    the application that we want to run when the image is executed:</p>
+<div class="language-docker highlight"><pre><span></span><code><span id="__span-14-1"><a id="__codelineno-14-1" name="__codelineno-14-1" href="#__codelineno-14-1"></a><span class="k">ENTRYPOINT</span><span class="w"> </span><span class="p">[</span><span class="s2">&quot;python&quot;</span><span class="p">,</span><span class="w"> </span><span class="s2">&quot;-u&quot;</span><span class="p">,</span><span class="w"> </span><span class="s2">&quot;src/&lt;project-name&gt;/train.py&quot;</span><span class="p">]</span>
 </span></code></pre></div>
 <p>The <code>"u"</code> here makes sure that any output from our script, e.g., any <code>print(...)</code> statements, gets redirected to
 our terminal. If not included, you would need to use <code>docker logs</code> to inspect your run.</p>
@@ -2112,27 +2201,27 @@ our terminal. If not included, you would need to use <code>docker logs</code> to
 </li>
 <li>
 <p>We are now ready to build our Dockerfile into a Docker image.</p>
-<div class="language-bash highlight"><pre><span></span><code><span id="__span-14-1"><a id="__codelineno-14-1" name="__codelineno-14-1" href="#__codelineno-14-1"></a>docker<span class="w"> </span>build<span class="w"> </span>-f<span class="w"> </span>trainer.dockerfile<span class="w"> </span>.<span class="w"> </span>-t<span class="w"> </span>trainer:latest
+<div class="language-bash highlight"><pre><span></span><code><span id="__span-15-1"><a id="__codelineno-15-1" name="__codelineno-15-1" href="#__codelineno-15-1"></a>docker<span class="w"> </span>build<span class="w"> </span>-f<span class="w"> </span>train.dockerfile<span class="w"> </span>.<span class="w"> </span>-t<span class="w"> </span>train:latest
 </span></code></pre></div>
 <details class="warning">
 <summary>MAC M1/M2 users</summary>
 <p>In general, Docker images are built for a specific platform. For example, if you are using a Mac with an M1/M2
 chip, then you are running on an ARM architecture. If you are using a Windows or Linux machine, then you are
 running on an AMD64 architecture. This is important to know when building Docker images. Thus, Docker images
-you build may not work on other platforms than the ones you build on. You can specify which platform you want
+you build may not work on platforms different than the ones you build on. You can specify which platform you want
 to build for by adding the <code>--platform</code> argument to the <code>docker build</code> command:</p>
-<div class="language-bash highlight"><pre><span></span><code><span id="__span-15-1"><a id="__codelineno-15-1" name="__codelineno-15-1" href="#__codelineno-15-1"></a>docker<span class="w"> </span>build<span class="w"> </span>--platform<span class="w"> </span>linux/amd64<span class="w"> </span>-f<span class="w"> </span>trainer.dockerfile<span class="w"> </span>.<span class="w"> </span>-t<span class="w"> </span>trainer:latest
+<div class="language-bash highlight"><pre><span></span><code><span id="__span-16-1"><a id="__codelineno-16-1" name="__codelineno-16-1" href="#__codelineno-16-1"></a>docker<span class="w"> </span>build<span class="w"> </span>--platform<span class="w"> </span>linux/amd64<span class="w"> </span>-f<span class="w"> </span>train.dockerfile<span class="w"> </span>.<span class="w"> </span>-t<span class="w"> </span>train:latest
 </span></code></pre></div>
 <p>and also when running the image:</p>
-<div class="language-bash highlight"><pre><span></span><code><span id="__span-16-1"><a id="__codelineno-16-1" name="__codelineno-16-1" href="#__codelineno-16-1"></a>docker<span class="w"> </span>run<span class="w"> </span>--platform<span class="w"> </span>linux/amd64<span class="w"> </span>trainer:latest
+<div class="language-bash highlight"><pre><span></span><code><span id="__span-17-1"><a id="__codelineno-17-1" name="__codelineno-17-1" href="#__codelineno-17-1"></a>docker<span class="w"> </span>run<span class="w"> </span>--platform<span class="w"> </span>linux/amd64<span class="w"> </span>train:latest
 </span></code></pre></div>
 <p>Note that this will significantly increase the build and run time of your Docker image when running locally,
 because Docker will need to emulate the other platform. In general, for the exercises today, you should not need
 to specify the platform, but be aware of this if you are building Docker images on your own.</p>
 </details>
-<p>Please note that here we are providing two extra arguments to <code>docker build</code>. The <code>-f trainer.dockerfile .</code> (the dot
-is important to remember) indicates which Dockerfile we want to run (except if you named it just <code>Dockerfile</code>) and
-the <code>-t trainer:latest</code> is the respective name and tag that we see afterward when running <code>docker images</code> (see
+<p>Please note that here we are providing two extra arguments to <code>docker build</code>. The <code>-f train.dockerfile .</code> (the dot
+is important to remember) indicates which Dockerfile we want to run (except if you just named it <code>Dockerfile</code>) and
+the <code>-t train:latest</code> is the respective name and tag that we see afterward when running <code>docker images</code> (see
 image below). Please note that building a Docker image can take a couple of minutes.</p>
 <p><figure markdown>
 <a class="glightbox" href="../../figures/docker_output.PNG" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="Image" src="../../figures/docker_output.PNG" width="800" /></a>
@@ -2141,17 +2230,17 @@ image below). Please note that building a Docker image can take a couple of minu
 <summary>Docker images and space</summary>
 <p>Docker images can take up a lot of space on your computer, especially the Docker images we are trying to build
 because PyTorch is a huge dependency. If you are running low on space, you can try to</p>
-<div class="language-bash highlight"><pre><span></span><code><span id="__span-17-1"><a id="__codelineno-17-1" name="__codelineno-17-1" href="#__codelineno-17-1"></a>docker<span class="w"> </span>system<span class="w"> </span>prune
+<div class="language-bash highlight"><pre><span></span><code><span id="__span-18-1"><a id="__codelineno-18-1" name="__codelineno-18-1" href="#__codelineno-18-1"></a>docker<span class="w"> </span>system<span class="w"> </span>prune
 </span></code></pre></div>
-<p>Alternatively, you can manually delete images using <code>docker rmi {image_name}:{image_tag}</code>.</p>
+<p>Alternatively, you can manually delete images using <code>docker rm {image_name}:{image_tag}</code>.</p>
 </details>
 </li>
 <li>
-<p>Try running <code>docker images</code> and confirm that you get output similar to the one above. If you succeed with this,
-    then try running the docker image</p>
-<div class="language-bash highlight"><pre><span></span><code><span id="__span-18-1"><a id="__codelineno-18-1" name="__codelineno-18-1" href="#__codelineno-18-1"></a>docker<span class="w"> </span>run<span class="w"> </span>--name<span class="w"> </span>experiment1<span class="w"> </span>trainer:latest
+<p>Try running <code>docker images</code> and confirm that you get output similar to the above. If you succeed with this,
+    then try running the docker image.</p>
+<div class="language-bash highlight"><pre><span></span><code><span id="__span-19-1"><a id="__codelineno-19-1" name="__codelineno-19-1" href="#__codelineno-19-1"></a>docker<span class="w"> </span>run<span class="w"> </span>--name<span class="w"> </span>experiment1<span class="w"> </span>train:latest
 </span></code></pre></div>
-<p>you should hopefully see your training starting. Please note that we can start as many containers as we want at
+<p>You should hopefully see your training starting. Please note that we can start as many containers as we want at
 the same time by giving them all different names using the <code>--name</code> tag.</p>
 <ol>
 <li>
@@ -2159,7 +2248,7 @@ the same time by giving them all different names using the <code>--name</code> t
     or the addition of new functionality. Therefore, instead of watching pip suffer through downloading <code>torch</code> for
     the 20th time, you can reuse the cache from the last time the Docker image was built. To do this, replace the line
     in your Dockerfile that installs your requirements with:</p>
-<div class="language-bash highlight"><pre><span></span><code><span id="__span-19-1"><a id="__codelineno-19-1" name="__codelineno-19-1" href="#__codelineno-19-1"></a>RUN<span class="w"> </span>--mount<span class="o">=</span><span class="nv">type</span><span class="o">=</span>cache,target<span class="o">=</span>~/pip/.cache<span class="w"> </span>pip<span class="w"> </span>install<span class="w"> </span>-r<span class="w"> </span>requirements.txt<span class="w"> </span>--no-cache-dir
+<div class="language-bash highlight"><pre><span></span><code><span id="__span-20-1"><a id="__codelineno-20-1" name="__codelineno-20-1" href="#__codelineno-20-1"></a>RUN<span class="w"> </span>--mount<span class="o">=</span><span class="nv">type</span><span class="o">=</span>cache,target<span class="o">=</span>/root/.cache/pip<span class="w"> </span>pip<span class="w"> </span>install<span class="w"> </span>-r<span class="w"> </span>requirements.txt
 </span></code></pre></div>
 <p>which mounts your local pip cache to the Docker image. For building the image, you need to have enabled the
 <a href="https://docs.docker.com/develop/develop-images/build_enhancements/">BuildKit</a> feature. If you have Docker
@@ -2171,9 +2260,9 @@ image.</p>
 </ol>
 </li>
 <li>
-<p>Remember, if you ever are in doubt about how files are organized inside a Docker image, you always have the option
-    to start the image in interactive mode:</p>
-<div class="language-bash highlight"><pre><span></span><code><span id="__span-20-1"><a id="__codelineno-20-1" name="__codelineno-20-1" href="#__codelineno-20-1"></a>docker<span class="w"> </span>run<span class="w"> </span>-it<span class="w"> </span>--entrypoint<span class="w"> </span>sh<span class="w"> </span><span class="o">{</span>image_name<span class="o">}</span>:<span class="o">{</span>image_name<span class="o">}</span>
+<p>Remember, if you are ever in doubt about how files are organized inside a Docker image, you always have the option
+    of starting the image in interactive mode:</p>
+<div class="language-bash highlight"><pre><span></span><code><span id="__span-21-1"><a id="__codelineno-21-1" name="__codelineno-21-1" href="#__codelineno-21-1"></a>docker<span class="w"> </span>run<span class="w"> </span>--rm<span class="w"> </span>-it<span class="w"> </span>--entrypoint<span class="w"> </span>sh<span class="w"> </span><span class="o">{</span>image_name<span class="o">}</span>:<span class="o">{</span>image_tag<span class="o">}</span>
 </span></code></pre></div>
 </li>
 <li>
@@ -2183,12 +2272,12 @@ image.</p>
     options:</p>
 <ol>
 <li>
-<p>If you already have a completed run then you can use it</p>
-<div class="language-bash highlight"><pre><span></span><code><span id="__span-21-1"><a id="__codelineno-21-1" name="__codelineno-21-1" href="#__codelineno-21-1"></a>docker<span class="w"> </span>cp
+<p>If you already have a completed run then you can use</p>
+<div class="language-bash highlight"><pre><span></span><code><span id="__span-22-1"><a id="__codelineno-22-1" name="__codelineno-22-1" href="#__codelineno-22-1"></a>docker<span class="w"> </span>cp
 </span></code></pre></div>
 <p>to copy the files between your container and laptop. For example to copy a file called <code>trained_model.pt</code> from a
 folder you would do:</p>
-<div class="language-bash highlight"><pre><span></span><code><span id="__span-22-1"><a id="__codelineno-22-1" name="__codelineno-22-1" href="#__codelineno-22-1"></a>docker<span class="w"> </span>cp<span class="w"> </span><span class="o">{</span>container_name<span class="o">}</span>:<span class="o">{</span>dir_path<span class="o">}</span>/<span class="o">{</span>file_name<span class="o">}</span><span class="w"> </span><span class="o">{</span>local_dir_path<span class="o">}</span>/<span class="o">{</span>local_file_name<span class="o">}</span>
+<div class="language-bash highlight"><pre><span></span><code><span id="__span-23-1"><a id="__codelineno-23-1" name="__codelineno-23-1" href="#__codelineno-23-1"></a>docker<span class="w"> </span>cp<span class="w"> </span><span class="o">{</span>container_name<span class="o">}</span>:<span class="o">{</span>dir_path<span class="o">}</span>/<span class="o">{</span>file_name<span class="o">}</span><span class="w"> </span><span class="o">{</span>local_dir_path<span class="o">}</span>/<span class="o">{</span>local_file_name<span class="o">}</span>
 </span></code></pre></div>
 <p>Try this out.</p>
 </li>
@@ -2197,9 +2286,9 @@ folder you would do:</p>
     container. This can be done with the <code>-v</code> option for the <code>docker run</code> command. For example, if we want to
     automatically get the <code>trained_model.pt</code> file after running our training script we could simply execute the
     container as</p>
-<div class="language-bash highlight"><pre><span></span><code><span id="__span-23-1"><a id="__codelineno-23-1" name="__codelineno-23-1" href="#__codelineno-23-1"></a>docker<span class="w"> </span>run<span class="w"> </span>--name<span class="w"> </span><span class="o">{</span>container_name<span class="o">}</span><span class="w"> </span>-v<span class="w"> </span>%cd%/models:/models/<span class="w"> </span>trainer:latest
+<div class="language-bash highlight"><pre><span></span><code><span id="__span-24-1"><a id="__codelineno-24-1" name="__codelineno-24-1" href="#__codelineno-24-1"></a>docker<span class="w"> </span>run<span class="w"> </span>--name<span class="w"> </span><span class="o">{</span>container_name<span class="o">}</span><span class="w"> </span>-v<span class="w"> </span>%cd%/models:/models/<span class="w"> </span>train:latest
 </span></code></pre></div>
-<p>this command mounts our local <code>models</code> folder as a corresponding <code>models</code> folder in the container. Any file save
+<p>This command mounts our local <code>models</code> folder as a corresponding <code>models</code> folder in the container. Any file saved
 by the container to this folder will be synchronized back to our host machine. Try this out! Note if you have
 multiple files/folders that you want to mount (if in doubt about file organization in the container try to do
 the next exercise first). Also note that the <code>%cd%</code> needs to change depending on your OS, see this
@@ -2210,17 +2299,17 @@ for help.</p>
 </li>
 <li>
 <p>With training done we also need to write an application for prediction. Create a new docker image called
-    <code>predict.dockerfile</code>. This file should call your <code>&lt;project_name&gt;/models/predict_model.py</code> script instead. This image
+    <code>evaluate.dockerfile</code>. This file should call your <code>src/&lt;project-name&gt;/evaluate.py</code> script instead. This image
     will need some trained model weights to work. Feel free to either include these during the build process or mount
     them afterwards. When you create the file try to <code>build</code> and <code>run</code> it to confirm that it works. Hint: if
-    you are passing in the model checkpoint and prediction data as arguments to your script, your <code>docker run</code> probably
+    you are passing in the model checkpoint and evaluation data as arguments to your script, your <code>docker run</code> probably
     needs to look something like</p>
-<div class="language-bash highlight"><pre><span></span><code><span id="__span-24-1"><a id="__codelineno-24-1" name="__codelineno-24-1" href="#__codelineno-24-1"></a>docker<span class="w"> </span>run<span class="w"> </span>--name<span class="w"> </span>predict<span class="w"> </span>--rm<span class="w"> </span><span class="se">\</span>
-</span><span id="__span-24-2"><a id="__codelineno-24-2" name="__codelineno-24-2" href="#__codelineno-24-2"></a><span class="w">    </span>-v<span class="w"> </span>%cd%/trained_model.pt:/models/trained_model.pt<span class="w"> </span><span class="se">\ </span><span class="w"> </span><span class="c1"># mount trained model file</span>
-</span><span id="__span-24-3"><a id="__codelineno-24-3" name="__codelineno-24-3" href="#__codelineno-24-3"></a><span class="w">    </span>-v<span class="w"> </span>%cd%/data/example_images.npy:/example_images.npy<span class="w"> </span><span class="se">\ </span><span class="w"> </span><span class="c1"># mount data we want to predict on</span>
-</span><span id="__span-24-4"><a id="__codelineno-24-4" name="__codelineno-24-4" href="#__codelineno-24-4"></a><span class="w">    </span>predict:latest<span class="w"> </span><span class="se">\</span>
-</span><span id="__span-24-5"><a id="__codelineno-24-5" name="__codelineno-24-5" href="#__codelineno-24-5"></a><span class="w">    </span>../../models/trained_model.pt<span class="w"> </span><span class="se">\ </span><span class="w"> </span><span class="c1"># argument to script, path relative to script location in container</span>
-</span><span id="__span-24-6"><a id="__codelineno-24-6" name="__codelineno-24-6" href="#__codelineno-24-6"></a><span class="w">    </span>../../example_images.npy
+<div class="language-bash highlight"><pre><span></span><code><span id="__span-25-1"><a id="__codelineno-25-1" name="__codelineno-25-1" href="#__codelineno-25-1"></a>docker<span class="w"> </span>run<span class="w"> </span>--name<span class="w"> </span>evaluate<span class="w"> </span>--rm<span class="w"> </span><span class="se">\</span>
+</span><span id="__span-25-2"><a id="__codelineno-25-2" name="__codelineno-25-2" href="#__codelineno-25-2"></a><span class="w">    </span>-v<span class="w"> </span>%cd%/trained_model.pt:/models/trained_model.pt<span class="w"> </span><span class="se">\ </span><span class="w"> </span><span class="c1"># mount trained model file</span>
+</span><span id="__span-25-3"><a id="__codelineno-25-3" name="__codelineno-25-3" href="#__codelineno-25-3"></a><span class="w">    </span>-v<span class="w"> </span>%cd%/data/test_images.pt:/test_images.pt<span class="w"> </span><span class="se">\ </span><span class="w"> </span><span class="c1"># mount data we want to evaluate on</span>
+</span><span id="__span-25-4"><a id="__codelineno-25-4" name="__codelineno-25-4" href="#__codelineno-25-4"></a><span class="w">    </span>-v<span class="w"> </span>%cd%/data/test_targets.pt:/test_targets.pt<span class="w"> </span><span class="se">\</span>
+</span><span id="__span-25-5"><a id="__codelineno-25-5" name="__codelineno-25-5" href="#__codelineno-25-5"></a><span class="w">    </span>evaluate:latest<span class="w"> </span><span class="se">\</span>
+</span><span id="__span-25-6"><a id="__codelineno-25-6" name="__codelineno-25-6" href="#__codelineno-25-6"></a><span class="w">    </span>../../models/trained_model.pt<span class="w"> </span><span class="se">\ </span><span class="w"> </span><span class="c1"># argument to script, path relative to script location in container</span>
 </span></code></pre></div>
 </li>
 <li>
@@ -2232,21 +2321,21 @@ for help.</p>
 <ol>
 <li>
 <p>There are three prerequisites for working with Nvidia GPU-accelerated docker containers. First, you need to have
-    the Docker Engine installed (already taken care of), have Nvidia GPU with updated GPU drivers and finally have
+    the Docker Engine installed (already taken care of), have an Nvidia GPU with updated GPU drivers and finally have
     the <a href="https://docs.nvidia.com/datacenter/cloud-native/container-toolkit/install-guide.html#docker">Nvidia container toolkit</a>
-    installed. The last part you not likely have not installed and needs to do. Some distros of Linux have known
+    installed. The last part you likely have not installed and need to do. Some distros of Linux have known
     problems with the installation process, so you may have to search through known issues in
-    <a href="https://github.com/NVIDIA/nvidia-docker/issues">nvidia-docker repository</a> to find a solution</p>
+    <a href="https://github.com/NVIDIA/nvidia-docker/issues">nvidia-docker repository</a> to find a solution.</p>
 </li>
 <li>
 <p>To test that everything is working start by pulling a relevant Nvidia docker image. In my case this is
     the correct image:</p>
-<div class="language-bash highlight"><pre><span></span><code><span id="__span-25-1"><a id="__codelineno-25-1" name="__codelineno-25-1" href="#__codelineno-25-1"></a>docker<span class="w"> </span>pull<span class="w"> </span>nvidia/cuda:11.0.3-base-ubuntu20.04
+<div class="language-bash highlight"><pre><span></span><code><span id="__span-26-1"><a id="__codelineno-26-1" name="__codelineno-26-1" href="#__codelineno-26-1"></a>docker<span class="w"> </span>pull<span class="w"> </span>nvidia/cuda:11.0.3-base-ubuntu20.04
 </span></code></pre></div>
-<p>but it may differ based on what Cuda vision you have. You can find all the different official Nvidia images
+<p>but it may differ based on what Cuda version you have. You can find all the different official Nvidia images
 <a href="https://hub.docker.com/r/nvidia/cuda">here</a>. After pulling the image, try running the <code>nvidia-smi</code> command
 inside a container based on the image you just pulled. It should look something like this:</p>
-<div class="language-bash highlight"><pre><span></span><code><span id="__span-26-1"><a id="__codelineno-26-1" name="__codelineno-26-1" href="#__codelineno-26-1"></a>docker<span class="w"> </span>run<span class="w"> </span>--rm<span class="w"> </span>--gpus<span class="w"> </span>all<span class="w"> </span>nvidia/cuda:11.0.3-base-ubuntu20.04<span class="w"> </span>nvidia-smi
+<div class="language-bash highlight"><pre><span></span><code><span id="__span-27-1"><a id="__codelineno-27-1" name="__codelineno-27-1" href="#__codelineno-27-1"></a>docker<span class="w"> </span>run<span class="w"> </span>--rm<span class="w"> </span>--gpus<span class="w"> </span>all<span class="w"> </span>nvidia/cuda:11.0.3-base-ubuntu20.04<span class="w"> </span>nvidia-smi
 </span></code></pre></div>
 <p>and should show an image like below:</p>
 <p><figure markdown>
@@ -2256,37 +2345,38 @@ inside a container based on the image you just pulled. It should look something 
 </li>
 <li>
 <p>We should hopefully have a working setup now for running Nvidia accelerated docker containers. The next step is
-    to get Pytorch inside our container, such that our Pytorch implementation also correctly identifies the GPU.
+    to get PyTorch inside our container, such that our PyTorch implementation also correctly identifies the GPU.
     Luckily for us, Nvidia provides a set of docker images for GPU-optimized software for AI, HPC and visualizations
     through their <a href="https://docs.nvidia.com/ngc/ngc-catalog-user-guide/index.html#what-is-nvidia-ngc">NGC Catalog</a>.
-    The containers that have to do with Pytorch can be seen
-    <a href="https://docs.nvidia.com/deeplearning/frameworks/pytorch-release-notes/index.html">here</a>. Try pulling the latest:</p>
-<div class="language-bash highlight"><pre><span></span><code><span id="__span-27-1"><a id="__codelineno-27-1" name="__codelineno-27-1" href="#__codelineno-27-1"></a>docker<span class="w"> </span>pull<span class="w"> </span>nvcr.io/nvidia/pytorch:22.07-py3
+    The containers that have to do with PyTorch can be seen
+    <a href="https://docs.nvidia.com/deeplearning/frameworks/pytorch-release-notes/index.html">here</a>.
+    Try pulling the latest one:</p>
+<div class="language-bash highlight"><pre><span></span><code><span id="__span-28-1"><a id="__codelineno-28-1" name="__codelineno-28-1" href="#__codelineno-28-1"></a>docker<span class="w"> </span>pull<span class="w"> </span>nvcr.io/nvidia/pytorch:22.07-py3
 </span></code></pre></div>
-<p>It may take some time because the NGC images include a lot of other software for optimizing Pytorch
+<p>It may take some time because the NGC images include a lot of other software for optimizing PyTorch
 applications. It may be possible for you to find other images for running GPU-accelerated applications that have
 a smaller memory footprint, but NGC is the recommended and supported way.</p>
 </li>
 <li>
 <p>Let's test that this container works:</p>
-<div class="language-bash highlight"><pre><span></span><code><span id="__span-28-1"><a id="__codelineno-28-1" name="__codelineno-28-1" href="#__codelineno-28-1"></a>docker<span class="w"> </span>run<span class="w"> </span>--gpus<span class="w"> </span>all<span class="w"> </span>-it<span class="w"> </span>--rm<span class="w"> </span>nvcr.io/nvidia/pytorch:22.07-py3
+<div class="language-bash highlight"><pre><span></span><code><span id="__span-29-1"><a id="__codelineno-29-1" name="__codelineno-29-1" href="#__codelineno-29-1"></a>docker<span class="w"> </span>run<span class="w"> </span>--gpus<span class="w"> </span>all<span class="w"> </span>-it<span class="w"> </span>--rm<span class="w"> </span>nvcr.io/nvidia/pytorch:22.07-py3
 </span></code></pre></div>
-<p>this should run the container in interactive mode attached to your current terminal. Try opening <code>python</code> in
+<p>This should run the container in interactive mode attached to your current terminal. Try opening <code>python</code> in
 the container and try writing:</p>
-<div class="language-python highlight"><pre><span></span><code><span id="__span-29-1"><a id="__codelineno-29-1" name="__codelineno-29-1" href="#__codelineno-29-1"></a><span class="kn">import</span> <span class="nn">torch</span>
-</span><span id="__span-29-2"><a id="__codelineno-29-2" name="__codelineno-29-2" href="#__codelineno-29-2"></a><span class="nb">print</span><span class="p">(</span><span class="n">torch</span><span class="o">.</span><span class="n">cuda</span><span class="o">.</span><span class="n">is_available</span><span class="p">())</span>
+<div class="language-python highlight"><pre><span></span><code><span id="__span-30-1"><a id="__codelineno-30-1" name="__codelineno-30-1" href="#__codelineno-30-1"></a><span class="kn">import</span><span class="w"> </span><span class="nn">torch</span>
+</span><span id="__span-30-2"><a id="__codelineno-30-2" name="__codelineno-30-2" href="#__codelineno-30-2"></a><span class="nb">print</span><span class="p">(</span><span class="n">torch</span><span class="o">.</span><span class="n">cuda</span><span class="o">.</span><span class="n">is_available</span><span class="p">())</span>
 </span></code></pre></div>
-<p>which hopefully should return <code>True</code>.</p>
+<p>which should hopefully return <code>True</code>.</p>
 </li>
 <li>
 <p>Finally, we need to incorporate all this into our already developed docker files for our application. This is
     also fairly easy as we just need to change our <code>FROM</code> statement at the beginning of our docker file:</p>
-<div class="language-docker highlight"><pre><span></span><code><span id="__span-30-1"><a id="__codelineno-30-1" name="__codelineno-30-1" href="#__codelineno-30-1"></a><span class="k">FROM</span><span class="w"> </span><span class="s">python:3.7-slim</span>
+<div class="language-docker highlight"><pre><span></span><code><span id="__span-31-1"><a id="__codelineno-31-1" name="__codelineno-31-1" href="#__codelineno-31-1"></a><span class="k">FROM</span><span class="w"> </span><span class="s">python:3.11-slim</span>
 </span></code></pre></div>
 <p>change to</p>
-<div class="language-docker highlight"><pre><span></span><code><span id="__span-31-1"><a id="__codelineno-31-1" name="__codelineno-31-1" href="#__codelineno-31-1"></a><span class="k">FROM</span><span class="w">  </span><span class="s">nvcr.io/nvidia/pytorch:22.07-py3</span>
+<div class="language-docker highlight"><pre><span></span><code><span id="__span-32-1"><a id="__codelineno-32-1" name="__codelineno-32-1" href="#__codelineno-32-1"></a><span class="k">FROM</span><span class="w">  </span><span class="s">nvcr.io/nvidia/pytorch:22.07-py3</span>
 </span></code></pre></div>
-<p>try doing this to one of your docker files, build the image and run the container. Remember to check that your
+<p>try doing this to one of your dockerfiles, build the image and run the container. Remember to check that your
 application is using GPU by printing <code>torch.cuda.is_available()</code>.</p>
 </li>
 </ol>
@@ -2311,20 +2401,20 @@ application is using GPU by printing <code>torch.cuda.is_available()</code>.</p>
 <li>
 <p>Create a <code>.devcontainer</code> folder in your project root and create a <code>Dockerfile</code> inside it. We will keep this file very
     barebones for now, so let's just define a base installation of Python:</p>
-<div class="language-docker highlight"><pre><span></span><code><span id="__span-32-1"><a id="__codelineno-32-1" name="__codelineno-32-1" href="#__codelineno-32-1"></a><span class="k">FROM</span><span class="w"> </span><span class="s">python:3.11-slim-buster</span>
-</span><span id="__span-32-2"><a id="__codelineno-32-2" name="__codelineno-32-2" href="#__codelineno-32-2"></a>
-</span><span id="__span-32-3"><a id="__codelineno-32-3" name="__codelineno-32-3" href="#__codelineno-32-3"></a><span class="k">RUN</span><span class="w"> </span>apt<span class="w"> </span>update<span class="w"> </span><span class="o">&amp;&amp;</span><span class="w"> </span><span class="se">\</span>
-</span><span id="__span-32-4"><a id="__codelineno-32-4" name="__codelineno-32-4" href="#__codelineno-32-4"></a><span class="w">    </span>apt<span class="w"> </span>install<span class="w"> </span>--no-install-recommends<span class="w"> </span>-y<span class="w"> </span>build-essential<span class="w"> </span>gcc<span class="w"> </span><span class="o">&amp;&amp;</span><span class="w"> </span><span class="se">\</span>
-</span><span id="__span-32-5"><a id="__codelineno-32-5" name="__codelineno-32-5" href="#__codelineno-32-5"></a><span class="w">    </span>apt<span class="w"> </span>clean<span class="w"> </span><span class="o">&amp;&amp;</span><span class="w"> </span>rm<span class="w"> </span>-rf<span class="w"> </span>/var/lib/apt/lists/*
+<div class="language-docker highlight"><pre><span></span><code><span id="__span-33-1"><a id="__codelineno-33-1" name="__codelineno-33-1" href="#__codelineno-33-1"></a><span class="k">FROM</span><span class="w"> </span><span class="s">python:3.11-slim</span>
+</span><span id="__span-33-2"><a id="__codelineno-33-2" name="__codelineno-33-2" href="#__codelineno-33-2"></a>
+</span><span id="__span-33-3"><a id="__codelineno-33-3" name="__codelineno-33-3" href="#__codelineno-33-3"></a><span class="k">RUN</span><span class="w"> </span>apt<span class="w"> </span>update<span class="w"> </span><span class="o">&amp;&amp;</span><span class="w"> </span><span class="se">\</span>
+</span><span id="__span-33-4"><a id="__codelineno-33-4" name="__codelineno-33-4" href="#__codelineno-33-4"></a><span class="w">    </span>apt<span class="w"> </span>install<span class="w"> </span>--no-install-recommends<span class="w"> </span>-y<span class="w"> </span>build-essential<span class="w"> </span>gcc<span class="w"> </span><span class="o">&amp;&amp;</span><span class="w"> </span><span class="se">\</span>
+</span><span id="__span-33-5"><a id="__codelineno-33-5" name="__codelineno-33-5" href="#__codelineno-33-5"></a><span class="w">    </span>apt<span class="w"> </span>clean<span class="w"> </span><span class="o">&amp;&amp;</span><span class="w"> </span>rm<span class="w"> </span>-rf<span class="w"> </span>/var/lib/apt/lists/*
 </span></code></pre></div>
 </li>
 <li>
 <p>Create a <code>devcontainer.json</code> file in the <code>.devcontainer</code> folder. This file should look something like this:</p>
-<div class="language-json highlight"><pre><span></span><code><span id="__span-33-1"><a id="__codelineno-33-1" name="__codelineno-33-1" href="#__codelineno-33-1"></a><span class="p">{</span>
-</span><span id="__span-33-2"><a id="__codelineno-33-2" name="__codelineno-33-2" href="#__codelineno-33-2"></a><span class="w">    </span><span class="nt">&quot;name&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;my_working_env&quot;</span><span class="p">,</span>
-</span><span id="__span-33-3"><a id="__codelineno-33-3" name="__codelineno-33-3" href="#__codelineno-33-3"></a><span class="w">    </span><span class="nt">&quot;dockerFile&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Dockerfile&quot;</span><span class="p">,</span>
-</span><span id="__span-33-4"><a id="__codelineno-33-4" name="__codelineno-33-4" href="#__codelineno-33-4"></a><span class="w">    </span><span class="nt">&quot;postCreateCommand&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;pip install -r requirements.txt&quot;</span>
-</span><span id="__span-33-5"><a id="__codelineno-33-5" name="__codelineno-33-5" href="#__codelineno-33-5"></a><span class="p">}</span>
+<div class="language-json highlight"><pre><span></span><code><span id="__span-34-1"><a id="__codelineno-34-1" name="__codelineno-34-1" href="#__codelineno-34-1"></a><span class="p">{</span>
+</span><span id="__span-34-2"><a id="__codelineno-34-2" name="__codelineno-34-2" href="#__codelineno-34-2"></a><span class="w">    </span><span class="nt">&quot;name&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;my_working_env&quot;</span><span class="p">,</span>
+</span><span id="__span-34-3"><a id="__codelineno-34-3" name="__codelineno-34-3" href="#__codelineno-34-3"></a><span class="w">    </span><span class="nt">&quot;dockerFile&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Dockerfile&quot;</span><span class="p">,</span>
+</span><span id="__span-34-4"><a id="__codelineno-34-4" name="__codelineno-34-4" href="#__codelineno-34-4"></a><span class="w">    </span><span class="nt">&quot;postCreateCommand&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;pip install -r requirements.txt&quot;</span>
+</span><span id="__span-34-5"><a id="__codelineno-34-5" name="__codelineno-34-5" href="#__codelineno-34-5"></a><span class="p">}</span>
 </span></code></pre></div>
 <p>This file tells VS Code that we want to use the <code>Dockerfile</code> that we just created and that we want to install
 our Python dependencies after the container has been created.</p>
@@ -2346,7 +2436,7 @@ the one inside the container.</p>
 </li>
 <li>
 <p>(Optional) In <a href="../../s2_organisation_and_version_control/dvc/">M8 on Data version control</a> you learned about the
-    framework <code>dvc</code> for version controlling data. A neutral question at this point would then be how to incorporate
+    framework <code>dvc</code> for version controlling data. A natural question at this point would then be how to incorporate
     <code>dvc</code> into our docker image. We need to do two things:</p>
 <ul>
 <li>Make sure that <code>dvc</code> has all the correct files to pull data from our remote storage</li>
@@ -2358,11 +2448,11 @@ you need to add it.</p>
 <ol>
 <li>
 <p>Add the following lines to your Dockerfile</p>
-<div class="language-dockerfile highlight"><pre><span></span><code><span id="__span-34-1"><a id="__codelineno-34-1" name="__codelineno-34-1" href="#__codelineno-34-1"></a><span class="k">RUN</span><span class="w"> </span>dvc<span class="w"> </span>init<span class="w"> </span>--no-scm
-</span><span id="__span-34-2"><a id="__codelineno-34-2" name="__codelineno-34-2" href="#__codelineno-34-2"></a><span class="k">COPY</span><span class="w"> </span>.dvc/config<span class="w"> </span>.dvc/config
-</span><span id="__span-34-3"><a id="__codelineno-34-3" name="__codelineno-34-3" href="#__codelineno-34-3"></a><span class="k">COPY</span><span class="w"> </span>*.dvc<span class="w"> </span>.dvc/
-</span><span id="__span-34-4"><a id="__codelineno-34-4" name="__codelineno-34-4" href="#__codelineno-34-4"></a><span class="k">RUN</span><span class="w"> </span>dvc<span class="w"> </span>config<span class="w"> </span>core.no_scm<span class="w"> </span>true
-</span><span id="__span-34-5"><a id="__codelineno-34-5" name="__codelineno-34-5" href="#__codelineno-34-5"></a><span class="k">RUN</span><span class="w"> </span>dvc<span class="w"> </span>pull
+<div class="language-dockerfile highlight"><pre><span></span><code><span id="__span-35-1"><a id="__codelineno-35-1" name="__codelineno-35-1" href="#__codelineno-35-1"></a><span class="k">RUN</span><span class="w"> </span>dvc<span class="w"> </span>init<span class="w"> </span>--no-scm
+</span><span id="__span-35-2"><a id="__codelineno-35-2" name="__codelineno-35-2" href="#__codelineno-35-2"></a><span class="k">COPY</span><span class="w"> </span>.dvc/config<span class="w"> </span>.dvc/config
+</span><span id="__span-35-3"><a id="__codelineno-35-3" name="__codelineno-35-3" href="#__codelineno-35-3"></a><span class="k">COPY</span><span class="w"> </span>*.dvc<span class="w"> </span>.dvc/
+</span><span id="__span-35-4"><a id="__codelineno-35-4" name="__codelineno-35-4" href="#__codelineno-35-4"></a><span class="k">RUN</span><span class="w"> </span>dvc<span class="w"> </span>config<span class="w"> </span>core.no_scm<span class="w"> </span>true
+</span><span id="__span-35-5"><a id="__codelineno-35-5" name="__codelineno-35-5" href="#__codelineno-35-5"></a><span class="k">RUN</span><span class="w"> </span>dvc<span class="w"> </span>pull
 </span></code></pre></div>
 <p>The first line initializes <code>dvc</code> in the Docker image. The <code>--no-scm</code> option is needed because normally <code>dvc</code> can
 only be initialized inside a git repository, but this option allows initializing <code>dvc</code> without being in one.
@@ -2388,19 +2478,19 @@ This is the typical location, but it may vary depending on what distro you are r
 </div>
 </div>
 <p>Find the file. The content should look similar to this (only some fields are shown):</p>
-<div class="language-json highlight"><pre><span></span><code><span id="__span-35-1"><a id="__codelineno-35-1" name="__codelineno-35-1" href="#__codelineno-35-1"></a><span class="p">{</span>
-</span><span id="__span-35-2"><a id="__codelineno-35-2" name="__codelineno-35-2" href="#__codelineno-35-2"></a><span class="w">    </span><span class="nt">&quot;access_token&quot;</span><span class="p">:</span><span class="w"> </span><span class="err">...</span><span class="p">,</span>
-</span><span id="__span-35-3"><a id="__codelineno-35-3" name="__codelineno-35-3" href="#__codelineno-35-3"></a><span class="w">    </span><span class="nt">&quot;client_id&quot;</span><span class="p">:</span><span class="w"> </span><span class="err">...</span><span class="p">,</span>
-</span><span id="__span-35-4"><a id="__codelineno-35-4" name="__codelineno-35-4" href="#__codelineno-35-4"></a><span class="w">    </span><span class="nt">&quot;client_secret&quot;</span><span class="p">:</span><span class="w"> </span><span class="err">...</span><span class="p">,</span>
-</span><span id="__span-35-5"><a id="__codelineno-35-5" name="__codelineno-35-5" href="#__codelineno-35-5"></a><span class="w">    </span><span class="nt">&quot;refresh_token&quot;</span><span class="p">:</span><span class="w"> </span><span class="err">...</span><span class="p">,</span>
-</span><span id="__span-35-6"><a id="__codelineno-35-6" name="__codelineno-35-6" href="#__codelineno-35-6"></a><span class="w">    </span><span class="err">...</span>
-</span><span id="__span-35-7"><a id="__codelineno-35-7" name="__codelineno-35-7" href="#__codelineno-35-7"></a><span class="p">}</span>
+<div class="language-json highlight"><pre><span></span><code><span id="__span-36-1"><a id="__codelineno-36-1" name="__codelineno-36-1" href="#__codelineno-36-1"></a><span class="p">{</span>
+</span><span id="__span-36-2"><a id="__codelineno-36-2" name="__codelineno-36-2" href="#__codelineno-36-2"></a><span class="w">    </span><span class="nt">&quot;access_token&quot;</span><span class="p">:</span><span class="w"> </span><span class="err">...</span><span class="p">,</span>
+</span><span id="__span-36-3"><a id="__codelineno-36-3" name="__codelineno-36-3" href="#__codelineno-36-3"></a><span class="w">    </span><span class="nt">&quot;client_id&quot;</span><span class="p">:</span><span class="w"> </span><span class="err">...</span><span class="p">,</span>
+</span><span id="__span-36-4"><a id="__codelineno-36-4" name="__codelineno-36-4" href="#__codelineno-36-4"></a><span class="w">    </span><span class="nt">&quot;client_secret&quot;</span><span class="p">:</span><span class="w"> </span><span class="err">...</span><span class="p">,</span>
+</span><span id="__span-36-5"><a id="__codelineno-36-5" name="__codelineno-36-5" href="#__codelineno-36-5"></a><span class="w">    </span><span class="nt">&quot;refresh_token&quot;</span><span class="p">:</span><span class="w"> </span><span class="err">...</span><span class="p">,</span>
+</span><span id="__span-36-6"><a id="__codelineno-36-6" name="__codelineno-36-6" href="#__codelineno-36-6"></a><span class="w">    </span><span class="err">...</span>
+</span><span id="__span-36-7"><a id="__codelineno-36-7" name="__codelineno-36-7" href="#__codelineno-36-7"></a><span class="p">}</span>
 </span></code></pre></div>
 <p>We are going to copy the file into our Docker image. This, of course, is not a secure way of doing it, but it is
 the easiest way to get started. As long as you are not sharing your Docker image with anyone else, then it is
 fine. Add the following lines to your Dockerfile before the <code>RUN dvc pull</code> command:</p>
-<div class="language-dockerfile highlight"><pre><span></span><code><span id="__span-36-1"><a id="__codelineno-36-1" name="__codelineno-36-1" href="#__codelineno-36-1"></a><span class="k">COPY</span><span class="w"> </span>&lt;path_to_default.json&gt;<span class="w"> </span>default.json
-</span><span id="__span-36-2"><a id="__codelineno-36-2" name="__codelineno-36-2" href="#__codelineno-36-2"></a>dvc<span class="w"> </span>remote<span class="w"> </span>modify<span class="w"> </span>myremote<span class="w"> </span>--local<span class="w"> </span>gdrive_service_account_json_file_path<span class="w"> </span>default.json
+<div class="language-dockerfile highlight"><pre><span></span><code><span id="__span-37-1"><a id="__codelineno-37-1" name="__codelineno-37-1" href="#__codelineno-37-1"></a><span class="k">COPY</span><span class="w"> </span>&lt;path_to_default.json&gt;<span class="w"> </span>default.json
+</span><span id="__span-37-2"><a id="__codelineno-37-2" name="__codelineno-37-2" href="#__codelineno-37-2"></a>dvc<span class="w"> </span>remote<span class="w"> </span>modify<span class="w"> </span>myremote<span class="w"> </span>--local<span class="w"> </span>gdrive_service_account_json_file_path<span class="w"> </span>default.json
 </span></code></pre></div>
 <p>where <code>&lt;path_to_default.json&gt;</code> is the path to the <code>default.json</code> file that you just found. The last line tells
 <code>dvc</code> to use the <code>default.json</code> file as the credentials for pulling data from your remote storage. You can
@@ -2461,7 +2551,7 @@ image size for you or your end user. If you have time, you can read
 <a href="https://devopscube.com/reduce-docker-image-size/">this article</a> on different approaches to reducing image size.
 Additionally, you can take a look at the
 <a href="https://www.docker.com/blog/reduce-your-image-size-with-the-dive-in-docker-extension/">dive-in extension</a> for Docker
-Desktop that lets you explore in depth your Docker images.</p>
+Desktop that lets you explore your Docker images in depth.</p>
 
 
 
@@ -2484,7 +2574,7 @@ Desktop that lets you explore in depth your Docker images.</p>
     <span class="md-icon" title="Last update">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 13.1c-.1 0-.3.1-.4.2l-1 1 2.1 2.1 1-1c.2-.2.2-.6 0-.8l-1.3-1.3c-.1-.1-.2-.2-.4-.2m-1.9 1.8-6.1 6V23h2.1l6.1-6.1zM12.5 7v5.2l4 2.4-1 1L11 13V7zM11 21.9c-5.1-.5-9-4.8-9-9.9C2 6.5 6.5 2 12 2c5.3 0 9.6 4.1 10 9.3-.3-.1-.6-.2-1-.2s-.7.1-1 .2C19.6 7.2 16.2 4 12 4c-4.4 0-8 3.6-8 8 0 4.1 3.1 7.5 7.1 7.9l-.1.2z"/></svg>
     </span>
-    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">June 4, 2024</span>
+    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date" title="February 3, 2025 06:48:20">February 3, 2025</span>
   </span>
 
     
@@ -2494,7 +2584,7 @@ Desktop that lets you explore in depth your Docker images.</p>
     <span class="md-icon" title="Created">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M14.47 15.08 11 13V7h1.5v5.25l3.08 1.83c-.41.28-.79.62-1.11 1m-1.39 4.84c-.36.05-.71.08-1.08.08-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8c0 .37-.03.72-.08 1.08.69.1 1.33.32 1.92.64.1-.56.16-1.13.16-1.72 0-5.5-4.5-10-10-10S2 6.5 2 12s4.47 10 10 10c.59 0 1.16-.06 1.72-.16-.32-.59-.54-1.23-.64-1.92M18 15v3h-3v2h3v3h2v-3h3v-2h-3v-3z"/></svg>
     </span>
-    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">August 30, 2021</span>
+    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date" title="August 30, 2021 12:18:38">August 30, 2021</span>
   </span>
 
     
@@ -2592,7 +2682,7 @@ Desktop that lets you explore in depth your Docker images.</p>
       
     
     <a href="https://github.com/SkafteNicki" target="_blank" rel="noopener" title="github.com" class="md-social__link">
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><!--! Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6m-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3m44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9M244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8M97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1m-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7m32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1m-11.4-14.7c-1.6 1-1.6 3.6 0 5.9s4.3 3.3 5.6 2.3c1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2"/></svg>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><!--! Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6m-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3m44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9M244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8M97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1m-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7m32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1m-11.4-14.7c-1.6 1-1.6 3.6 0 5.9s4.3 3.3 5.6 2.3c1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2"/></svg>
     </a>
   
     
@@ -2603,7 +2693,7 @@ Desktop that lets you explore in depth your Docker images.</p>
       
     
     <a href="https://www.linkedin.com/in/nicki-skafte-detlefsen/" target="_blank" rel="noopener" title="www.linkedin.com" class="md-social__link">
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3M135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5m282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9z"/></svg>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3M135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5m282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9z"/></svg>
     </a>
   
 </div>
@@ -2618,10 +2708,14 @@ Desktop that lets you explore in depth your Docker images.</p>
     </div>
     
     
-    <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.instant", "navigation.indexes", "navigation.footer", "content.code.copy", "content.code.annotate", "content.action.edit", "content.action.view", "search.suggest", "search.highlight"], "search": "../../assets/javascripts/workers/search.07f07601.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    
+      
+      <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.instant", "navigation.indexes", "navigation.footer", "content.code.copy", "content.code.annotate", "content.action.edit", "content.action.view", "search.suggest", "search.highlight"], "search": "../../assets/javascripts/workers/search.f8cc74c7.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
     
     
-      <script src="../../assets/javascripts/bundle.56dfad97.min.js"></script>
+      <script src="../../assets/javascripts/bundle.c8b220af.min.js"></script>
+      
+        <script src="../../assets/_markdown_exec_pyodide.js"></script>
       
     
   <script id="init-glightbox">const lightbox = GLightbox({"touchNavigation": true, "loop": false, "zoomable": true, "draggable": true, "openEffect": "zoom", "closeEffect": "zoom", "slideEffect": "slide"});

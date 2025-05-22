@@ -16,7 +16,7 @@
       
       
       <link rel="icon" href="../../figures/favicon.png">
-      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.5.34">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.12">
     
     
       
@@ -24,7 +24,7 @@
       
     
     
-      <link rel="stylesheet" href="../../assets/stylesheets/main.35f28582.min.css">
+      <link rel="stylesheet" href="../../assets/stylesheets/main.2afb09e1.min.css">
       
         
         <link rel="stylesheet" href="../../assets/stylesheets/palette.06af60db.min.css">
@@ -45,6 +45,10 @@
         <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
       
     
+    
+      <link rel="stylesheet" href="../../assets/_markdown_exec_pyodide.css">
+    
+      <link rel="stylesheet" href="../../assets/_markdown_exec_ansi.css">
     
     <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
@@ -154,11 +158,13 @@
     
     
     
-      <label class="md-header__button md-icon" for="__search">
-        
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
-      </label>
-      <div class="md-search" data-md-component="search" role="dialog">
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
   <label class="md-search__overlay" for="__search"></label>
   <div class="md-search__inner" role="search">
     <form class="md-search__form" name="search">
@@ -192,13 +198,14 @@
     </div>
   </div>
 </div>
+      
     
     
       <div class="md-header__source">
         <a href="https://github.com/SkafteNicki/dtu_mlops" title="Go to repository" class="md-source" data-md-component="source">
   <div class="md-source__icon md-icon">
     
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><!--! Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6m-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3m44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9M244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8M97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1m-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7m32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1m-11.4-14.7c-1.6 1-1.6 3.6 0 5.9s4.3 3.3 5.6 2.3c1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2"/></svg>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><!--! Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6m-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3m44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9M244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8M97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1m-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7m32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1m-11.4-14.7c-1.6 1-1.6 3.6 0 5.9s4.3 3.3 5.6 2.3c1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2"/></svg>
   </div>
   <div class="md-source__repository">
     GitHub
@@ -243,7 +250,7 @@
       <a href="https://github.com/SkafteNicki/dtu_mlops" title="Go to repository" class="md-source" data-md-component="source">
   <div class="md-source__icon md-icon">
     
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><!--! Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6m-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3m44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9M244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8M97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1m-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7m32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1m-11.4-14.7c-1.6 1-1.6 3.6 0 5.9s4.3 3.3 5.6 2.3c1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2"/></svg>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><!--! Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6m-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3m44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9M244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8M97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1m-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7m32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1m-11.4-14.7c-1.6 1-1.6 3.6 0 5.9s4.3 3.3 5.6 2.3c1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2"/></svg>
   </div>
   <div class="md-source__repository">
     GitHub
@@ -263,8 +270,10 @@
       <a href="../.." class="md-nav__link">
         
   
+  
   <span class="md-ellipsis">
     Home
+    
   </span>
   
 
@@ -283,8 +292,10 @@
       <a href="../../pages/timeplan/" class="md-nav__link">
         
   
+  
   <span class="md-ellipsis">
-    Timeplan
+    Time plan
+    
   </span>
   
 
@@ -317,6 +328,7 @@
     
     
     
+    
     <li class="md-nav__item md-nav__item--nested">
       
         
@@ -324,13 +336,14 @@
         <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
         
           
-          
           <div class="md-nav__link md-nav__container">
             <a href="../../s1_development_environment/" class="md-nav__link ">
               
   
+  
   <span class="md-ellipsis">
     S1 - Development Environment 💻
+    
   </span>
   
 
@@ -362,8 +375,10 @@
       <a href="../../s1_development_environment/command_line/" class="md-nav__link">
         
   
+  
   <span class="md-ellipsis">
     M1 - The command line
+    
   </span>
   
 
@@ -383,8 +398,10 @@
       <a href="../../s1_development_environment/package_manager/" class="md-nav__link">
         
   
+  
   <span class="md-ellipsis">
     M2 - Package Manager
+    
   </span>
   
 
@@ -404,8 +421,10 @@
       <a href="../../s1_development_environment/editor/" class="md-nav__link">
         
   
+  
   <span class="md-ellipsis">
     M3 - Editor
+    
   </span>
   
 
@@ -425,8 +444,10 @@
       <a href="../../s1_development_environment/deep_learning_software/" class="md-nav__link">
         
   
+  
   <span class="md-ellipsis">
     M4 - Deep Learning Software
+    
   </span>
   
 
@@ -469,6 +490,7 @@
     
     
     
+    
     <li class="md-nav__item md-nav__item--nested">
       
         
@@ -476,13 +498,14 @@
         <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" >
         
           
-          
           <div class="md-nav__link md-nav__container">
             <a href="../../s2_organisation_and_version_control/" class="md-nav__link ">
               
   
+  
   <span class="md-ellipsis">
     S2 - Organisation and Version Control 📁
+    
   </span>
   
 
@@ -514,8 +537,10 @@
       <a href="../../s2_organisation_and_version_control/git/" class="md-nav__link">
         
   
+  
   <span class="md-ellipsis">
     M5 - Git
+    
   </span>
   
 
@@ -535,8 +560,10 @@
       <a href="../../s2_organisation_and_version_control/code_structure/" class="md-nav__link">
         
   
+  
   <span class="md-ellipsis">
     M6 - Code structure
+    
   </span>
   
 
@@ -556,8 +583,10 @@
       <a href="../../s2_organisation_and_version_control/good_coding_practice/" class="md-nav__link">
         
   
+  
   <span class="md-ellipsis">
     M7 - Good coding practice
+    
   </span>
   
 
@@ -577,8 +606,10 @@
       <a href="../../s2_organisation_and_version_control/dvc/" class="md-nav__link">
         
   
+  
   <span class="md-ellipsis">
     M8 - Data version control
+    
   </span>
   
 
@@ -598,8 +629,10 @@
       <a href="../../s2_organisation_and_version_control/cli/" class="md-nav__link">
         
   
+  
   <span class="md-ellipsis">
     M9 - Command Line Interfaces
+    
   </span>
   
 
@@ -636,6 +669,7 @@
     
     
     
+    
     <li class="md-nav__item md-nav__item--nested">
       
         
@@ -643,13 +677,14 @@
         <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" >
         
           
-          
           <div class="md-nav__link md-nav__container">
             <a href="../../s3_reproducibility/" class="md-nav__link ">
               
   
+  
   <span class="md-ellipsis">
-    S3 - Reproduceability ♻️
+    S3 - Reproducibility ♻️
+    
   </span>
   
 
@@ -665,7 +700,7 @@
         <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_5">
             <span class="md-nav__icon md-icon"></span>
-            S3 - Reproduceability ♻️
+            S3 - Reproducibility ♻️
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
             
@@ -681,8 +716,10 @@
       <a href="../../s3_reproducibility/docker/" class="md-nav__link">
         
   
+  
   <span class="md-ellipsis">
     M10 - Docker
+    
   </span>
   
 
@@ -702,8 +739,10 @@
       <a href="../../s3_reproducibility/config_files/" class="md-nav__link">
         
   
+  
   <span class="md-ellipsis">
     M11 - Config Files
+    
   </span>
   
 
@@ -744,6 +783,7 @@
     
     
     
+    
     <li class="md-nav__item md-nav__item--nested">
       
         
@@ -751,13 +791,14 @@
         <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6" >
         
           
-          
           <div class="md-nav__link md-nav__container">
             <a href="../../s4_debugging_and_logging/" class="md-nav__link ">
               
   
+  
   <span class="md-ellipsis">
     S4 - Debugging, Profiling and Logging ⏱️
+    
   </span>
   
 
@@ -789,8 +830,10 @@
       <a href="../../s4_debugging_and_logging/debugging/" class="md-nav__link">
         
   
+  
   <span class="md-ellipsis">
     M12 - Debugging
+    
   </span>
   
 
@@ -810,8 +853,10 @@
       <a href="../../s4_debugging_and_logging/profiling/" class="md-nav__link">
         
   
+  
   <span class="md-ellipsis">
     M13 - Profiling
+    
   </span>
   
 
@@ -831,8 +876,10 @@
       <a href="../../s4_debugging_and_logging/logging/" class="md-nav__link">
         
   
+  
   <span class="md-ellipsis">
     M14 - Logging
+    
   </span>
   
 
@@ -852,8 +899,10 @@
       <a href="../../s4_debugging_and_logging/boilerplate/" class="md-nav__link">
         
   
+  
   <span class="md-ellipsis">
     M15 - Boilerplate
+    
   </span>
   
 
@@ -894,6 +943,7 @@
     
     
     
+    
     <li class="md-nav__item md-nav__item--nested">
       
         
@@ -901,13 +951,14 @@
         <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_7" >
         
           
-          
           <div class="md-nav__link md-nav__container">
             <a href="../../s5_continuous_integration/" class="md-nav__link ">
               
   
+  
   <span class="md-ellipsis">
     S5 - Continuous Integration ✔️
+    
   </span>
   
 
@@ -939,8 +990,10 @@
       <a href="../../s5_continuous_integration/unittesting/" class="md-nav__link">
         
   
+  
   <span class="md-ellipsis">
     M16 - Unit testing
+    
   </span>
   
 
@@ -960,8 +1013,10 @@
       <a href="../../s5_continuous_integration/github_actions/" class="md-nav__link">
         
   
+  
   <span class="md-ellipsis">
-    M17 - Github Actions
+    M17 - GitHub Actions
+    
   </span>
   
 
@@ -981,8 +1036,10 @@
       <a href="../../s5_continuous_integration/pre_commit/" class="md-nav__link">
         
   
+  
   <span class="md-ellipsis">
     M18 - Pre-commit
+    
   </span>
   
 
@@ -1002,8 +1059,10 @@
       <a href="../../s5_continuous_integration/cml/" class="md-nav__link">
         
   
+  
   <span class="md-ellipsis">
     M19 - Continuous Machine Learning
+    
   </span>
   
 
@@ -1042,6 +1101,7 @@
     
     
     
+    
     <li class="md-nav__item md-nav__item--active md-nav__item--nested">
       
         
@@ -1049,13 +1109,14 @@
         <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_8" checked>
         
           
-          
           <div class="md-nav__link md-nav__container">
             <a href="../" class="md-nav__link ">
               
   
+  
   <span class="md-ellipsis">
     S6 - The cloud 🌐
+    
   </span>
   
 
@@ -1096,8 +1157,10 @@
         <label class="md-nav__link md-nav__link--active" for="__toc">
           
   
+  
   <span class="md-ellipsis">
     M20 - Cloud Setup
+    
   </span>
   
 
@@ -1107,8 +1170,10 @@
       <a href="./" class="md-nav__link md-nav__link--active">
         
   
+  
   <span class="md-ellipsis">
     M20 - Cloud Setup
+    
   </span>
   
 
@@ -1214,8 +1279,10 @@
       <a href="../using_the_cloud/" class="md-nav__link">
         
   
+  
   <span class="md-ellipsis">
     M21 - Using the Cloud
+    
   </span>
   
 
@@ -1253,6 +1320,9 @@
       
         
       
+        
+      
+    
     
     
     
@@ -1263,13 +1333,14 @@
         <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_9" >
         
           
-          
           <div class="md-nav__link md-nav__container">
             <a href="../../s7_deployment/" class="md-nav__link ">
               
   
+  
   <span class="md-ellipsis">
     S7 - Deployment 📦
+    
   </span>
   
 
@@ -1301,29 +1372,10 @@
       <a href="../../s7_deployment/apis/" class="md-nav__link">
         
   
+  
   <span class="md-ellipsis">
     M22 - Requests and APIs
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../s7_deployment/local_deployment/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    M23 - Local Deployment
+    
   </span>
   
 
@@ -1343,8 +1395,10 @@
       <a href="../../s7_deployment/cloud_deployment/" class="md-nav__link">
         
   
+  
   <span class="md-ellipsis">
-    M24 - Cloud Deployment
+    M23 - Cloud Deployment
+    
   </span>
   
 
@@ -1364,8 +1418,56 @@
       <a href="../../s7_deployment/testing_apis/" class="md-nav__link">
         
   
+  
   <span class="md-ellipsis">
-    M25 - API Testing
+    M24 - API Testing
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../s7_deployment/ml_deployment/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    M25 - ML deployment
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../s7_deployment/frontend/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    M26 - Frontend
+    
   </span>
   
 
@@ -1402,6 +1504,7 @@
     
     
     
+    
     <li class="md-nav__item md-nav__item--nested">
       
         
@@ -1409,13 +1512,14 @@
         <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_10" >
         
           
-          
           <div class="md-nav__link md-nav__container">
             <a href="../../s8_monitoring/" class="md-nav__link ">
               
   
+  
   <span class="md-ellipsis">
     S8 - Monitoring 📊
+    
   </span>
   
 
@@ -1447,8 +1551,10 @@
       <a href="../../s8_monitoring/data_drifting/" class="md-nav__link">
         
   
+  
   <span class="md-ellipsis">
-    M26 - Data Drifting
+    M27 - Data Drifting
+    
   </span>
   
 
@@ -1468,8 +1574,10 @@
       <a href="../../s8_monitoring/monitoring/" class="md-nav__link">
         
   
+  
   <span class="md-ellipsis">
-    M27 - System Monitoring
+    M28 - System Monitoring
+    
   </span>
   
 
@@ -1508,6 +1616,7 @@
     
     
     
+    
     <li class="md-nav__item md-nav__item--nested">
       
         
@@ -1515,13 +1624,14 @@
         <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_11" >
         
           
-          
           <div class="md-nav__link md-nav__container">
             <a href="../../s9_scalable_applications/" class="md-nav__link ">
               
   
+  
   <span class="md-ellipsis">
     S9 - Scalable applications ⚖️
+    
   </span>
   
 
@@ -1553,8 +1663,10 @@
       <a href="../../s9_scalable_applications/data_loading/" class="md-nav__link">
         
   
+  
   <span class="md-ellipsis">
-    M28 - Distributed Data Loading
+    M29 - Distributed Data Loading
+    
   </span>
   
 
@@ -1574,8 +1686,10 @@
       <a href="../../s9_scalable_applications/distributed_training/" class="md-nav__link">
         
   
+  
   <span class="md-ellipsis">
-    M29 - Distributed Training
+    M30 - Distributed Training
+    
   </span>
   
 
@@ -1595,8 +1709,10 @@
       <a href="../../s9_scalable_applications/inference/" class="md-nav__link">
         
   
+  
   <span class="md-ellipsis">
-    M30 - Scalable Inference
+    M31 - Scalable Inference
+    
   </span>
   
 
@@ -1632,10 +1748,7 @@
       
         
       
-        
-      
-        
-      
+    
     
     
     
@@ -1646,13 +1759,14 @@
         <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_12" >
         
           
-          
           <div class="md-nav__link md-nav__container">
             <a href="../../s10_extra/" class="md-nav__link ">
               
   
+  
   <span class="md-ellipsis">
     S10 - Extra 🔥
+    
   </span>
   
 
@@ -1684,8 +1798,10 @@
       <a href="../../s10_extra/documentation/" class="md-nav__link">
         
   
+  
   <span class="md-ellipsis">
-    M31 - Documentation
+    M32 - Documentation
+    
   </span>
   
 
@@ -1705,8 +1821,10 @@
       <a href="../../s10_extra/hyperparameters/" class="md-nav__link">
         
   
+  
   <span class="md-ellipsis">
-    M32 - Hyperparameter optimization
+    M33 - Hyperparameter optimization
+    
   </span>
   
 
@@ -1726,50 +1844,10 @@
       <a href="../../s10_extra/high_performance_clusters/" class="md-nav__link">
         
   
-  <span class="md-ellipsis">
-    M33 - High Performance Clusters
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../s10_extra/frontend/" class="md-nav__link">
-        
   
   <span class="md-ellipsis">
-    M34 - Frontend
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../s10_extra/ml_deployment/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    M35 - ML deployment
+    M34 - High Performance Clusters
+    
   </span>
   
 
@@ -1796,8 +1874,10 @@
       <a href="../../pages/overview/" class="md-nav__link">
         
   
+  
   <span class="md-ellipsis">
     Summary
+    
   </span>
   
 
@@ -1816,8 +1896,10 @@
       <a href="../../pages/projects/" class="md-nav__link">
         
   
+  
   <span class="md-ellipsis">
     Projects
+    
   </span>
   
 
@@ -1836,8 +1918,10 @@
       <a href="../../pages/faq/" class="md-nav__link">
         
   
+  
   <span class="md-ellipsis">
     FAQ
+    
   </span>
   
 
@@ -1952,6 +2036,7 @@
                 
                   
 
+
   
     <a href="https://github.com/SkafteNicki/dtu_mlops/edit/main/s6_the_cloud/cloud_setup.md" title="Edit this page" class="md-content__button md-icon">
       
@@ -1975,11 +2060,11 @@
 <p class="admonition-title">Core Module</p>
 </div>
 <p>Google Cloud Platform (GCP) is the cloud service provided by Google. The key concept, or selling point, of any cloud
-provider, is the idea of near-infinite resources. Without the cloud, it simply is not feasible to do many modern
+provider, is the idea of near-infinite resources. Without the cloud, it is simply not feasible to do many modern
 deep learning and machine learning tasks because they cannot be scaled locally.</p>
 <p>The image below shows <a href="https://cloud.google.com/products">all the different services</a> that the Google Cloud platform
-offers. We are going to be working with around 10 of these services throughout the course. Therefore, if you get done
-with exercises early I highly recommend that you deep dive more into the Google cloud platform.</p>
+offers. We are going to be working with around 10 of these services throughout the course. Therefore, if you finish
+the exercises early I highly recommend that you deep dive more into the Google Cloud Platform.</p>
 <figure>
 <p><a class="glightbox" href="../../figures/gcp_services.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="Image" src="../../figures/gcp_services.png" width="1000" /></a></p>
 <figcaption> <a href="https://github.com/priyankavergadia/google-cloud-4-words"> Image credit </a> </figcaption>
@@ -1989,10 +2074,10 @@ with exercises early I highly recommend that you deep dive more into the Google 
 <ol>
 <li>
 <p>Go to <a href="https://learn.inside.dtu.dk">https://learn.inside.dtu.dk</a>. Go to this course. Find the recent message where there should be a download
-    link and instructions on how to claim the $50 cloud credit. Please do not share the link anywhere as there are a
+    link and instructions on how to claim the $50 cloud credit. Please do not share the link anywhere as there is a
     limited amount of coupons. If you are not officially taking this course at DTU, Google gives $300 cloud credits
     whenever you sign up with a new account. NOTE that you need to provide a credit card for this so make
-    sure to closely monitor your credit use so you do not end up spending more than the free credit.</p>
+    sure to closely monitor your credit usage so you do not end up spending more than the free credit.</p>
 </li>
 <li>
 <p>Log in to the homepage of GCP. It should look like this:</p>
@@ -2001,12 +2086,12 @@ with exercises early I highly recommend that you deep dive more into the Google 
 </figure></p>
 </li>
 <li>
-<p>Go to billing and make sure that your account is showing $50 of cloud credit</p>
+<p>Go to billing and make sure that your account is showing $50 of cloud credit.</p>
 <p><figure markdown>
 <a class="glightbox" href="../../figures/gcp2.PNG" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="Image" src="../../figures/gcp2.PNG" width="800" /></a>
 </figure></p>
-<p>make sure to also check out the <code>Reports</code> throughout the course. When you are starting to use some of the cloud
-services these tabs will update with info about how much time you can use before your cloud credit runs out.
+<p>Make sure to also check out the <code>Reports</code> throughout the course. When you are starting to use some of the cloud
+services these tabs will update with info about how much time you have before your cloud credit runs out.
 Make sure that you monitor this page as you will not be given another coupon.</p>
 </li>
 <li>
@@ -2019,7 +2104,7 @@ is being created. The notification bell is a good way to make sure how the proce
 throughout the course.</p>
 </li>
 <li>
-<p>Next, it local setup on your laptop. We are going to install <code>gcloud</code>, which is part of the Google Cloud SDK.
+<p>Next is local setup on your laptop. We are going to install <code>gcloud</code>, which is part of the Google Cloud SDK.
     <code>gcloud</code> is the command line interface for working with our Google Cloud account. Nearly everything that we can do
     through the web interface we can also do through the <code>gcloud</code> interface. Follow the installation instructions
     <a href="https://cloud.google.com/sdk/docs/install">here</a> for your specific OS.</p>
@@ -2028,14 +2113,18 @@ throughout the course.</p>
 <p>After installation, try in a terminal to type:</p>
 <div class="language-bash highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>gcloud<span class="w"> </span>-h
 </span></code></pre></div>
-<p>the command should show the help page. If not, something went wrong in the installation (you may need to
+<p>The command should show the help page. If not, something went wrong in the installation (you may need to
 restart after installing).</p>
 </li>
 <li>
-<p>Now login by typing</p>
-<div class="language-bash highlight"><pre><span></span><code><span id="__span-1-1"><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a>gcloud<span class="w"> </span>auth<span class="w"> </span>login
+<p>Now log in by typing</p>
+<div class="language-bash highlight"><pre><span></span><code><span id="__span-1-1"><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a>gcloud<span class="w"> </span>auth<span class="w"> </span>login<span class="w"> </span><span class="c1">#(1)!</span>
 </span></code></pre></div>
-<p>you should be sent to a web page where you link your cloud account to the <code>gcloud</code> interface. Afterward, also
+<ol>
+<li>If you are authenticating through WSL you most likely need to add the argument <code>--no-launch-browser</code> at the
+    end of the command to get the authentication link. Copy the link and paste it into your browser.</li>
+</ol>
+<p>You should be sent to a web page where you link your cloud account to the <code>gcloud</code> interface. Afterward, also
 run this command:</p>
 <div class="language-bash highlight"><pre><span></span><code><span id="__span-2-1"><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a>gcloud<span class="w"> </span>auth<span class="w"> </span>application-default<span class="w"> </span>login
 </span></code></pre></div>
@@ -2046,7 +2135,7 @@ run this command:</p>
 <li>
 <p>Next, you will need to set the project that we just created as the default project0. In your web browser under
     project info, you should be able to see the <code>Project ID</code> belonging to your <code>dtumlops</code> project. Copy this and
-    type he following command in a terminal</p>
+    type the following command in a terminal:</p>
 <div class="language-bash highlight"><pre><span></span><code><span id="__span-4-1"><a id="__codelineno-4-1" name="__codelineno-4-1" href="#__codelineno-4-1"></a>gcloud<span class="w"> </span>config<span class="w"> </span><span class="nb">set</span><span class="w"> </span>project<span class="w"> </span>&lt;project-id&gt;
 </span></code></pre></div>
 <p>You can also get the project info by running</p>
@@ -2058,9 +2147,9 @@ run this command:</p>
 <div class="language-bash highlight"><pre><span></span><code><span id="__span-6-1"><a id="__codelineno-6-1" name="__codelineno-6-1" href="#__codelineno-6-1"></a>pip<span class="w"> </span>install<span class="w"> </span>--upgrade<span class="w"> </span>google-api-python-client
 </span></code></pre></div>
 <p>Make sure that the Python interface is also installed. In a Python terminal type</p>
-<div class="language-python highlight"><pre><span></span><code><span id="__span-7-1"><a id="__codelineno-7-1" name="__codelineno-7-1" href="#__codelineno-7-1"></a><span class="kn">import</span> <span class="nn">googleapiclient</span>
+<div class="language-python highlight"><pre><span></span><code><span id="__span-7-1"><a id="__codelineno-7-1" name="__codelineno-7-1" href="#__codelineno-7-1"></a><span class="kn">import</span><span class="w"> </span><span class="nn">googleapiclient</span>
 </span></code></pre></div>
-<p>this should work without any errors.</p>
+<p>which should work without any errors.</p>
 </li>
 <li>
 <p>(Optional) If you are using VSCode you can also download the relevant
@@ -2077,7 +2166,7 @@ run this command:</p>
 </span><span id="__span-8-2"><a id="__codelineno-8-2" name="__codelineno-8-2" href="#__codelineno-8-2"></a>gcloud<span class="w"> </span>services<span class="w"> </span><span class="nb">enable</span><span class="w"> </span>servicemanagement.googleapis.com
 </span><span id="__span-8-3"><a id="__codelineno-8-3" name="__codelineno-8-3" href="#__codelineno-8-3"></a>gcloud<span class="w"> </span>services<span class="w"> </span><span class="nb">enable</span><span class="w"> </span>servicecontrol.googleapis.com
 </span></code></pre></div>
-<p>you can always check which services are enabled by typing</p>
+<p>You can always check which services are enabled by typing</p>
 <div class="language-bash highlight"><pre><span></span><code><span id="__span-9-1"><a id="__codelineno-9-1" name="__codelineno-9-1" href="#__codelineno-9-1"></a>gcloud<span class="w"> </span>services<span class="w"> </span>list
 </span></code></pre></div>
 </li>
@@ -2086,11 +2175,11 @@ run this command:</p>
 services, both locally on your laptop and in the cloud console.</p>
 <h2 id="iam-and-quotas">IAM and Quotas</h2>
 <p>A big part of using the cloud in a bigger organization has to do with Admin and quotas. Admin here in general refers
-to the different roles that users of GCP and quotas refer to the amount of resources that a given user has access to.
-For example, one employee, let's say a data scientist, may only be granted access to certain GCP services that have to
-do with the development and training of machine learning models, with <code>X</code> amounts of GPUs available to use to make sure
-that the employee does not spend too much money. Another employee, a DevOps engineer, probably does not need access to
-the same services and not necessarily the same resources.</p>
+to the different roles that users of GCP can have and quotas refers to the amount of resources that a given user has
+access to. For example, one employee, let's say a data scientist, may only be granted access to certain GCP services
+that have to do with the development and training of machine learning models, with <code>X</code> amount of GPUs available to use
+to make sure that the employee does not spend too much money. Another employee, a DevOps engineer, probably does not
+need access to the same services and not necessarily the same resources.</p>
 <p>In this course, we are not going to focus too much on this aspect but it is important to know that it exists. One
 feature you are going to need for doing the project is how to share a project with other people. This is done through
 the IAM (Identities and Access Management) page. Simply click the <code>Grant Access</code> button, search for the email of the
@@ -2114,15 +2203,15 @@ you can use is either 0 or 1 (their policies sometimes change). We will in the e
     in the figure below.</p>
 <ol>
 <li>
-<p>Go to the <code>quotas page</code></p>
+<p>Go to the <code>quotas page</code>.</p>
 </li>
 <li>
-<p>In the search field search for <code>GPUs (all regions)</code> (needs to match exactly, the search field is case sensitive),
+<p>In the search field search for <code>GPUs (all regions)</code> (needs to match exactly, the search field is case-sensitive),
     such that you get the same quota as in the image.</p>
 </li>
 <li>
 <p>In the limit, you can see what your current quota for the number of GPUs you can use is. Additionally, to the
-    right of the limit, you can see the current usage. It is worth checking in on if you are ever in doubt if a job
+    right of the limit, you can see the current usage. It is worth checking if you are ever in doubt if a job
     is running on GPU or not.</p>
 </li>
 <li>
@@ -2132,29 +2221,34 @@ you can use is either 0 or 1 (their policies sometimes change). We will in the e
 <p>In the pop-up window, increase your limit to either 1 or 2.</p>
 </li>
 <li>
-<p>After sending your request you can try clicking the <code>Increase requests</code> tab to see the status of your request</p>
-</li>
-</ol>
+<p>After sending your request you can try clicking the <code>Increase requests</code> tab to see the status of your request.</p>
 <p><figure markdown>
-    <a class="glightbox" href="../../figures/quotas.PNG" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="Image" src="../../figures/quotas.PNG" width="1000" /></a>
+<a class="glightbox" href="../../figures/quotas.PNG" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="Image" src="../../figures/quotas.PNG" width="1000" /></a>
 </figure></p>
 </li>
 </ol>
-<p>If you are ever running into errors when working in GPU that contains statements about <code>quotas</code> you can always try to
+</li>
+</ol>
+<p>If you are ever running into errors when working in GPU that contain statements about <code>quotas</code> you can always try to
 go to this page and see what you are allowed to use currently and try to increase it. For example, when you get to
 training machine learning models using Vertex AI in the <a href="../using_the_cloud/">next module</a>, you would most likely
 need to ask for a quota increase for that service as well.</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>You can only request a quota increase for a service that you have enabled. After enabling a given service it may take
+5-10 minutes before you can request a quota increase for that service.</p>
+</div>
 <figure>
 <p><a class="glightbox" href="../../figures/gcp_quotas.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="Image" src="../../figures/gcp_quotas.png" width="1000" /></a></p>
 </figure>
 <p>Finally, we want to note that a quota increase is sometimes not allowed within 24 hours of creating an account. If your
-request gets rejected, we recommend to wait a day and try again. If this does still not work, you may need to use their
-services some more to make sure you are not a bot that wants to mine crypto.</p>
+request gets rejected, we recommend waiting a day and trying again. If this does still not work, you may need to use their
+services some more to show you are not a bot that wants to mine crypto.</p>
 <h2 id="service-accounts">Service accounts</h2>
 <p>At some point, you will most likely need to use a service account. A service account is a virtual account that is used
-to interact with the Google Cloud API. It it intended for non-human users e.g. other machines, services, etc. For
-example, if you want to launch a training job from Github Actions, you will need to use a service account for
-authentication between Github and GCP. You can read more about how to create a service account
+to interact with the Google Cloud API. It it intended for non-human users, e.g. other machines, services, etc. For
+example, if you want to launch a training job from GitHub Actions, you will need to use a service account for
+authentication between GitHub and GCP. You can read more about how to create a service account
 <a href="https://cloud.google.com/iam/docs/creating-managing-service-accounts">here</a>.</p>
 <h3 id="exercises_2">❔ Exercises</h3>
 <ol>
@@ -2163,19 +2257,21 @@ authentication between Github and GCP. You can read more about how to create a s
     bar.</p>
 </li>
 <li>
-<p>Click the <code>Create Service Account</code> button. On the next page, you can give the service account a name, and id (
-    automatically generated, but you can change it if you want). You can also give it a description. Leave the rest as
+<p>Click the <code>Create Service Account</code> button. On the next page, you can give the service account a name and id
+    (automatically generated, but you can change it if you want). You can also give it a description. Leave the rest as
     default and click <code>Create</code>.</p>
 </li>
 <li>
-<p>Next, let's give the service account some permissions. Click on the service account you just created. In the
-    <code>Permissions</code> tab click <code>Add permissions</code>. Your job now is to give the service account the lowest possible
-    permissions such that it can download files from a bucket. Look at this
+<p>Next, let's give the service account some permissions. Your job now is to give the service account the lowest
+    possible permissions such that it can download files from a bucket. Copy the email of the service account and go to
+    the <code>IAM</code> page. Click on the <code>Grant Access</code> button and paste in the email address in the <code>Add principals</code> field.
+    Then click the <code>Select a role</code> dropdown and either write the name of the role you want to give the service account
+    or search for it in the list. Finally, click <code>Save</code>.  For help, you can look at this
     <a href="https://cloud.google.com/iam/docs/understanding-roles">page</a> and try to find the role that fits the description.</p>
 <details class="success">
 <summary>Solution</summary>
 <p>The role you are looking for is <code>Storage Object Viewer</code>. This role allows the service account to list objects
-in a bucket and download objects, but nothing more. Thus even if someone gets access to the service account
+in a bucket and download objects, but nothing more. Thus, even if someone gets access to the service account
 they cannot delete objects in the bucket.</p>
 </details>
 </li>
@@ -2207,26 +2303,38 @@ run</p>
 </details>
 </li>
 </ol>
+<p>In this course we recommend that you only use a single service account for doing exercises and your project. This
+is to simplify the process of managing permissions. In a real-world scenario, you would most likely have multiple
+service accounts, each with different permissions. The following roles are the most common ones that you will use in
+this course:</p>
+<ul>
+<li><code>Storage Object Viewer</code>: Allows the service account to list objects in a bucket and download objects</li>
+<li><code>Cloud Build Builder</code>: Allows the service account to run builds in Cloud Build</li>
+<li><code>Secret Manager Secret Accessor</code>: Allows the service account to access secrets in Secret Manager</li>
+<li><code>Cloud Run Developer</code>: Allows the service account to deploy services in Cloud Run</li>
+<li><code>AI Platform Developer</code>: Allows the service account to use the AI Platform</li>
+<li><code>Artifact Registry Writer</code>: Allows the service account to write to the Artifact Registry</li>
+</ul>
 <h2 id="knowledge-check">🧠 Knowledge check</h2>
 <ol>
 <li>
-<p>What considerations to take when choosing a GCP region for running a new application?</p>
+<p>What considerations should you have when choosing a GCP region for running a new application?</p>
 <details class="success">
 <summary>Solution</summary>
 <p>A series of factors may influence your choice of region, including:</p>
 <ul>
-<li>Services availability in the region, not all services are available in all regions</li>
+<li>Services availability in the region; not all services are available in all regions</li>
 <li>Resource availability: <a href="https://cloud.google.com/compute/docs/gpus/gpu-regions-zones">some regions</a> have more
     GPUs available than others</li>
 <li>Reduced latency: if your application is running in the same region as your users, the latency will be lower</li>
 <li>Compliance: some countries have strict rules that require user info to be stored inside a particular region
-    eg. EU has GDPR rules that require all user data to be stored in the EU</li>
+    e.g., EU has GDPR rules that require all user data to be stored in the EU</li>
 <li>Pricing: some regions may have different pricing than others</li>
 </ul>
 </details>
 </li>
 <li>
-<p>The 3 major cloud providers all have the same services, but they are called something different depending on the
+<p>The three major cloud providers all have the same services, but they are called something different depending on the
     provider. What are the corresponding names of these GCP services in AWS and Azure?</p>
 <ul>
 <li>Compute Engine</li>
@@ -2236,7 +2344,7 @@ run</p>
 <li>Cloud build</li>
 <li>Vertex AI</li>
 </ul>
-<p>It is important to know these correspondences to navigate blogpost etc. about MLOps on the internet.</p>
+<p>It is important to know these correspondences to navigate blog posts, etc. about MLOps on the internet.</p>
 <details class="success">
 <summary>Solution</summary>
 <table>
@@ -2283,11 +2391,11 @@ run</p>
 </details>
 </li>
 <li>
-<p>Why does is it always important to assign the lowest possible permissions to a service account?</p>
+<p>Why is it always important to assign the lowest possible permissions to a service account?</p>
 <details class="success">
 <summary>Solution</summary>
 <p>The reason is that if someone gets access to the service account they can only do what the service account is
-allowed to do. If the service account has the permission to delete objects in a bucket, the attacker can delete
+allowed to do. If the service account has permission to delete objects in a bucket, the attacker can delete
 all the objects in the bucket. For this reason, in most cases multiple service accounts are used, each with
 different permissions. This setup is called the
 <a href="https://en.wikipedia.org/wiki/Principle_of_least_privilege">principle of least privilege</a>.</p>
@@ -2316,7 +2424,7 @@ different permissions. This setup is called the
     <span class="md-icon" title="Last update">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 13.1c-.1 0-.3.1-.4.2l-1 1 2.1 2.1 1-1c.2-.2.2-.6 0-.8l-1.3-1.3c-.1-.1-.2-.2-.4-.2m-1.9 1.8-6.1 6V23h2.1l6.1-6.1zM12.5 7v5.2l4 2.4-1 1L11 13V7zM11 21.9c-5.1-.5-9-4.8-9-9.9C2 6.5 6.5 2 12 2c5.3 0 9.6 4.1 10 9.3-.3-.1-.6-.2-1-.2s-.7.1-1 .2C19.6 7.2 16.2 4 12 4c-4.4 0-8 3.6-8 8 0 4.1 3.1 7.5 7.1 7.9l-.1.2z"/></svg>
     </span>
-    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">June 18, 2024</span>
+    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date" title="February 3, 2025 06:48:20">February 3, 2025</span>
   </span>
 
     
@@ -2326,7 +2434,7 @@ different permissions. This setup is called the
     <span class="md-icon" title="Created">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M14.47 15.08 11 13V7h1.5v5.25l3.08 1.83c-.41.28-.79.62-1.11 1m-1.39 4.84c-.36.05-.71.08-1.08.08-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8c0 .37-.03.72-.08 1.08.69.1 1.33.32 1.92.64.1-.56.16-1.13.16-1.72 0-5.5-4.5-10-10-10S2 6.5 2 12s4.47 10 10 10c.59 0 1.16-.06 1.72-.16-.32-.59-.54-1.23-.64-1.92M18 15v3h-3v2h3v3h2v-3h3v-2h-3v-3z"/></svg>
     </span>
-    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">September 13, 2021</span>
+    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date" title="September 13, 2021 13:25:14">September 13, 2021</span>
   </span>
 
     
@@ -2424,7 +2532,7 @@ different permissions. This setup is called the
       
     
     <a href="https://github.com/SkafteNicki" target="_blank" rel="noopener" title="github.com" class="md-social__link">
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><!--! Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6m-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3m44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9M244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8M97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1m-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7m32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1m-11.4-14.7c-1.6 1-1.6 3.6 0 5.9s4.3 3.3 5.6 2.3c1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2"/></svg>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><!--! Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6m-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3m44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9M244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8M97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1m-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7m32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1m-11.4-14.7c-1.6 1-1.6 3.6 0 5.9s4.3 3.3 5.6 2.3c1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2"/></svg>
     </a>
   
     
@@ -2435,7 +2543,7 @@ different permissions. This setup is called the
       
     
     <a href="https://www.linkedin.com/in/nicki-skafte-detlefsen/" target="_blank" rel="noopener" title="www.linkedin.com" class="md-social__link">
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3M135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5m282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9z"/></svg>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3M135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5m282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9z"/></svg>
     </a>
   
 </div>
@@ -2450,10 +2558,14 @@ different permissions. This setup is called the
     </div>
     
     
-    <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.instant", "navigation.indexes", "navigation.footer", "content.code.copy", "content.code.annotate", "content.action.edit", "content.action.view", "search.suggest", "search.highlight"], "search": "../../assets/javascripts/workers/search.07f07601.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    
+      
+      <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.instant", "navigation.indexes", "navigation.footer", "content.code.copy", "content.code.annotate", "content.action.edit", "content.action.view", "search.suggest", "search.highlight"], "search": "../../assets/javascripts/workers/search.f8cc74c7.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
     
     
-      <script src="../../assets/javascripts/bundle.56dfad97.min.js"></script>
+      <script src="../../assets/javascripts/bundle.c8b220af.min.js"></script>
+      
+        <script src="../../assets/_markdown_exec_pyodide.js"></script>
       
     
   <script id="init-glightbox">const lightbox = GLightbox({"touchNavigation": true, "loop": false, "zoomable": true, "draggable": true, "openEffect": "zoom", "closeEffect": "zoom", "slideEffect": "slide"});

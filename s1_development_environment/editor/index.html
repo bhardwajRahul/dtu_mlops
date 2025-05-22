@@ -16,7 +16,7 @@
       
       
       <link rel="icon" href="../../figures/favicon.png">
-      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.5.34">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.12">
     
     
       
@@ -24,7 +24,7 @@
       
     
     
-      <link rel="stylesheet" href="../../assets/stylesheets/main.35f28582.min.css">
+      <link rel="stylesheet" href="../../assets/stylesheets/main.2afb09e1.min.css">
       
         
         <link rel="stylesheet" href="../../assets/stylesheets/palette.06af60db.min.css">
@@ -45,6 +45,10 @@
         <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
       
     
+    
+      <link rel="stylesheet" href="../../assets/_markdown_exec_pyodide.css">
+    
+      <link rel="stylesheet" href="../../assets/_markdown_exec_ansi.css">
     
     <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
@@ -154,11 +158,13 @@
     
     
     
-      <label class="md-header__button md-icon" for="__search">
-        
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
-      </label>
-      <div class="md-search" data-md-component="search" role="dialog">
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
   <label class="md-search__overlay" for="__search"></label>
   <div class="md-search__inner" role="search">
     <form class="md-search__form" name="search">
@@ -192,13 +198,14 @@
     </div>
   </div>
 </div>
+      
     
     
       <div class="md-header__source">
         <a href="https://github.com/SkafteNicki/dtu_mlops" title="Go to repository" class="md-source" data-md-component="source">
   <div class="md-source__icon md-icon">
     
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><!--! Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6m-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3m44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9M244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8M97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1m-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7m32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1m-11.4-14.7c-1.6 1-1.6 3.6 0 5.9s4.3 3.3 5.6 2.3c1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2"/></svg>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><!--! Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6m-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3m44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9M244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8M97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1m-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7m32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1m-11.4-14.7c-1.6 1-1.6 3.6 0 5.9s4.3 3.3 5.6 2.3c1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2"/></svg>
   </div>
   <div class="md-source__repository">
     GitHub
@@ -243,7 +250,7 @@
       <a href="https://github.com/SkafteNicki/dtu_mlops" title="Go to repository" class="md-source" data-md-component="source">
   <div class="md-source__icon md-icon">
     
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><!--! Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6m-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3m44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9M244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8M97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1m-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7m32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1m-11.4-14.7c-1.6 1-1.6 3.6 0 5.9s4.3 3.3 5.6 2.3c1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2"/></svg>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><!--! Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6m-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3m44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9M244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8M97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1m-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7m32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1m-11.4-14.7c-1.6 1-1.6 3.6 0 5.9s4.3 3.3 5.6 2.3c1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2"/></svg>
   </div>
   <div class="md-source__repository">
     GitHub
@@ -263,8 +270,10 @@
       <a href="../.." class="md-nav__link">
         
   
+  
   <span class="md-ellipsis">
     Home
+    
   </span>
   
 
@@ -283,8 +292,10 @@
       <a href="../../pages/timeplan/" class="md-nav__link">
         
   
+  
   <span class="md-ellipsis">
-    Timeplan
+    Time plan
+    
   </span>
   
 
@@ -319,6 +330,7 @@
     
     
     
+    
     <li class="md-nav__item md-nav__item--active md-nav__item--nested">
       
         
@@ -326,13 +338,14 @@
         <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" checked>
         
           
-          
           <div class="md-nav__link md-nav__container">
             <a href="../" class="md-nav__link ">
               
   
+  
   <span class="md-ellipsis">
     S1 - Development Environment 💻
+    
   </span>
   
 
@@ -364,8 +377,10 @@
       <a href="../command_line/" class="md-nav__link">
         
   
+  
   <span class="md-ellipsis">
     M1 - The command line
+    
   </span>
   
 
@@ -385,8 +400,10 @@
       <a href="../package_manager/" class="md-nav__link">
         
   
+  
   <span class="md-ellipsis">
     M2 - Package Manager
+    
   </span>
   
 
@@ -415,8 +432,10 @@
         <label class="md-nav__link md-nav__link--active" for="__toc">
           
   
+  
   <span class="md-ellipsis">
     M3 - Editor
+    
   </span>
   
 
@@ -426,8 +445,10 @@
       <a href="./" class="md-nav__link md-nav__link--active">
         
   
+  
   <span class="md-ellipsis">
     M3 - Editor
+    
   </span>
   
 
@@ -509,8 +530,10 @@
       <a href="../deep_learning_software/" class="md-nav__link">
         
   
+  
   <span class="md-ellipsis">
     M4 - Deep Learning Software
+    
   </span>
   
 
@@ -553,6 +576,7 @@
     
     
     
+    
     <li class="md-nav__item md-nav__item--nested">
       
         
@@ -560,13 +584,14 @@
         <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" >
         
           
-          
           <div class="md-nav__link md-nav__container">
             <a href="../../s2_organisation_and_version_control/" class="md-nav__link ">
               
   
+  
   <span class="md-ellipsis">
     S2 - Organisation and Version Control 📁
+    
   </span>
   
 
@@ -598,8 +623,10 @@
       <a href="../../s2_organisation_and_version_control/git/" class="md-nav__link">
         
   
+  
   <span class="md-ellipsis">
     M5 - Git
+    
   </span>
   
 
@@ -619,8 +646,10 @@
       <a href="../../s2_organisation_and_version_control/code_structure/" class="md-nav__link">
         
   
+  
   <span class="md-ellipsis">
     M6 - Code structure
+    
   </span>
   
 
@@ -640,8 +669,10 @@
       <a href="../../s2_organisation_and_version_control/good_coding_practice/" class="md-nav__link">
         
   
+  
   <span class="md-ellipsis">
     M7 - Good coding practice
+    
   </span>
   
 
@@ -661,8 +692,10 @@
       <a href="../../s2_organisation_and_version_control/dvc/" class="md-nav__link">
         
   
+  
   <span class="md-ellipsis">
     M8 - Data version control
+    
   </span>
   
 
@@ -682,8 +715,10 @@
       <a href="../../s2_organisation_and_version_control/cli/" class="md-nav__link">
         
   
+  
   <span class="md-ellipsis">
     M9 - Command Line Interfaces
+    
   </span>
   
 
@@ -720,6 +755,7 @@
     
     
     
+    
     <li class="md-nav__item md-nav__item--nested">
       
         
@@ -727,13 +763,14 @@
         <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" >
         
           
-          
           <div class="md-nav__link md-nav__container">
             <a href="../../s3_reproducibility/" class="md-nav__link ">
               
   
+  
   <span class="md-ellipsis">
-    S3 - Reproduceability ♻️
+    S3 - Reproducibility ♻️
+    
   </span>
   
 
@@ -749,7 +786,7 @@
         <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_5">
             <span class="md-nav__icon md-icon"></span>
-            S3 - Reproduceability ♻️
+            S3 - Reproducibility ♻️
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
             
@@ -765,8 +802,10 @@
       <a href="../../s3_reproducibility/docker/" class="md-nav__link">
         
   
+  
   <span class="md-ellipsis">
     M10 - Docker
+    
   </span>
   
 
@@ -786,8 +825,10 @@
       <a href="../../s3_reproducibility/config_files/" class="md-nav__link">
         
   
+  
   <span class="md-ellipsis">
     M11 - Config Files
+    
   </span>
   
 
@@ -828,6 +869,7 @@
     
     
     
+    
     <li class="md-nav__item md-nav__item--nested">
       
         
@@ -835,13 +877,14 @@
         <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6" >
         
           
-          
           <div class="md-nav__link md-nav__container">
             <a href="../../s4_debugging_and_logging/" class="md-nav__link ">
               
   
+  
   <span class="md-ellipsis">
     S4 - Debugging, Profiling and Logging ⏱️
+    
   </span>
   
 
@@ -873,8 +916,10 @@
       <a href="../../s4_debugging_and_logging/debugging/" class="md-nav__link">
         
   
+  
   <span class="md-ellipsis">
     M12 - Debugging
+    
   </span>
   
 
@@ -894,8 +939,10 @@
       <a href="../../s4_debugging_and_logging/profiling/" class="md-nav__link">
         
   
+  
   <span class="md-ellipsis">
     M13 - Profiling
+    
   </span>
   
 
@@ -915,8 +962,10 @@
       <a href="../../s4_debugging_and_logging/logging/" class="md-nav__link">
         
   
+  
   <span class="md-ellipsis">
     M14 - Logging
+    
   </span>
   
 
@@ -936,8 +985,10 @@
       <a href="../../s4_debugging_and_logging/boilerplate/" class="md-nav__link">
         
   
+  
   <span class="md-ellipsis">
     M15 - Boilerplate
+    
   </span>
   
 
@@ -978,6 +1029,7 @@
     
     
     
+    
     <li class="md-nav__item md-nav__item--nested">
       
         
@@ -985,13 +1037,14 @@
         <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_7" >
         
           
-          
           <div class="md-nav__link md-nav__container">
             <a href="../../s5_continuous_integration/" class="md-nav__link ">
               
   
+  
   <span class="md-ellipsis">
     S5 - Continuous Integration ✔️
+    
   </span>
   
 
@@ -1023,8 +1076,10 @@
       <a href="../../s5_continuous_integration/unittesting/" class="md-nav__link">
         
   
+  
   <span class="md-ellipsis">
     M16 - Unit testing
+    
   </span>
   
 
@@ -1044,8 +1099,10 @@
       <a href="../../s5_continuous_integration/github_actions/" class="md-nav__link">
         
   
+  
   <span class="md-ellipsis">
-    M17 - Github Actions
+    M17 - GitHub Actions
+    
   </span>
   
 
@@ -1065,8 +1122,10 @@
       <a href="../../s5_continuous_integration/pre_commit/" class="md-nav__link">
         
   
+  
   <span class="md-ellipsis">
     M18 - Pre-commit
+    
   </span>
   
 
@@ -1086,8 +1145,10 @@
       <a href="../../s5_continuous_integration/cml/" class="md-nav__link">
         
   
+  
   <span class="md-ellipsis">
     M19 - Continuous Machine Learning
+    
   </span>
   
 
@@ -1124,6 +1185,7 @@
     
     
     
+    
     <li class="md-nav__item md-nav__item--nested">
       
         
@@ -1131,13 +1193,14 @@
         <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_8" >
         
           
-          
           <div class="md-nav__link md-nav__container">
             <a href="../../s6_the_cloud/" class="md-nav__link ">
               
   
+  
   <span class="md-ellipsis">
     S6 - The cloud 🌐
+    
   </span>
   
 
@@ -1169,8 +1232,10 @@
       <a href="../../s6_the_cloud/cloud_setup/" class="md-nav__link">
         
   
+  
   <span class="md-ellipsis">
     M20 - Cloud Setup
+    
   </span>
   
 
@@ -1190,8 +1255,10 @@
       <a href="../../s6_the_cloud/using_the_cloud/" class="md-nav__link">
         
   
+  
   <span class="md-ellipsis">
     M21 - Using the Cloud
+    
   </span>
   
 
@@ -1229,6 +1296,9 @@
       
         
       
+        
+      
+    
     
     
     
@@ -1239,13 +1309,14 @@
         <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_9" >
         
           
-          
           <div class="md-nav__link md-nav__container">
             <a href="../../s7_deployment/" class="md-nav__link ">
               
   
+  
   <span class="md-ellipsis">
     S7 - Deployment 📦
+    
   </span>
   
 
@@ -1277,29 +1348,10 @@
       <a href="../../s7_deployment/apis/" class="md-nav__link">
         
   
+  
   <span class="md-ellipsis">
     M22 - Requests and APIs
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../s7_deployment/local_deployment/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    M23 - Local Deployment
+    
   </span>
   
 
@@ -1319,8 +1371,10 @@
       <a href="../../s7_deployment/cloud_deployment/" class="md-nav__link">
         
   
+  
   <span class="md-ellipsis">
-    M24 - Cloud Deployment
+    M23 - Cloud Deployment
+    
   </span>
   
 
@@ -1340,8 +1394,56 @@
       <a href="../../s7_deployment/testing_apis/" class="md-nav__link">
         
   
+  
   <span class="md-ellipsis">
-    M25 - API Testing
+    M24 - API Testing
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../s7_deployment/ml_deployment/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    M25 - ML deployment
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../s7_deployment/frontend/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    M26 - Frontend
+    
   </span>
   
 
@@ -1378,6 +1480,7 @@
     
     
     
+    
     <li class="md-nav__item md-nav__item--nested">
       
         
@@ -1385,13 +1488,14 @@
         <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_10" >
         
           
-          
           <div class="md-nav__link md-nav__container">
             <a href="../../s8_monitoring/" class="md-nav__link ">
               
   
+  
   <span class="md-ellipsis">
     S8 - Monitoring 📊
+    
   </span>
   
 
@@ -1423,8 +1527,10 @@
       <a href="../../s8_monitoring/data_drifting/" class="md-nav__link">
         
   
+  
   <span class="md-ellipsis">
-    M26 - Data Drifting
+    M27 - Data Drifting
+    
   </span>
   
 
@@ -1444,8 +1550,10 @@
       <a href="../../s8_monitoring/monitoring/" class="md-nav__link">
         
   
+  
   <span class="md-ellipsis">
-    M27 - System Monitoring
+    M28 - System Monitoring
+    
   </span>
   
 
@@ -1484,6 +1592,7 @@
     
     
     
+    
     <li class="md-nav__item md-nav__item--nested">
       
         
@@ -1491,13 +1600,14 @@
         <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_11" >
         
           
-          
           <div class="md-nav__link md-nav__container">
             <a href="../../s9_scalable_applications/" class="md-nav__link ">
               
   
+  
   <span class="md-ellipsis">
     S9 - Scalable applications ⚖️
+    
   </span>
   
 
@@ -1529,8 +1639,10 @@
       <a href="../../s9_scalable_applications/data_loading/" class="md-nav__link">
         
   
+  
   <span class="md-ellipsis">
-    M28 - Distributed Data Loading
+    M29 - Distributed Data Loading
+    
   </span>
   
 
@@ -1550,8 +1662,10 @@
       <a href="../../s9_scalable_applications/distributed_training/" class="md-nav__link">
         
   
+  
   <span class="md-ellipsis">
-    M29 - Distributed Training
+    M30 - Distributed Training
+    
   </span>
   
 
@@ -1571,8 +1685,10 @@
       <a href="../../s9_scalable_applications/inference/" class="md-nav__link">
         
   
+  
   <span class="md-ellipsis">
-    M30 - Scalable Inference
+    M31 - Scalable Inference
+    
   </span>
   
 
@@ -1608,10 +1724,7 @@
       
         
       
-        
-      
-        
-      
+    
     
     
     
@@ -1622,13 +1735,14 @@
         <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_12" >
         
           
-          
           <div class="md-nav__link md-nav__container">
             <a href="../../s10_extra/" class="md-nav__link ">
               
   
+  
   <span class="md-ellipsis">
     S10 - Extra 🔥
+    
   </span>
   
 
@@ -1660,8 +1774,10 @@
       <a href="../../s10_extra/documentation/" class="md-nav__link">
         
   
+  
   <span class="md-ellipsis">
-    M31 - Documentation
+    M32 - Documentation
+    
   </span>
   
 
@@ -1681,8 +1797,10 @@
       <a href="../../s10_extra/hyperparameters/" class="md-nav__link">
         
   
+  
   <span class="md-ellipsis">
-    M32 - Hyperparameter optimization
+    M33 - Hyperparameter optimization
+    
   </span>
   
 
@@ -1702,50 +1820,10 @@
       <a href="../../s10_extra/high_performance_clusters/" class="md-nav__link">
         
   
-  <span class="md-ellipsis">
-    M33 - High Performance Clusters
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../s10_extra/frontend/" class="md-nav__link">
-        
   
   <span class="md-ellipsis">
-    M34 - Frontend
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../s10_extra/ml_deployment/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    M35 - ML deployment
+    M34 - High Performance Clusters
+    
   </span>
   
 
@@ -1772,8 +1850,10 @@
       <a href="../../pages/overview/" class="md-nav__link">
         
   
+  
   <span class="md-ellipsis">
     Summary
+    
   </span>
   
 
@@ -1792,8 +1872,10 @@
       <a href="../../pages/projects/" class="md-nav__link">
         
   
+  
   <span class="md-ellipsis">
     Projects
+    
   </span>
   
 
@@ -1812,8 +1894,10 @@
       <a href="../../pages/faq/" class="md-nav__link">
         
   
+  
   <span class="md-ellipsis">
     FAQ
+    
   </span>
   
 
@@ -1904,6 +1988,7 @@
                 
                   
 
+
   
     <a href="https://github.com/SkafteNicki/dtu_mlops/edit/main/s1_development_environment/editor.md" title="Edit this page" class="md-content__button md-icon">
       
@@ -1927,12 +2012,10 @@
 <div class="admonition info">
 <p class="admonition-title">Core Module</p>
 </div>
-<p>Notebooks can be great for testing out ideas, developing simple code, and explaining and visualizing certain aspects
-of a codebase. Remember that <a href="https://jupyter.org/">Jupyter Notebook</a> was created to "...allows you
-to create and share documents that contain live code, equations, visualizations, and narrative text." However,
-any larger machine learning project will require you to work in multiple <code>.py</code> files, and here notebooks will provide
-a suboptimal workflow. Therefore, to truly get "work done," you will need a good editor/IDE.</p>
-<p>Many opinions exist on this matter, but for simplicity, we recommend getting started with one of the following 3:</p>
+<p>Notebooks are useful for prototyping, developing simple code, and explaining/visualizing aspects of a codebase. However,
+larger machine learning projects require working with multiple <code>.py</code> files, making notebooks a suboptimal workflow.
+Therefore, a good editor/IDE is essential for efficient development.</p>
+<p>Many opinions exist on this matter, but for simplicity, we recommend getting started with one of the following three:</p>
 <table>
 <thead>
 <tr>
@@ -1955,21 +2038,21 @@ a suboptimal workflow. Therefore, to truly get "work done," you will need a good
 <tr>
 <td>PyCharm</td>
 <td><a href="https://www.jetbrains.com/pycharm/">https://www.jetbrains.com/pycharm/</a></td>
-<td>An IDE for Python professionals. Will take a bit of time getting used to</td>
+<td>An IDE for Python professionals. Will take a bit of time to get used to</td>
 </tr>
 </tbody>
 </table>
-<p>We highly recommend Visual Studio (VS) Code if you do not already have an editor installed (or just want to try
-something new). We, therefore, put additional effort into explaining VS Code.</p>
-<p>Below, you see an overview of the VS Code interface</p>
+<p>We recommend Visual Studio (VS) Code if you don't have an editor installed or want to try something new. The following
+sections will focus on explaining VS Code.</p>
+<p>Below, you can see an overview of the VS Code interface.</p>
 <figure>
 <p><a class="glightbox" href="../../figures/vscode.PNG" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="Image" src="../../figures/vscode.PNG" width="700" /></a></p>
-<figcaption> <a href=" https://www.git-tower.com/learn/cheat-sheets/vscode/"> Image credit </a> </figcaption>
+<figcaption> <a href="https://www.git-tower.com/learn/cheat-sheets/vscode/"> Image credit </a> </figcaption>
 </figure>
 <p>The main components of VS Code are:</p>
 <ul>
 <li>
-<p>The action bar: VS Code is not an editor meant for a single language and can do many things. One of the core reasons
+<p>The action bar: VS Code is not an editor meant for any one language and can do many things. One of the core reasons
     that VS Code has become so popular is that custom plug-ins called <em>extensions</em> can be installed to add
     functionality to VS Code. It is in the action bar that you can navigate between these different applications
     when you have installed them.</p>
@@ -2006,16 +2089,14 @@ following exercises are just to get you started, but you can find many more tuto
 <a href="https://code.visualstudio.com/docs/python/python-tutorial">here</a>.</p>
 <ol>
 <li>
-<p>VS Code is a general editor for many languages, and to get proper <em>Python</em> support, we need to install some
-    extensions. In the <code>action bar</code>, go to the <code>extension</code> tab and search for <code>python</code> in the marketplace. From here,
-    we highly recommend installing the following packages:</p>
+<p>VS Code is a versatile editor that supports many languages. For Python development, install the following extensions:</p>
 <ul>
 <li><a href="https://marketplace.visualstudio.com/items?itemName=ms-python.python">Python</a>: general Python support for VS Code</li>
 <li><a href="https://marketplace.visualstudio.com/items?itemName=ms-python.vscode-pylance">Pylance</a>: language server for
     Python that provides better code completion and type-checking</li>
 <li><a href="https://marketplace.visualstudio.com/items?itemName=ms-toolsai.jupyter">Jupyter</a>: support for Jupyter notebooks
     directly in VS Code</li>
-<li><a href="https://marketplace.visualstudio.com/items?itemName=donjayamanne.python-environment-manager">Python Environment Manager</a>:
+<li><a href="https://marketplace.visualstudio.com/items?itemName=ms-python.vscode-python-envs">Python Environments</a>:
     allows for easy management of virtual environments</li>
 </ul>
 </li>
@@ -2028,11 +2109,10 @@ following exercises are just to get you started, but you can find many more tuto
 Click it and change the Python environment to the one you want to use.</p>
 </li>
 <li>
-<p>One of the most useful tools in VS Code is the ability to navigate the whole project using the built-in
-    <code>Explorer</code>. To take advantage of VS Code, you need to make sure what you are working on is a project.
-    Create a folder called <code>hello</code> (somewhere on your laptop) and open it in VS Code (Click <code>File</code> in the menu and then
-    select <code>Open Folder</code>). You should end up with a completely clean workspace (as shown below). Click the <code>New file</code>
-    button and create a file called <code>hello.py</code>.</p>
+<p>One of the most useful tools in VS Code is the built-in <code>Explorer</code>, which allows you to navigate the entire project.
+    To take advantage of VS Code, make sure that what you are working on is a project. Create a folder called <code>hello</code>
+    (somewhere on your laptop) and open it in VS Code (Click <code>File</code> -&gt; <code>Open Folder</code>). You should end up with a
+    completely clean workspace (as shown below). Click the <code>New file</code> button and create a file called <code>hello.py</code>.</p>
 <p><figure markdown>
 <a class="glightbox" href="../../figures/toolbar_new_file.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="Image" src="../../figures/toolbar_new_file.png" width="700" /></a>
 <figcaption> <a href="https://code.visualstudio.com/docs/python/python-tutorial"> Image credit </a> </figcaption>
@@ -2048,8 +2128,8 @@ Click it and change the Python environment to the one you want to use.</p>
 have chosen, and finally run your script. In addition to clicking the <code>run</code> button, you can also:</p>
 <ul>
 <li>Select some code and press <code>Shift+Enter</code> to run it in the terminal</li>
-<li>Select some code and right-click, choosing to run in an interactive window (where you can interact with the results
-    like in a Jupyter Notebook)</li>
+<li>Select some code and right-click, choosing to run it in an interactive window (where you can interact with the
+    results like in a Jupyter Notebook)</li>
 </ul>
 </li>
 </ol>
@@ -2076,38 +2156,38 @@ notebook to a <code>.py</code> script is as simple as:</p>
 scripts directly during the course to get experience with doing so, but <code>nbconvert</code> can be a fantastic tool to have
 in your toolbox.</p>
 <h2 id="ai-assistance">AI assistance</h2>
-<p>You are probably all familiar with using AI tools for solving different tasks in your daily life and you have most
+<p>You are probably all familiar with using AI tools for solving different tasks in your daily life, and you have most
 likely also used AI tools like ChatGPT or similar for programming. However, most of these tools are not directly
-integrated into your editor, which can lead to a lot of <a href="https://reclaim.ai/blog/context-switching">context-switching</a>
+integrated into your editor, which can lead to a lot of <a href="https://reclaim.ai/blog/context-switching">context switching</a>
 that in general leads to lower productivity.</p>
 <p>We are therefore in this section going to be looking at <a href="https://github.com/features/copilot">GitHub Copilot</a>, which is
 an AI tool that directly integrates into your editor, eliminating the need to switch between browser tabs or external
 tools. In addition, the strength of having AI directly in your editor is that it can provide suggestions based on the
-code you are currently writing and in general it just has access to a larger context than a standalone tool.</p>
+code you are currently writing and in general just has access to a larger context than a standalone tool.</p>
 <h3 id="exercises_1">❔ Exercises</h3>
 <ol>
 <li>
-<p>As of writing this GitHub Copilot is free for all students, teachers and maintainers of popular open-source projects.
-    As a student, sign up for the <a href="https://education.github.com/pack#offers">Student Developer Pack</a></p>
+<p>As of writing this, GitHub Copilot is free for all students, teachers and maintainers of popular open-source
+    projects. As a student, sign up for the <a href="https://education.github.com/pack#offers">Student Developer Pack</a>.</p>
 </li>
 <li>
 <p>Install the <a href="https://marketplace.visualstudio.com/items?itemName=GitHub.copilot">GitHub Copilot extension</a> in your
-    editor</p>
+    editor.</p>
 </li>
 <li>
 <p>GitHub Copilot has many different features, but the most important one is the ability to provide suggestions based
     on the code you are currently writing. Try to write some code in a new Python file and see if you can get some
     suggestions from GitHub Copilot on how to complete the code. If you have no idea what to try out here is a
     simple example of starting out coding a neural network in PyTorch:</p>
-<div class="language-python highlight"><pre><span></span><code><span id="__span-2-1"><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a><span class="kn">import</span> <span class="nn">torch</span>
-</span><span id="__span-2-2"><a id="__codelineno-2-2" name="__codelineno-2-2" href="#__codelineno-2-2"></a><span class="kn">from</span> <span class="nn">torch</span> <span class="kn">import</span> <span class="n">nn</span>
-</span><span id="__span-2-3"><a id="__codelineno-2-3" name="__codelineno-2-3" href="#__codelineno-2-3"></a><span class="k">class</span> <span class="nc">Net</span><span class="p">(</span><span class="n">nn</span><span class="o">.</span><span class="n">Module</span><span class="p">):</span>
+<div class="language-python highlight"><pre><span></span><code><span id="__span-2-1"><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a><span class="kn">import</span><span class="w"> </span><span class="nn">torch</span>
+</span><span id="__span-2-2"><a id="__codelineno-2-2" name="__codelineno-2-2" href="#__codelineno-2-2"></a><span class="kn">from</span><span class="w"> </span><span class="nn">torch</span><span class="w"> </span><span class="kn">import</span> <span class="n">nn</span>
+</span><span id="__span-2-3"><a id="__codelineno-2-3" name="__codelineno-2-3" href="#__codelineno-2-3"></a><span class="k">class</span><span class="w"> </span><span class="nc">Net</span><span class="p">(</span><span class="n">nn</span><span class="o">.</span><span class="n">Module</span><span class="p">):</span>
 </span></code></pre></div>
-<p>Github Copilot will most likely suggest you complete the code using linear layers with an input dimension of
+<p>GitHub Copilot will most likely suggest that you complete the code using linear layers with an input dimension of
 <code>28*28</code>. Can you explain why it suggests this and where this bias comes from?</p>
 </li>
 <li>
-<p>The second feature that can be very useful is the ability to directly chat or ask questions regarding
+<p>The second feature that can be very useful is the ability to directly chat or ask questions about
     your code. Try highlighting (in your code editor) the code from the previous exercise and press <code>Ctrl+i</code> which
     should open a chat window. Ask it to complete it with a convolutional neural network instead of a linear one.</p>
 <p><figure markdown>
@@ -2116,17 +2196,17 @@ code you are currently writing and in general it just has access to a larger con
 </li>
 <li>
 <p>Finally, let's try the built-in chat feature. You can get to this by clicking the <code>Chat</code> icon in the Activity bar and
-    begin to ask questions similar to how you would ask ChatGPT. However, we have also the option to provide context
-    either from the code editor or the terminal. Try saving the following code in a Python script <code>copilot.py</code>:</p>
-<div class="language-python highlight"><pre><span></span><code><span id="__span-3-1"><a id="__codelineno-3-1" name="__codelineno-3-1" href="#__codelineno-3-1"></a><span class="kn">import</span> <span class="nn">torch</span>
-</span><span id="__span-3-2"><a id="__codelineno-3-2" name="__codelineno-3-2" href="#__codelineno-3-2"></a><span class="kn">from</span> <span class="nn">torch</span> <span class="kn">import</span> <span class="n">nn</span>
-</span><span id="__span-3-3"><a id="__codelineno-3-3" name="__codelineno-3-3" href="#__codelineno-3-3"></a><span class="k">class</span> <span class="nc">Net</span><span class="p">(</span><span class="n">nn</span><span class="o">.</span><span class="n">Module</span><span class="p">):</span>
-</span><span id="__span-3-4"><a id="__codelineno-3-4" name="__codelineno-3-4" href="#__codelineno-3-4"></a>    <span class="k">def</span> <span class="fm">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+    begin to ask questions similar to how you would ask ChatGPT. However, we also have the option of providing context
+    either from the code editor or the terminal. Try saving the following code in a Python script called <code>copilot.py</code>:</p>
+<div class="language-python highlight"><pre><span></span><code><span id="__span-3-1"><a id="__codelineno-3-1" name="__codelineno-3-1" href="#__codelineno-3-1"></a><span class="kn">import</span><span class="w"> </span><span class="nn">torch</span>
+</span><span id="__span-3-2"><a id="__codelineno-3-2" name="__codelineno-3-2" href="#__codelineno-3-2"></a><span class="kn">from</span><span class="w"> </span><span class="nn">torch</span><span class="w"> </span><span class="kn">import</span> <span class="n">nn</span>
+</span><span id="__span-3-3"><a id="__codelineno-3-3" name="__codelineno-3-3" href="#__codelineno-3-3"></a><span class="k">class</span><span class="w"> </span><span class="nc">Net</span><span class="p">(</span><span class="n">nn</span><span class="o">.</span><span class="n">Module</span><span class="p">):</span>
+</span><span id="__span-3-4"><a id="__codelineno-3-4" name="__codelineno-3-4" href="#__codelineno-3-4"></a>    <span class="k">def</span><span class="w"> </span><span class="fm">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
 </span><span id="__span-3-5"><a id="__codelineno-3-5" name="__codelineno-3-5" href="#__codelineno-3-5"></a>        <span class="nb">super</span><span class="p">(</span><span class="n">Net</span><span class="p">,</span> <span class="bp">self</span><span class="p">)</span><span class="o">.</span><span class="fm">__init__</span><span class="p">()</span>
 </span><span id="__span-3-6"><a id="__codelineno-3-6" name="__codelineno-3-6" href="#__codelineno-3-6"></a>        <span class="bp">self</span><span class="o">.</span><span class="n">fc1</span> <span class="o">=</span> <span class="n">nn</span><span class="o">.</span><span class="n">Linear</span><span class="p">(</span><span class="mi">28</span><span class="o">*</span><span class="mi">28</span><span class="p">,</span> <span class="mi">128</span><span class="p">)</span>
 </span><span id="__span-3-7"><a id="__codelineno-3-7" name="__codelineno-3-7" href="#__codelineno-3-7"></a>        <span class="bp">self</span><span class="o">.</span><span class="n">fc2</span> <span class="o">=</span> <span class="n">nn</span><span class="o">.</span><span class="n">Linear</span><span class="p">(</span><span class="mi">128</span><span class="p">,</span> <span class="mi">64</span><span class="p">)</span>
 </span><span id="__span-3-8"><a id="__codelineno-3-8" name="__codelineno-3-8" href="#__codelineno-3-8"></a>        <span class="bp">self</span><span class="o">.</span><span class="n">fc3</span> <span class="o">=</span> <span class="n">nn</span><span class="o">.</span><span class="n">Linear</span><span class="p">(</span><span class="mi">64</span><span class="p">,</span> <span class="mi">10</span><span class="p">)</span>
-</span><span id="__span-3-9"><a id="__codelineno-3-9" name="__codelineno-3-9" href="#__codelineno-3-9"></a>    <span class="k">def</span> <span class="nf">forward</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">x</span><span class="p">):</span>
+</span><span id="__span-3-9"><a id="__codelineno-3-9" name="__codelineno-3-9" href="#__codelineno-3-9"></a>    <span class="k">def</span><span class="w"> </span><span class="nf">forward</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">x</span><span class="p">):</span>
 </span><span id="__span-3-10"><a id="__codelineno-3-10" name="__codelineno-3-10" href="#__codelineno-3-10"></a>        <span class="n">x</span> <span class="o">=</span> <span class="n">x</span><span class="o">.</span><span class="n">view</span><span class="p">(</span><span class="o">-</span><span class="mi">1</span><span class="p">,</span> <span class="mi">28</span><span class="o">*</span><span class="mi">28</span><span class="p">)</span>
 </span><span id="__span-3-11"><a id="__codelineno-3-11" name="__codelineno-3-11" href="#__codelineno-3-11"></a>        <span class="n">x</span> <span class="o">=</span> <span class="n">torch</span><span class="o">.</span><span class="n">relu</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">fc1</span><span class="p">(</span><span class="n">x</span><span class="p">))</span>
 </span><span id="__span-3-12"><a id="__codelineno-3-12" name="__codelineno-3-12" href="#__codelineno-3-12"></a>        <span class="n">x</span> <span class="o">=</span> <span class="n">torch</span><span class="o">.</span><span class="n">relu</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">fc2</span><span class="p">(</span><span class="n">x</span><span class="p">))</span>
@@ -2137,8 +2217,8 @@ code you are currently writing and in general it just has access to a larger con
 </span><span id="__span-3-17"><a id="__codelineno-3-17" name="__codelineno-3-17" href="#__codelineno-3-17"></a><span class="nb">print</span><span class="p">(</span><span class="n">model</span><span class="p">(</span><span class="n">torch</span><span class="o">.</span><span class="n">randn</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">14</span><span class="p">,</span> <span class="mi">14</span><span class="p">)))</span>
 </span></code></pre></div>
 <p>and run it in the terminal: <code>python copilot.py</code>. It will naturally give you an error, but you can now ask GitHub
-Copilot for help. The easiest way to do this is by highlighting the output in the terminal and then pressing running
-the <code>Github Copilot: Explain This (Terminal)</code> command (see the image below, use <code>Ctrl+Shift+P</code> to open the command
+Copilot for help. The easiest way to do this is by highlighting the output in the terminal and then running
+the <code>GitHub Copilot: Explain This (Terminal)</code> command (see the image below, use <code>Ctrl+Shift+P</code> to open the command
 palette and search for the command). Does the explanation make sense e.g. can you figure out what to change to get
 the code running?</p>
 <p><figure markdown>
@@ -2146,12 +2226,12 @@ the code running?</p>
 </figure></p>
 </li>
 <li>
-<p class="annotate">(Optional) Just to investigate the difference between using Github Copilot and ChatGPT, try to redo the previous
+<p class="annotate">(Optional) Just to investigate the difference between using GitHub Copilot and ChatGPT, try to redo the previous
     exercises using ChatGPT. What are the main differences between the two tools? (1)</p>
 <ol>
-<li><img alt="🙋‍♂️" class="twemoji" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@15.0.3/assets/svg/1f64b-200d-2642-fe0f.svg" title=":man_raising_hand:" /> Remember that ChatGPT is a general AI model, meaning that it was trained to be good at many
-    different tasks, whereas GitHub Copilot (which uses OpenAI's Codex model under the hood) was specifically
-    trained to be good at coding.</li>
+<li><img alt="🙋‍♂️" class="twemoji" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@15.1.0/assets/svg/1f64b-200d-2642-fe0f.svg" title=":man_raising_hand:" /> Remember that ChatGPT is a general AI model, meaning that it was trained to be good at many
+    tasks, whereas GitHub Copilot (which uses OpenAI's Codex model under the hood) was specifically trained to be
+    good at coding.</li>
 </ol>
 </li>
 </ol>
@@ -2181,7 +2261,7 @@ you are the one responsible for the code you write, not the AI tool.</p>
     <span class="md-icon" title="Last update">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 13.1c-.1 0-.3.1-.4.2l-1 1 2.1 2.1 1-1c.2-.2.2-.6 0-.8l-1.3-1.3c-.1-.1-.2-.2-.4-.2m-1.9 1.8-6.1 6V23h2.1l6.1-6.1zM12.5 7v5.2l4 2.4-1 1L11 13V7zM11 21.9c-5.1-.5-9-4.8-9-9.9C2 6.5 6.5 2 12 2c5.3 0 9.6 4.1 10 9.3-.3-.1-.6-.2-1-.2s-.7.1-1 .2C19.6 7.2 16.2 4 12 4c-4.4 0-8 3.6-8 8 0 4.1 3.1 7.5 7.1 7.9l-.1.2z"/></svg>
     </span>
-    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">July 1, 2024</span>
+    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date" title="April 2, 2025 09:14:20">April 2, 2025</span>
   </span>
 
     
@@ -2191,7 +2271,7 @@ you are the one responsible for the code you write, not the AI tool.</p>
     <span class="md-icon" title="Created">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M14.47 15.08 11 13V7h1.5v5.25l3.08 1.83c-.41.28-.79.62-1.11 1m-1.39 4.84c-.36.05-.71.08-1.08.08-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8c0 .37-.03.72-.08 1.08.69.1 1.33.32 1.92.64.1-.56.16-1.13.16-1.72 0-5.5-4.5-10-10-10S2 6.5 2 12s4.47 10 10 10c.59 0 1.16-.06 1.72-.16-.32-.59-.54-1.23-.64-1.92M18 15v3h-3v2h3v3h2v-3h3v-2h-3v-3z"/></svg>
     </span>
-    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">August 30, 2021</span>
+    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date" title="August 30, 2021 12:18:38">August 30, 2021</span>
   </span>
 
     
@@ -2289,7 +2369,7 @@ you are the one responsible for the code you write, not the AI tool.</p>
       
     
     <a href="https://github.com/SkafteNicki" target="_blank" rel="noopener" title="github.com" class="md-social__link">
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><!--! Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6m-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3m44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9M244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8M97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1m-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7m32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1m-11.4-14.7c-1.6 1-1.6 3.6 0 5.9s4.3 3.3 5.6 2.3c1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2"/></svg>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><!--! Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6m-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3m44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9M244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8M97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1m-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7m32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1m-11.4-14.7c-1.6 1-1.6 3.6 0 5.9s4.3 3.3 5.6 2.3c1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2"/></svg>
     </a>
   
     
@@ -2300,7 +2380,7 @@ you are the one responsible for the code you write, not the AI tool.</p>
       
     
     <a href="https://www.linkedin.com/in/nicki-skafte-detlefsen/" target="_blank" rel="noopener" title="www.linkedin.com" class="md-social__link">
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3M135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5m282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9z"/></svg>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3M135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5m282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9z"/></svg>
     </a>
   
 </div>
@@ -2315,10 +2395,14 @@ you are the one responsible for the code you write, not the AI tool.</p>
     </div>
     
     
-    <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.instant", "navigation.indexes", "navigation.footer", "content.code.copy", "content.code.annotate", "content.action.edit", "content.action.view", "search.suggest", "search.highlight"], "search": "../../assets/javascripts/workers/search.07f07601.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    
+      
+      <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.instant", "navigation.indexes", "navigation.footer", "content.code.copy", "content.code.annotate", "content.action.edit", "content.action.view", "search.suggest", "search.highlight"], "search": "../../assets/javascripts/workers/search.f8cc74c7.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
     
     
-      <script src="../../assets/javascripts/bundle.56dfad97.min.js"></script>
+      <script src="../../assets/javascripts/bundle.c8b220af.min.js"></script>
+      
+        <script src="../../assets/_markdown_exec_pyodide.js"></script>
       
     
   <script id="init-glightbox">const lightbox = GLightbox({"touchNavigation": true, "loop": false, "zoomable": true, "draggable": true, "openEffect": "zoom", "closeEffect": "zoom", "slideEffect": "slide"});

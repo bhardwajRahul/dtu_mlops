@@ -16,7 +16,7 @@
       
       
       <link rel="icon" href="../../figures/favicon.png">
-      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.5.34">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.12">
     
     
       
@@ -24,7 +24,7 @@
       
     
     
-      <link rel="stylesheet" href="../../assets/stylesheets/main.35f28582.min.css">
+      <link rel="stylesheet" href="../../assets/stylesheets/main.2afb09e1.min.css">
       
         
         <link rel="stylesheet" href="../../assets/stylesheets/palette.06af60db.min.css">
@@ -45,6 +45,10 @@
         <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
       
     
+    
+      <link rel="stylesheet" href="../../assets/_markdown_exec_pyodide.css">
+    
+      <link rel="stylesheet" href="../../assets/_markdown_exec_ansi.css">
     
     <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
@@ -154,11 +158,13 @@
     
     
     
-      <label class="md-header__button md-icon" for="__search">
-        
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
-      </label>
-      <div class="md-search" data-md-component="search" role="dialog">
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
   <label class="md-search__overlay" for="__search"></label>
   <div class="md-search__inner" role="search">
     <form class="md-search__form" name="search">
@@ -192,13 +198,14 @@
     </div>
   </div>
 </div>
+      
     
     
       <div class="md-header__source">
         <a href="https://github.com/SkafteNicki/dtu_mlops" title="Go to repository" class="md-source" data-md-component="source">
   <div class="md-source__icon md-icon">
     
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><!--! Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6m-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3m44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9M244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8M97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1m-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7m32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1m-11.4-14.7c-1.6 1-1.6 3.6 0 5.9s4.3 3.3 5.6 2.3c1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2"/></svg>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><!--! Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6m-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3m44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9M244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8M97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1m-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7m32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1m-11.4-14.7c-1.6 1-1.6 3.6 0 5.9s4.3 3.3 5.6 2.3c1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2"/></svg>
   </div>
   <div class="md-source__repository">
     GitHub
@@ -243,7 +250,7 @@
       <a href="https://github.com/SkafteNicki/dtu_mlops" title="Go to repository" class="md-source" data-md-component="source">
   <div class="md-source__icon md-icon">
     
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><!--! Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6m-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3m44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9M244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8M97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1m-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7m32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1m-11.4-14.7c-1.6 1-1.6 3.6 0 5.9s4.3 3.3 5.6 2.3c1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2"/></svg>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><!--! Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6m-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3m44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9M244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8M97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1m-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7m32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1m-11.4-14.7c-1.6 1-1.6 3.6 0 5.9s4.3 3.3 5.6 2.3c1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2"/></svg>
   </div>
   <div class="md-source__repository">
     GitHub
@@ -263,8 +270,10 @@
       <a href="../.." class="md-nav__link">
         
   
+  
   <span class="md-ellipsis">
     Home
+    
   </span>
   
 
@@ -283,8 +292,10 @@
       <a href="../../pages/timeplan/" class="md-nav__link">
         
   
+  
   <span class="md-ellipsis">
-    Timeplan
+    Time plan
+    
   </span>
   
 
@@ -317,6 +328,7 @@
     
     
     
+    
     <li class="md-nav__item md-nav__item--nested">
       
         
@@ -324,13 +336,14 @@
         <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
         
           
-          
           <div class="md-nav__link md-nav__container">
             <a href="../../s1_development_environment/" class="md-nav__link ">
               
   
+  
   <span class="md-ellipsis">
     S1 - Development Environment 💻
+    
   </span>
   
 
@@ -362,8 +375,10 @@
       <a href="../../s1_development_environment/command_line/" class="md-nav__link">
         
   
+  
   <span class="md-ellipsis">
     M1 - The command line
+    
   </span>
   
 
@@ -383,8 +398,10 @@
       <a href="../../s1_development_environment/package_manager/" class="md-nav__link">
         
   
+  
   <span class="md-ellipsis">
     M2 - Package Manager
+    
   </span>
   
 
@@ -404,8 +421,10 @@
       <a href="../../s1_development_environment/editor/" class="md-nav__link">
         
   
+  
   <span class="md-ellipsis">
     M3 - Editor
+    
   </span>
   
 
@@ -425,8 +444,10 @@
       <a href="../../s1_development_environment/deep_learning_software/" class="md-nav__link">
         
   
+  
   <span class="md-ellipsis">
     M4 - Deep Learning Software
+    
   </span>
   
 
@@ -469,6 +490,7 @@
     
     
     
+    
     <li class="md-nav__item md-nav__item--nested">
       
         
@@ -476,13 +498,14 @@
         <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" >
         
           
-          
           <div class="md-nav__link md-nav__container">
             <a href="../../s2_organisation_and_version_control/" class="md-nav__link ">
               
   
+  
   <span class="md-ellipsis">
     S2 - Organisation and Version Control 📁
+    
   </span>
   
 
@@ -514,8 +537,10 @@
       <a href="../../s2_organisation_and_version_control/git/" class="md-nav__link">
         
   
+  
   <span class="md-ellipsis">
     M5 - Git
+    
   </span>
   
 
@@ -535,8 +560,10 @@
       <a href="../../s2_organisation_and_version_control/code_structure/" class="md-nav__link">
         
   
+  
   <span class="md-ellipsis">
     M6 - Code structure
+    
   </span>
   
 
@@ -556,8 +583,10 @@
       <a href="../../s2_organisation_and_version_control/good_coding_practice/" class="md-nav__link">
         
   
+  
   <span class="md-ellipsis">
     M7 - Good coding practice
+    
   </span>
   
 
@@ -577,8 +606,10 @@
       <a href="../../s2_organisation_and_version_control/dvc/" class="md-nav__link">
         
   
+  
   <span class="md-ellipsis">
     M8 - Data version control
+    
   </span>
   
 
@@ -598,8 +629,10 @@
       <a href="../../s2_organisation_and_version_control/cli/" class="md-nav__link">
         
   
+  
   <span class="md-ellipsis">
     M9 - Command Line Interfaces
+    
   </span>
   
 
@@ -636,6 +669,7 @@
     
     
     
+    
     <li class="md-nav__item md-nav__item--nested">
       
         
@@ -643,13 +677,14 @@
         <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" >
         
           
-          
           <div class="md-nav__link md-nav__container">
             <a href="../../s3_reproducibility/" class="md-nav__link ">
               
   
+  
   <span class="md-ellipsis">
-    S3 - Reproduceability ♻️
+    S3 - Reproducibility ♻️
+    
   </span>
   
 
@@ -665,7 +700,7 @@
         <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_5">
             <span class="md-nav__icon md-icon"></span>
-            S3 - Reproduceability ♻️
+            S3 - Reproducibility ♻️
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
             
@@ -681,8 +716,10 @@
       <a href="../../s3_reproducibility/docker/" class="md-nav__link">
         
   
+  
   <span class="md-ellipsis">
     M10 - Docker
+    
   </span>
   
 
@@ -702,8 +739,10 @@
       <a href="../../s3_reproducibility/config_files/" class="md-nav__link">
         
   
+  
   <span class="md-ellipsis">
     M11 - Config Files
+    
   </span>
   
 
@@ -744,6 +783,7 @@
     
     
     
+    
     <li class="md-nav__item md-nav__item--nested">
       
         
@@ -751,13 +791,14 @@
         <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6" >
         
           
-          
           <div class="md-nav__link md-nav__container">
             <a href="../../s4_debugging_and_logging/" class="md-nav__link ">
               
   
+  
   <span class="md-ellipsis">
     S4 - Debugging, Profiling and Logging ⏱️
+    
   </span>
   
 
@@ -789,8 +830,10 @@
       <a href="../../s4_debugging_and_logging/debugging/" class="md-nav__link">
         
   
+  
   <span class="md-ellipsis">
     M12 - Debugging
+    
   </span>
   
 
@@ -810,8 +853,10 @@
       <a href="../../s4_debugging_and_logging/profiling/" class="md-nav__link">
         
   
+  
   <span class="md-ellipsis">
     M13 - Profiling
+    
   </span>
   
 
@@ -831,8 +876,10 @@
       <a href="../../s4_debugging_and_logging/logging/" class="md-nav__link">
         
   
+  
   <span class="md-ellipsis">
     M14 - Logging
+    
   </span>
   
 
@@ -852,8 +899,10 @@
       <a href="../../s4_debugging_and_logging/boilerplate/" class="md-nav__link">
         
   
+  
   <span class="md-ellipsis">
     M15 - Boilerplate
+    
   </span>
   
 
@@ -896,6 +945,7 @@
     
     
     
+    
     <li class="md-nav__item md-nav__item--active md-nav__item--nested">
       
         
@@ -903,13 +953,14 @@
         <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_7" checked>
         
           
-          
           <div class="md-nav__link md-nav__container">
             <a href="../" class="md-nav__link ">
               
   
+  
   <span class="md-ellipsis">
     S5 - Continuous Integration ✔️
+    
   </span>
   
 
@@ -950,8 +1001,10 @@
         <label class="md-nav__link md-nav__link--active" for="__toc">
           
   
+  
   <span class="md-ellipsis">
     M16 - Unit testing
+    
   </span>
   
 
@@ -961,8 +1014,10 @@
       <a href="./" class="md-nav__link md-nav__link--active">
         
   
+  
   <span class="md-ellipsis">
     M16 - Unit testing
+    
   </span>
   
 
@@ -1035,8 +1090,10 @@
       <a href="../github_actions/" class="md-nav__link">
         
   
+  
   <span class="md-ellipsis">
-    M17 - Github Actions
+    M17 - GitHub Actions
+    
   </span>
   
 
@@ -1056,8 +1113,10 @@
       <a href="../pre_commit/" class="md-nav__link">
         
   
+  
   <span class="md-ellipsis">
     M18 - Pre-commit
+    
   </span>
   
 
@@ -1077,8 +1136,10 @@
       <a href="../cml/" class="md-nav__link">
         
   
+  
   <span class="md-ellipsis">
     M19 - Continuous Machine Learning
+    
   </span>
   
 
@@ -1115,6 +1176,7 @@
     
     
     
+    
     <li class="md-nav__item md-nav__item--nested">
       
         
@@ -1122,13 +1184,14 @@
         <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_8" >
         
           
-          
           <div class="md-nav__link md-nav__container">
             <a href="../../s6_the_cloud/" class="md-nav__link ">
               
   
+  
   <span class="md-ellipsis">
     S6 - The cloud 🌐
+    
   </span>
   
 
@@ -1160,8 +1223,10 @@
       <a href="../../s6_the_cloud/cloud_setup/" class="md-nav__link">
         
   
+  
   <span class="md-ellipsis">
     M20 - Cloud Setup
+    
   </span>
   
 
@@ -1181,8 +1246,10 @@
       <a href="../../s6_the_cloud/using_the_cloud/" class="md-nav__link">
         
   
+  
   <span class="md-ellipsis">
     M21 - Using the Cloud
+    
   </span>
   
 
@@ -1220,6 +1287,9 @@
       
         
       
+        
+      
+    
     
     
     
@@ -1230,13 +1300,14 @@
         <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_9" >
         
           
-          
           <div class="md-nav__link md-nav__container">
             <a href="../../s7_deployment/" class="md-nav__link ">
               
   
+  
   <span class="md-ellipsis">
     S7 - Deployment 📦
+    
   </span>
   
 
@@ -1268,29 +1339,10 @@
       <a href="../../s7_deployment/apis/" class="md-nav__link">
         
   
+  
   <span class="md-ellipsis">
     M22 - Requests and APIs
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../s7_deployment/local_deployment/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    M23 - Local Deployment
+    
   </span>
   
 
@@ -1310,8 +1362,10 @@
       <a href="../../s7_deployment/cloud_deployment/" class="md-nav__link">
         
   
+  
   <span class="md-ellipsis">
-    M24 - Cloud Deployment
+    M23 - Cloud Deployment
+    
   </span>
   
 
@@ -1331,8 +1385,56 @@
       <a href="../../s7_deployment/testing_apis/" class="md-nav__link">
         
   
+  
   <span class="md-ellipsis">
-    M25 - API Testing
+    M24 - API Testing
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../s7_deployment/ml_deployment/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    M25 - ML deployment
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../s7_deployment/frontend/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    M26 - Frontend
+    
   </span>
   
 
@@ -1369,6 +1471,7 @@
     
     
     
+    
     <li class="md-nav__item md-nav__item--nested">
       
         
@@ -1376,13 +1479,14 @@
         <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_10" >
         
           
-          
           <div class="md-nav__link md-nav__container">
             <a href="../../s8_monitoring/" class="md-nav__link ">
               
   
+  
   <span class="md-ellipsis">
     S8 - Monitoring 📊
+    
   </span>
   
 
@@ -1414,8 +1518,10 @@
       <a href="../../s8_monitoring/data_drifting/" class="md-nav__link">
         
   
+  
   <span class="md-ellipsis">
-    M26 - Data Drifting
+    M27 - Data Drifting
+    
   </span>
   
 
@@ -1435,8 +1541,10 @@
       <a href="../../s8_monitoring/monitoring/" class="md-nav__link">
         
   
+  
   <span class="md-ellipsis">
-    M27 - System Monitoring
+    M28 - System Monitoring
+    
   </span>
   
 
@@ -1475,6 +1583,7 @@
     
     
     
+    
     <li class="md-nav__item md-nav__item--nested">
       
         
@@ -1482,13 +1591,14 @@
         <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_11" >
         
           
-          
           <div class="md-nav__link md-nav__container">
             <a href="../../s9_scalable_applications/" class="md-nav__link ">
               
   
+  
   <span class="md-ellipsis">
     S9 - Scalable applications ⚖️
+    
   </span>
   
 
@@ -1520,8 +1630,10 @@
       <a href="../../s9_scalable_applications/data_loading/" class="md-nav__link">
         
   
+  
   <span class="md-ellipsis">
-    M28 - Distributed Data Loading
+    M29 - Distributed Data Loading
+    
   </span>
   
 
@@ -1541,8 +1653,10 @@
       <a href="../../s9_scalable_applications/distributed_training/" class="md-nav__link">
         
   
+  
   <span class="md-ellipsis">
-    M29 - Distributed Training
+    M30 - Distributed Training
+    
   </span>
   
 
@@ -1562,8 +1676,10 @@
       <a href="../../s9_scalable_applications/inference/" class="md-nav__link">
         
   
+  
   <span class="md-ellipsis">
-    M30 - Scalable Inference
+    M31 - Scalable Inference
+    
   </span>
   
 
@@ -1599,10 +1715,7 @@
       
         
       
-        
-      
-        
-      
+    
     
     
     
@@ -1613,13 +1726,14 @@
         <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_12" >
         
           
-          
           <div class="md-nav__link md-nav__container">
             <a href="../../s10_extra/" class="md-nav__link ">
               
   
+  
   <span class="md-ellipsis">
     S10 - Extra 🔥
+    
   </span>
   
 
@@ -1651,8 +1765,10 @@
       <a href="../../s10_extra/documentation/" class="md-nav__link">
         
   
+  
   <span class="md-ellipsis">
-    M31 - Documentation
+    M32 - Documentation
+    
   </span>
   
 
@@ -1672,8 +1788,10 @@
       <a href="../../s10_extra/hyperparameters/" class="md-nav__link">
         
   
+  
   <span class="md-ellipsis">
-    M32 - Hyperparameter optimization
+    M33 - Hyperparameter optimization
+    
   </span>
   
 
@@ -1693,50 +1811,10 @@
       <a href="../../s10_extra/high_performance_clusters/" class="md-nav__link">
         
   
-  <span class="md-ellipsis">
-    M33 - High Performance Clusters
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../s10_extra/frontend/" class="md-nav__link">
-        
   
   <span class="md-ellipsis">
-    M34 - Frontend
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../s10_extra/ml_deployment/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    M35 - ML deployment
+    M34 - High Performance Clusters
+    
   </span>
   
 
@@ -1763,8 +1841,10 @@
       <a href="../../pages/overview/" class="md-nav__link">
         
   
+  
   <span class="md-ellipsis">
     Summary
+    
   </span>
   
 
@@ -1783,8 +1863,10 @@
       <a href="../../pages/projects/" class="md-nav__link">
         
   
+  
   <span class="md-ellipsis">
     Projects
+    
   </span>
   
 
@@ -1803,8 +1885,10 @@
       <a href="../../pages/faq/" class="md-nav__link">
         
   
+  
   <span class="md-ellipsis">
     FAQ
+    
   </span>
   
 
@@ -1886,6 +1970,7 @@
                 
                   
 
+
   
     <a href="https://github.com/SkafteNicki/dtu_mlops/edit/main/s5_continuous_integration/unittesting.md" title="Edit this page" class="md-content__button md-icon">
       
@@ -1909,12 +1994,12 @@
 <div class="admonition info">
 <p class="admonition-title">Core Module</p>
 </div>
-<p>What often comes to mind for many developers, when discussing continuous integration (CI) is code testing.
+<p>What often comes to mind for many developers when discussing continuous integration (CI) is code testing.
 Continuous integration should ensure that whenever a codebase is updated it is automatically tested such that if bugs
-have been introduced in the codebase it will be caught early on. If you look at the
+have been introduced in the codebase they will be caught early on. If you look at the
 <a href="../../figures/mlops-loop-en.jpg">MLOps cycle</a>, continuous integration is one of the cornerstones of the operations part.
-However, it should be noted that applying continuous integration does not magically secure that your code does not
-break. Continuous integration is only as strong as the tests that are automatically executed.
+However, it should be noted that applying continuous integration does not magically ensure that your code does not
+crash. Continuous integration is only as strong as the tests that are automatically executed.
 Continuous integration simply structures and automates this.</p>
 <div class="admonition quote">
 <p class="admonition-title">Quote</p>
@@ -1928,16 +2013,16 @@ Martin Fowler, Chief Scientist, ThoughtWorks</p>
 <a href="https://devhumor.com/media/tests-won-t-fail-if-you-don-t-write-tests"> Image credit </a>
 </figcaption>
 </figure>
-<p>The kind of tests we are going to look at are called <a href="https://en.wikipedia.org/wiki/Unit_testing">unit testing</a>. Unit
-testing refers to the practice of writing test that tests individual parts of your code base to test for correctness. By
+<p>The kind of tests we are going to look at are called <a href="https://en.wikipedia.org/wiki/Unit_testing">unit tests</a>. Unit
+testing refers to the practice of writing tests that test individual parts of your code base to test for correctness. By
 unit, you can therefore think of a function, module or in general any object. By writing tests in this way it should be
 very easy to isolate which part of the code broke after an update to the code base. Another way to test your code
 base would be through <a href="https://en.wikipedia.org/wiki/Integration_testing">integration testing</a> which is equally
 important but we are not going to focus on it in this course.</p>
 <p>Unit tests (and integration tests) are not a unique concept to MLOps but are a core concept of DevOps. However, it is
 important to note that testing machine learning-based systems is much more difficult than traditional systems. The
-reason for this is that machine learning systems depend on <em>data</em>, that influences the state of our system. For this
-reason, we not only need unit tests and integration tests of our code we also need data testing, infrastructure testing
+reason for this is that machine learning systems depend on <em>data</em> that influences the state of our system. For this
+reason, we not only need unit tests and integration tests of our code but also need data testing, infrastructure testing
 and more monitoring to check that we stay within the data distribution we are training on (more on this in
 <a href="../../s8_monitoring/data_drifting/">module M25 on data drifting</a>). This added complexity is illustrated in the figure
 below.</p>
@@ -1958,7 +2043,7 @@ different libraries for writing tests. We are going to use <code>pytest</code>.<
 </li>
 <li>
 <p>Read the <a href="https://docs.pytest.org/en/6.2.x/getting-started.html">getting started guide</a> for pytest
-    which is the testing framework that we are going to use</p>
+    which is the testing framework that we are going to use.</p>
 </li>
 <li>
 <p>Install pytest:</p>
@@ -1968,50 +2053,50 @@ different libraries for writing tests. We are going to use <code>pytest</code>.<
 <li>
 <p>Write some tests. Below are some guidelines on some tests that should be implemented, but
     you are of course free to implement more tests. You can at any point check if your tests are
-    passing by typing in a terminal</p>
+    passing by typing in a terminal:</p>
 <div class="language-bash highlight"><pre><span></span><code><span id="__span-1-1"><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a>pytest<span class="w"> </span>tests/
 </span></code></pre></div>
 <p>When you implement a test you need to follow two standards, for <code>pytest</code> to be able to find your tests. First, any
 files created (except <code>__init__.py</code>) should always start with <code>test_*.py</code>. Secondly, any test implemented needs to
 be wrapped into a function that again needs to start with <code>test_*</code>:</p>
 <div class="language-python highlight"><pre><span></span><code><span id="__span-2-1"><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a><span class="c1"># this will be found and executed by pytest</span>
-</span><span id="__span-2-2"><a id="__codelineno-2-2" name="__codelineno-2-2" href="#__codelineno-2-2"></a><span class="k">def</span> <span class="nf">test_something</span><span class="p">():</span>
+</span><span id="__span-2-2"><a id="__codelineno-2-2" name="__codelineno-2-2" href="#__codelineno-2-2"></a><span class="k">def</span><span class="w"> </span><span class="nf">test_something</span><span class="p">():</span>
 </span><span id="__span-2-3"><a id="__codelineno-2-3" name="__codelineno-2-3" href="#__codelineno-2-3"></a>    <span class="o">...</span>
 </span><span id="__span-2-4"><a id="__codelineno-2-4" name="__codelineno-2-4" href="#__codelineno-2-4"></a>
 </span><span id="__span-2-5"><a id="__codelineno-2-5" name="__codelineno-2-5" href="#__codelineno-2-5"></a><span class="c1"># this will not be found and executed by pytest</span>
-</span><span id="__span-2-6"><a id="__codelineno-2-6" name="__codelineno-2-6" href="#__codelineno-2-6"></a><span class="k">def</span> <span class="nf">something_to_test</span><span class="p">():</span>
+</span><span id="__span-2-6"><a id="__codelineno-2-6" name="__codelineno-2-6" href="#__codelineno-2-6"></a><span class="k">def</span><span class="w"> </span><span class="nf">something_to_test</span><span class="p">():</span>
 </span><span id="__span-2-7"><a id="__codelineno-2-7" name="__codelineno-2-7" href="#__codelineno-2-7"></a>    <span class="o">...</span>
 </span></code></pre></div>
 <ol>
 <li>
 <p>Start by creating a <code>tests/__init__.py</code> file and fill in the following:</p>
-<div class="language-python highlight"><pre><span></span><code><span id="__span-3-1"><a id="__codelineno-3-1" name="__codelineno-3-1" href="#__codelineno-3-1"></a><span class="kn">import</span> <span class="nn">os</span>
+<div class="language-python highlight"><pre><span></span><code><span id="__span-3-1"><a id="__codelineno-3-1" name="__codelineno-3-1" href="#__codelineno-3-1"></a><span class="kn">import</span><span class="w"> </span><span class="nn">os</span>
 </span><span id="__span-3-2"><a id="__codelineno-3-2" name="__codelineno-3-2" href="#__codelineno-3-2"></a><span class="n">_TEST_ROOT</span> <span class="o">=</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">dirname</span><span class="p">(</span><span class="vm">__file__</span><span class="p">)</span>  <span class="c1"># root of test folder</span>
 </span><span id="__span-3-3"><a id="__codelineno-3-3" name="__codelineno-3-3" href="#__codelineno-3-3"></a><span class="n">_PROJECT_ROOT</span> <span class="o">=</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">dirname</span><span class="p">(</span><span class="n">_TEST_ROOT</span><span class="p">)</span>  <span class="c1"># root of project</span>
 </span><span id="__span-3-4"><a id="__codelineno-3-4" name="__codelineno-3-4" href="#__codelineno-3-4"></a><span class="n">_PATH_DATA</span> <span class="o">=</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">_PROJECT_ROOT</span><span class="p">,</span> <span class="s2">&quot;data&quot;</span><span class="p">)</span>  <span class="c1"># root of data</span>
 </span></code></pre></div>
-<p>these can help you refer to your data files during testing. For example, in another test file, I could write</p>
-<div class="language-python highlight"><pre><span></span><code><span id="__span-4-1"><a id="__codelineno-4-1" name="__codelineno-4-1" href="#__codelineno-4-1"></a><span class="kn">from</span> <span class="nn">tests</span> <span class="kn">import</span> <span class="n">_PATH_DATA</span>
+<p>These can help you refer to your data files during testing. For example, in another test file, I could write</p>
+<div class="language-python highlight"><pre><span></span><code><span id="__span-4-1"><a id="__codelineno-4-1" name="__codelineno-4-1" href="#__codelineno-4-1"></a><span class="kn">from</span><span class="w"> </span><span class="nn">tests</span><span class="w"> </span><span class="kn">import</span> <span class="n">_PATH_DATA</span>
 </span></code></pre></div>
 <p>which then contains the root path to my data.</p>
 </li>
 <li>
 <p>Data testing: In a file called <code>tests/test_data.py</code> implement at least a test that checks that data gets
     correctly loaded. By this, we mean that you should check</p>
-<div class="language-python highlight"><pre><span></span><code><span id="__span-5-1"><a id="__codelineno-5-1" name="__codelineno-5-1" href="#__codelineno-5-1"></a><span class="k">def</span> <span class="nf">test_data</span><span class="p">():</span>
+<div class="language-python highlight"><pre><span></span><code><span id="__span-5-1"><a id="__codelineno-5-1" name="__codelineno-5-1" href="#__codelineno-5-1"></a><span class="k">def</span><span class="w"> </span><span class="nf">test_data</span><span class="p">():</span>
 </span><span id="__span-5-2"><a id="__codelineno-5-2" name="__codelineno-5-2" href="#__codelineno-5-2"></a>    <span class="n">dataset</span> <span class="o">=</span> <span class="n">MNIST</span><span class="p">(</span><span class="o">...</span><span class="p">)</span>
 </span><span id="__span-5-3"><a id="__codelineno-5-3" name="__codelineno-5-3" href="#__codelineno-5-3"></a>    <span class="k">assert</span> <span class="nb">len</span><span class="p">(</span><span class="n">dataset</span><span class="p">)</span> <span class="o">==</span> <span class="n">N_train</span> <span class="k">for</span> <span class="n">training</span> <span class="ow">and</span> <span class="n">N_test</span> <span class="k">for</span> <span class="n">test</span>
 </span><span id="__span-5-4"><a id="__codelineno-5-4" name="__codelineno-5-4" href="#__codelineno-5-4"></a>    <span class="k">assert</span> <span class="n">that</span> <span class="n">each</span> <span class="n">datapoint</span> <span class="n">has</span> <span class="n">shape</span> <span class="p">[</span><span class="mi">1</span><span class="p">,</span><span class="mi">28</span><span class="p">,</span><span class="mi">28</span><span class="p">]</span> <span class="ow">or</span> <span class="p">[</span><span class="mi">784</span><span class="p">]</span> <span class="n">depending</span> <span class="n">on</span> <span class="n">how</span> <span class="n">you</span> <span class="n">choose</span> <span class="n">to</span> <span class="nb">format</span>
 </span><span id="__span-5-5"><a id="__codelineno-5-5" name="__codelineno-5-5" href="#__codelineno-5-5"></a>    <span class="k">assert</span> <span class="n">that</span> <span class="nb">all</span> <span class="n">labels</span> <span class="n">are</span> <span class="n">represented</span>
 </span></code></pre></div>
-<p>where <code>N_train</code> should be either 30.000 or 50.000 depending on if you are just the first
+<p>where <code>N_train</code> should be either 30,000 or 50,000 depending on if you are just using the first
 subset of the corrupted MNIST data or also including the second subset. <code>N_test</code> should
-be 5000.</p>
+be 5,000.</p>
 <details class="success">
 <summary>Solution</summary>
-<div class="language-python highlight"><pre><span></span><code><span id="__span-6-1"><a id="__codelineno-6-1" name="__codelineno-6-1" href="#__codelineno-6-1"></a><span class="kn">from</span> <span class="nn">my_project.data</span> <span class="kn">import</span> <span class="n">corrupt_mnist</span>
+<div class="language-python highlight"><pre><span></span><code><span id="__span-6-1"><a id="__codelineno-6-1" name="__codelineno-6-1" href="#__codelineno-6-1"></a><span class="kn">from</span><span class="w"> </span><span class="nn">my_project.data</span><span class="w"> </span><span class="kn">import</span> <span class="n">corrupt_mnist</span>
 </span><span id="__span-6-2"><a id="__codelineno-6-2" name="__codelineno-6-2" href="#__codelineno-6-2"></a>
-</span><span id="__span-6-3"><a id="__codelineno-6-3" name="__codelineno-6-3" href="#__codelineno-6-3"></a><span class="k">def</span> <span class="nf">test_data</span><span class="p">():</span>
+</span><span id="__span-6-3"><a id="__codelineno-6-3" name="__codelineno-6-3" href="#__codelineno-6-3"></a><span class="k">def</span><span class="w"> </span><span class="nf">test_data</span><span class="p">():</span>
 </span><span id="__span-6-4"><a id="__codelineno-6-4" name="__codelineno-6-4" href="#__codelineno-6-4"></a>    <span class="n">train</span><span class="p">,</span> <span class="n">test</span> <span class="o">=</span> <span class="n">corrupt_mnist</span><span class="p">()</span>
 </span><span id="__span-6-5"><a id="__codelineno-6-5" name="__codelineno-6-5" href="#__codelineno-6-5"></a>    <span class="k">assert</span> <span class="nb">len</span><span class="p">(</span><span class="n">train</span><span class="p">)</span> <span class="o">==</span> <span class="mi">30000</span>
 </span><span id="__span-6-6"><a id="__codelineno-6-6" name="__codelineno-6-6" href="#__codelineno-6-6"></a>    <span class="k">assert</span> <span class="nb">len</span><span class="p">(</span><span class="n">test</span><span class="p">)</span> <span class="o">==</span> <span class="mi">5000</span>
@@ -2031,9 +2116,9 @@ be 5000.</p>
     with shape <em>X</em> that the output of the model has shape <em>Y</em>.</p>
 <details class="success">
 <summary>Solution</summary>
-<div class="language-python highlight"><pre><span></span><code><span id="__span-7-1"><a id="__codelineno-7-1" name="__codelineno-7-1" href="#__codelineno-7-1"></a><span class="kn">from</span> <span class="nn">my_project.model</span> <span class="kn">import</span> <span class="n">MyAwesomeModel</span>
+<div class="language-python highlight"><pre><span></span><code><span id="__span-7-1"><a id="__codelineno-7-1" name="__codelineno-7-1" href="#__codelineno-7-1"></a><span class="kn">from</span><span class="w"> </span><span class="nn">my_project.model</span><span class="w"> </span><span class="kn">import</span> <span class="n">MyAwesomeModel</span>
 </span><span id="__span-7-2"><a id="__codelineno-7-2" name="__codelineno-7-2" href="#__codelineno-7-2"></a>
-</span><span id="__span-7-3"><a id="__codelineno-7-3" name="__codelineno-7-3" href="#__codelineno-7-3"></a><span class="k">def</span> <span class="nf">test_model</span><span class="p">():</span>
+</span><span id="__span-7-3"><a id="__codelineno-7-3" name="__codelineno-7-3" href="#__codelineno-7-3"></a><span class="k">def</span><span class="w"> </span><span class="nf">test_model</span><span class="p">():</span>
 </span><span id="__span-7-4"><a id="__codelineno-7-4" name="__codelineno-7-4" href="#__codelineno-7-4"></a>    <span class="n">model</span> <span class="o">=</span> <span class="n">MyAwesomeModel</span><span class="p">()</span>
 </span><span id="__span-7-5"><a id="__codelineno-7-5" name="__codelineno-7-5" href="#__codelineno-7-5"></a>    <span class="n">x</span> <span class="o">=</span> <span class="n">torch</span><span class="o">.</span><span class="n">randn</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">28</span><span class="p">,</span> <span class="mi">28</span><span class="p">)</span>
 </span><span id="__span-7-6"><a id="__codelineno-7-6" name="__codelineno-7-6" href="#__codelineno-7-6"></a>    <span class="n">y</span> <span class="o">=</span> <span class="n">model</span><span class="p">(</span><span class="n">x</span><span class="p">)</span>
@@ -2043,20 +2128,20 @@ be 5000.</p>
 </li>
 <li>
 <p>Training testing: In a file called <code>tests/test_training.py</code> implement at least one test that asserts something
-    about your training script. You are here given free hands on what should be tested but try to test something
+    about your training script. You are here given free rein as to what should be tested but try to test something
     that risks being broken when developing the code.</p>
 </li>
 <li>
 <p>Good code raises errors and gives out warnings in appropriate places. This is often in
-    the case of some invalid combination of input to your script. For example, your model could check for the size
+    the case of some invalid combination of inputs to your script. For example, your model could check for the size
     of the input given to it (see code below) to make sure it corresponds to what you are expecting. Not
-    implementing such errors would still result in Pytorch failing at a later point due to shape errors, however,
+    implementing such errors would still result in PyTorch failing at a later point due to shape errors. However,
     these custom errors will probably make more sense to the end user. Implement at least one raised error or
     warning somewhere in your code and use either <code class="language-python highlight"><span class="n">pytest</span><span class="o">.</span><span class="n">raises</span></code> or <code class="language-python highlight"><span class="n">pytest</span><span class="o">.</span><span class="n">warns</span></code> to check that
     they are correctly raised/warned. As inspiration, the following implements <code class="language-python highlight"><span class="ne">ValueError</span></code> in code
     belonging to the model:</p>
 <div class="language-python highlight"><pre><span></span><code><span id="__span-8-1"><a id="__codelineno-8-1" name="__codelineno-8-1" href="#__codelineno-8-1"></a><span class="c1"># src/models/model.py</span>
-</span><span id="__span-8-2"><a id="__codelineno-8-2" name="__codelineno-8-2" href="#__codelineno-8-2"></a><span class="k">def</span> <span class="nf">forward</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">x</span><span class="p">:</span> <span class="n">Tensor</span><span class="p">):</span>
+</span><span id="__span-8-2"><a id="__codelineno-8-2" name="__codelineno-8-2" href="#__codelineno-8-2"></a><span class="k">def</span><span class="w"> </span><span class="nf">forward</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">x</span><span class="p">:</span> <span class="n">Tensor</span><span class="p">):</span>
 </span><span id="__span-8-3"><a id="__codelineno-8-3" name="__codelineno-8-3" href="#__codelineno-8-3"></a>    <span class="k">if</span> <span class="n">x</span><span class="o">.</span><span class="n">ndim</span> <span class="o">!=</span> <span class="mi">4</span><span class="p">:</span>
 </span><span id="__span-8-4"><a id="__codelineno-8-4" name="__codelineno-8-4" href="#__codelineno-8-4"></a>        <span class="k">raise</span> <span class="ne">ValueError</span><span class="p">(</span><span class="s1">&#39;Expected input to a 4D tensor&#39;</span><span class="p">)</span>
 </span><span id="__span-8-5"><a id="__codelineno-8-5" name="__codelineno-8-5" href="#__codelineno-8-5"></a>    <span class="k">if</span> <span class="n">x</span><span class="o">.</span><span class="n">shape</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span> <span class="o">!=</span> <span class="mi">1</span> <span class="ow">or</span> <span class="n">x</span><span class="o">.</span><span class="n">shape</span><span class="p">[</span><span class="mi">2</span><span class="p">]</span> <span class="o">!=</span> <span class="mi">28</span> <span class="ow">or</span> <span class="n">x</span><span class="o">.</span><span class="n">shape</span><span class="p">[</span><span class="mi">3</span><span class="p">]</span> <span class="o">!=</span> <span class="mi">28</span><span class="p">:</span>
@@ -2066,14 +2151,14 @@ be 5000.</p>
 <summary>Solution</summary>
 <p>The above example would be captured by a test looking something like this:</p>
 <div class="language-python highlight"><pre><span></span><code><span id="__span-9-1"><a id="__codelineno-9-1" name="__codelineno-9-1" href="#__codelineno-9-1"></a><span class="c1"># tests/test_model.py</span>
-</span><span id="__span-9-2"><a id="__codelineno-9-2" name="__codelineno-9-2" href="#__codelineno-9-2"></a><span class="kn">import</span> <span class="nn">pytest</span>
-</span><span id="__span-9-3"><a id="__codelineno-9-3" name="__codelineno-9-3" href="#__codelineno-9-3"></a><span class="kn">from</span> <span class="nn">my_project.model</span> <span class="kn">import</span> <span class="n">MyAwesomeModel</span>
+</span><span id="__span-9-2"><a id="__codelineno-9-2" name="__codelineno-9-2" href="#__codelineno-9-2"></a><span class="kn">import</span><span class="w"> </span><span class="nn">pytest</span>
+</span><span id="__span-9-3"><a id="__codelineno-9-3" name="__codelineno-9-3" href="#__codelineno-9-3"></a><span class="kn">from</span><span class="w"> </span><span class="nn">my_project.model</span><span class="w"> </span><span class="kn">import</span> <span class="n">MyAwesomeModel</span>
 </span><span id="__span-9-4"><a id="__codelineno-9-4" name="__codelineno-9-4" href="#__codelineno-9-4"></a>
-</span><span id="__span-9-5"><a id="__codelineno-9-5" name="__codelineno-9-5" href="#__codelineno-9-5"></a><span class="k">def</span> <span class="nf">test_error_on_wrong_shape</span><span class="p">():</span>
+</span><span id="__span-9-5"><a id="__codelineno-9-5" name="__codelineno-9-5" href="#__codelineno-9-5"></a><span class="k">def</span><span class="w"> </span><span class="nf">test_error_on_wrong_shape</span><span class="p">():</span>
 </span><span id="__span-9-6"><a id="__codelineno-9-6" name="__codelineno-9-6" href="#__codelineno-9-6"></a>    <span class="n">model</span> <span class="o">=</span> <span class="n">MyAwesomeModel</span><span class="p">()</span>
-</span><span id="__span-9-7"><a id="__codelineno-9-7" name="__codelineno-9-7" href="#__codelineno-9-7"></a>    <span class="k">with</span> <span class="n">pytest</span><span class="o">.</span><span class="n">raises</span><span class="p">(</span><span class="ne">ValueError</span><span class="p">,</span> <span class="n">match</span><span class="o">=</span><span class="s1">&#39;Expected input to a 4D tensor&#39;</span><span class="p">)</span>
+</span><span id="__span-9-7"><a id="__codelineno-9-7" name="__codelineno-9-7" href="#__codelineno-9-7"></a>    <span class="k">with</span> <span class="n">pytest</span><span class="o">.</span><span class="n">raises</span><span class="p">(</span><span class="ne">ValueError</span><span class="p">,</span> <span class="n">match</span><span class="o">=</span><span class="s1">&#39;Expected input to a 4D tensor&#39;</span><span class="p">):</span>
 </span><span id="__span-9-8"><a id="__codelineno-9-8" name="__codelineno-9-8" href="#__codelineno-9-8"></a>        <span class="n">model</span><span class="p">(</span><span class="n">torch</span><span class="o">.</span><span class="n">randn</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span><span class="mi">2</span><span class="p">,</span><span class="mi">3</span><span class="p">))</span>
-</span><span id="__span-9-9"><a id="__codelineno-9-9" name="__codelineno-9-9" href="#__codelineno-9-9"></a>    <span class="k">with</span> <span class="n">pytest</span><span class="o">.</span><span class="n">raises</span><span class="p">(</span><span class="ne">ValueError</span><span class="p">,</span> <span class="n">match</span><span class="o">=</span><span class="s1">&#39;Expected each sample to have shape [1, 28, 28]&#39;</span><span class="p">)</span>
+</span><span id="__span-9-9"><a id="__codelineno-9-9" name="__codelineno-9-9" href="#__codelineno-9-9"></a>    <span class="k">with</span> <span class="n">pytest</span><span class="o">.</span><span class="n">raises</span><span class="p">(</span><span class="ne">ValueError</span><span class="p">,</span> <span class="n">match</span><span class="o">=</span><span class="s1">&#39;Expected each sample to have shape [1, 28, 28]&#39;</span><span class="p">):</span>
 </span><span id="__span-9-10"><a id="__codelineno-9-10" name="__codelineno-9-10" href="#__codelineno-9-10"></a>        <span class="n">model</span><span class="p">(</span><span class="n">torch</span><span class="o">.</span><span class="n">randn</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span><span class="mi">1</span><span class="p">,</span><span class="mi">28</span><span class="p">,</span><span class="mi">29</span><span class="p">))</span>
 </span></code></pre></div>
 </details>
@@ -2083,16 +2168,16 @@ be 5000.</p>
     check failed. However, we can help ourselves and others by adding strings after <code class="language-python highlight"><span class="k">assert</span></code> like</p>
 <div class="language-python highlight"><pre><span></span><code><span id="__span-10-1"><a id="__codelineno-10-1" name="__codelineno-10-1" href="#__codelineno-10-1"></a><span class="k">assert</span> <span class="nb">len</span><span class="p">(</span><span class="n">train_dataset</span><span class="p">)</span> <span class="o">==</span> <span class="n">N_train</span><span class="p">,</span> <span class="s2">&quot;Dataset did not have the correct number of samples&quot;</span>
 </span></code></pre></div>
-<p>Add such comments to the assert statements you just did in the previous exercises.</p>
+<p>Add such comments to the assert statements you just wrote in the previous exercises.</p>
 </li>
 <li>
-<p>The tests that involve checking anything that has to do with our data, will of course fail
+<p>The tests that involve checking anything that has to do with our data will of course fail
     if the data is not present. To future-proof our code, we can take advantage of the
     <code class="language-python highlight"><span class="n">pytest</span><span class="o">.</span><span class="n">mark</span><span class="o">.</span><span class="n">skipif</span></code> decorator. Use this decorator to skip your data tests if the corresponding
-    data files do not exist. It should look something like this</p>
-<div class="language-python highlight"><pre><span></span><code><span id="__span-11-1"><a id="__codelineno-11-1" name="__codelineno-11-1" href="#__codelineno-11-1"></a><span class="kn">import</span> <span class="nn">os.path</span>
+    data files do not exist. It should look something like this:</p>
+<div class="language-python highlight"><pre><span></span><code><span id="__span-11-1"><a id="__codelineno-11-1" name="__codelineno-11-1" href="#__codelineno-11-1"></a><span class="kn">import</span><span class="w"> </span><span class="nn">os.path</span>
 </span><span id="__span-11-2"><a id="__codelineno-11-2" name="__codelineno-11-2" href="#__codelineno-11-2"></a><span class="nd">@pytest</span><span class="o">.</span><span class="n">mark</span><span class="o">.</span><span class="n">skipif</span><span class="p">(</span><span class="ow">not</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">exists</span><span class="p">(</span><span class="n">file_path</span><span class="p">),</span> <span class="n">reason</span><span class="o">=</span><span class="s2">&quot;Data files not found&quot;</span><span class="p">)</span>
-</span><span id="__span-11-3"><a id="__codelineno-11-3" name="__codelineno-11-3" href="#__codelineno-11-3"></a><span class="k">def</span> <span class="nf">test_something_about_data</span><span class="p">():</span>
+</span><span id="__span-11-3"><a id="__codelineno-11-3" name="__codelineno-11-3" href="#__codelineno-11-3"></a><span class="k">def</span><span class="w"> </span><span class="nf">test_something_about_data</span><span class="p">():</span>
 </span><span id="__span-11-4"><a id="__codelineno-11-4" name="__codelineno-11-4" href="#__codelineno-11-4"></a>    <span class="o">...</span>
 </span></code></pre></div>
 <p>You can read more about skipping tests <a href="https://docs.pytest.org/en/latest/how-to/skipping.html">here</a></p>
@@ -2110,7 +2195,7 @@ be 5000.</p>
 <details class="success">
 <summary>Solution</summary>
 <div class="language-python highlight"><pre><span></span><code><span id="__span-12-1"><a id="__codelineno-12-1" name="__codelineno-12-1" href="#__codelineno-12-1"></a><span class="nd">@pytest</span><span class="o">.</span><span class="n">mark</span><span class="o">.</span><span class="n">parametrize</span><span class="p">(</span><span class="s2">&quot;batch_size&quot;</span><span class="p">,</span> <span class="p">[</span><span class="mi">32</span><span class="p">,</span> <span class="mi">64</span><span class="p">])</span>
-</span><span id="__span-12-2"><a id="__codelineno-12-2" name="__codelineno-12-2" href="#__codelineno-12-2"></a><span class="k">def</span> <span class="nf">test_model</span><span class="p">(</span><span class="n">batch_size</span><span class="p">:</span> <span class="nb">int</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kc">None</span><span class="p">:</span>
+</span><span id="__span-12-2"><a id="__codelineno-12-2" name="__codelineno-12-2" href="#__codelineno-12-2"></a><span class="k">def</span><span class="w"> </span><span class="nf">test_model</span><span class="p">(</span><span class="n">batch_size</span><span class="p">:</span> <span class="nb">int</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kc">None</span><span class="p">:</span>
 </span><span id="__span-12-3"><a id="__codelineno-12-3" name="__codelineno-12-3" href="#__codelineno-12-3"></a>    <span class="n">model</span> <span class="o">=</span> <span class="n">MyModel</span><span class="p">()</span>
 </span><span id="__span-12-4"><a id="__codelineno-12-4" name="__codelineno-12-4" href="#__codelineno-12-4"></a>    <span class="n">x</span> <span class="o">=</span> <span class="n">torch</span><span class="o">.</span><span class="n">randn</span><span class="p">(</span><span class="n">batch_size</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">28</span><span class="p">,</span> <span class="mi">28</span><span class="p">)</span>
 </span><span id="__span-12-5"><a id="__codelineno-12-5" name="__codelineno-12-5" href="#__codelineno-12-5"></a>    <span class="n">y</span> <span class="o">=</span> <span class="n">model</span><span class="p">(</span><span class="n">x</span><span class="p">)</span>
@@ -2124,12 +2209,12 @@ be 5000.</p>
     tests are executed. Having a high coverage at least means that all your code will run when executed.</p>
 <ol>
 <li>
-<p>Install coverage</p>
+<p>Install coverage.</p>
 <div class="language-bash highlight"><pre><span></span><code><span id="__span-13-1"><a id="__codelineno-13-1" name="__codelineno-13-1" href="#__codelineno-13-1"></a>pip<span class="w"> </span>install<span class="w"> </span>coverage
 </span></code></pre></div>
 </li>
 <li>
-<p>Instead of running your tests directly with <code>pytest</code>, now do</p>
+<p>Instead of running your tests directly with <code>pytest</code>, now do:</p>
 <div class="language-bash highlight"><pre><span></span><code><span id="__span-14-1"><a id="__codelineno-14-1" name="__codelineno-14-1" href="#__codelineno-14-1"></a>coverage<span class="w"> </span>run<span class="w"> </span>-m<span class="w"> </span>pytest<span class="w"> </span>tests/
 </span></code></pre></div>
 </li>
@@ -2143,11 +2228,11 @@ be 5000.</p>
 <p>to get the exact lines that were missed by your tests.</p>
 </li>
 <li>
-<p>Finally, try to increase the coverage by writing a new test that runs some
-    of the lines in your codebase that are not covered yet.</p>
+<p>Finally, try to increase the coverage by writing a new test that runs some of the lines in your codebase that
+    are not covered yet.</p>
 </li>
 <li>
-<p>Often <code>coverage</code> reports the code coverage on files that we do not want to get a code coverage for, for example
+<p>Often <code>coverage</code> reports the code coverage on files that we do not want to get code coverage for, for example
     your test file. Figure out how to configure <code>coverage</code> to exclude some files.</p>
 <details class="success">
 <summary>Solution</summary>
@@ -2182,30 +2267,30 @@ you have tested your code.</p>
 <p>Consider the following code:</p>
 <div class="language-python highlight"><pre><span></span><code><span id="__span-19-1"><a id="__codelineno-19-1" name="__codelineno-19-1" href="#__codelineno-19-1"></a><span class="nd">@pytest</span><span class="o">.</span><span class="n">mark</span><span class="o">.</span><span class="n">parametrize</span><span class="p">(</span><span class="s2">&quot;network_size&quot;</span><span class="p">,</span> <span class="p">[</span><span class="mi">10</span><span class="p">,</span> <span class="mi">100</span><span class="p">,</span> <span class="mi">1000</span><span class="p">])</span>
 </span><span id="__span-19-2"><a id="__codelineno-19-2" name="__codelineno-19-2" href="#__codelineno-19-2"></a><span class="nd">@pytest</span><span class="o">.</span><span class="n">mark</span><span class="o">.</span><span class="n">parametrize</span><span class="p">(</span><span class="s2">&quot;device&quot;</span><span class="p">,</span> <span class="p">[</span><span class="s2">&quot;cpu&quot;</span><span class="p">,</span> <span class="s2">&quot;cuda&quot;</span><span class="p">])</span>
-</span><span id="__span-19-3"><a id="__codelineno-19-3" name="__codelineno-19-3" href="#__codelineno-19-3"></a><span class="k">class</span> <span class="nc">MyTestClass</span><span class="p">:</span>
+</span><span id="__span-19-3"><a id="__codelineno-19-3" name="__codelineno-19-3" href="#__codelineno-19-3"></a><span class="k">class</span><span class="w"> </span><span class="nc">MyTestClass</span><span class="p">:</span>
 </span><span id="__span-19-4"><a id="__codelineno-19-4" name="__codelineno-19-4" href="#__codelineno-19-4"></a>    <span class="nd">@pytest</span><span class="o">.</span><span class="n">mark</span><span class="o">.</span><span class="n">parametrize</span><span class="p">(</span><span class="s2">&quot;network_type&quot;</span><span class="p">,</span> <span class="p">[</span><span class="s2">&quot;alexnet&quot;</span><span class="p">,</span> <span class="s2">&quot;squeezenet&quot;</span><span class="p">,</span> <span class="s2">&quot;vgg&quot;</span><span class="p">,</span> <span class="s2">&quot;resnet&quot;</span><span class="p">])</span>
 </span><span id="__span-19-5"><a id="__codelineno-19-5" name="__codelineno-19-5" href="#__codelineno-19-5"></a>    <span class="nd">@pytest</span><span class="o">.</span><span class="n">mark</span><span class="o">.</span><span class="n">parametrize</span><span class="p">(</span><span class="s2">&quot;precision&quot;</span><span class="p">,</span> <span class="p">[</span><span class="n">torch</span><span class="o">.</span><span class="n">half</span><span class="p">,</span> <span class="n">torch</span><span class="o">.</span><span class="n">float</span><span class="p">,</span> <span class="n">torch</span><span class="o">.</span><span class="n">double</span><span class="p">])</span>
-</span><span id="__span-19-6"><a id="__codelineno-19-6" name="__codelineno-19-6" href="#__codelineno-19-6"></a>    <span class="k">def</span> <span class="nf">test_network1</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">network_size</span><span class="p">,</span> <span class="n">device</span><span class="p">,</span> <span class="n">network_type</span><span class="p">,</span> <span class="n">precision</span><span class="p">):</span>
+</span><span id="__span-19-6"><a id="__codelineno-19-6" name="__codelineno-19-6" href="#__codelineno-19-6"></a>    <span class="k">def</span><span class="w"> </span><span class="nf">test_network1</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">network_size</span><span class="p">,</span> <span class="n">device</span><span class="p">,</span> <span class="n">network_type</span><span class="p">,</span> <span class="n">precision</span><span class="p">):</span>
 </span><span id="__span-19-7"><a id="__codelineno-19-7" name="__codelineno-19-7" href="#__codelineno-19-7"></a>        <span class="k">if</span> <span class="n">device</span> <span class="o">==</span> <span class="s2">&quot;cuda&quot;</span> <span class="ow">and</span> <span class="ow">not</span> <span class="n">torch</span><span class="o">.</span><span class="n">cuda</span><span class="o">.</span><span class="n">is_available</span><span class="p">():</span>
 </span><span id="__span-19-8"><a id="__codelineno-19-8" name="__codelineno-19-8" href="#__codelineno-19-8"></a>            <span class="n">pytest</span><span class="o">.</span><span class="n">skip</span><span class="p">(</span><span class="s2">&quot;Test requires cuda&quot;</span><span class="p">)</span>
 </span><span id="__span-19-9"><a id="__codelineno-19-9" name="__codelineno-19-9" href="#__codelineno-19-9"></a>        <span class="n">model</span> <span class="o">=</span> <span class="n">MyModelClass</span><span class="p">(</span><span class="n">network_size</span><span class="p">,</span> <span class="n">network_type</span><span class="p">)</span><span class="o">.</span><span class="n">to</span><span class="p">(</span><span class="n">device</span><span class="o">=</span><span class="n">device</span><span class="p">,</span> <span class="n">dtype</span><span class="o">=</span><span class="n">precision</span><span class="p">)</span>
 </span><span id="__span-19-10"><a id="__codelineno-19-10" name="__codelineno-19-10" href="#__codelineno-19-10"></a>        <span class="o">...</span>
 </span><span id="__span-19-11"><a id="__codelineno-19-11" name="__codelineno-19-11" href="#__codelineno-19-11"></a>
 </span><span id="__span-19-12"><a id="__codelineno-19-12" name="__codelineno-19-12" href="#__codelineno-19-12"></a>    <span class="nd">@pytest</span><span class="o">.</span><span class="n">mark</span><span class="o">.</span><span class="n">parametrize</span><span class="p">(</span><span class="s2">&quot;add_dropout&quot;</span><span class="p">,</span> <span class="p">[</span><span class="kc">True</span><span class="p">,</span> <span class="kc">False</span><span class="p">])</span>
-</span><span id="__span-19-13"><a id="__codelineno-19-13" name="__codelineno-19-13" href="#__codelineno-19-13"></a>    <span class="k">def</span> <span class="nf">test_network2</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">network_size</span><span class="p">,</span> <span class="n">device</span><span class="p">,</span> <span class="n">add_dropout</span><span class="p">):</span>
+</span><span id="__span-19-13"><a id="__codelineno-19-13" name="__codelineno-19-13" href="#__codelineno-19-13"></a>    <span class="k">def</span><span class="w"> </span><span class="nf">test_network2</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">network_size</span><span class="p">,</span> <span class="n">device</span><span class="p">,</span> <span class="n">add_dropout</span><span class="p">):</span>
 </span><span id="__span-19-14"><a id="__codelineno-19-14" name="__codelineno-19-14" href="#__codelineno-19-14"></a>        <span class="k">if</span> <span class="n">device</span> <span class="o">==</span> <span class="s2">&quot;cuda&quot;</span> <span class="ow">and</span> <span class="ow">not</span> <span class="n">torch</span><span class="o">.</span><span class="n">cuda</span><span class="o">.</span><span class="n">is_available</span><span class="p">():</span>
 </span><span id="__span-19-15"><a id="__codelineno-19-15" name="__codelineno-19-15" href="#__codelineno-19-15"></a>            <span class="n">pytest</span><span class="o">.</span><span class="n">skip</span><span class="p">(</span><span class="s2">&quot;Test requires cuda&quot;</span><span class="p">)</span>
 </span><span id="__span-19-16"><a id="__codelineno-19-16" name="__codelineno-19-16" href="#__codelineno-19-16"></a>        <span class="n">model</span> <span class="o">=</span> <span class="n">MyModelClass2</span><span class="p">(</span><span class="n">network_size</span><span class="p">,</span> <span class="n">add_dropout</span><span class="p">)</span><span class="o">.</span><span class="n">to</span><span class="p">(</span><span class="n">device</span><span class="p">)</span>
 </span><span id="__span-19-17"><a id="__codelineno-19-17" name="__codelineno-19-17" href="#__codelineno-19-17"></a>        <span class="o">...</span>
 </span></code></pre></div>
-<p>how many tests are executed when running the above code?</p>
+<p>How many tests are executed when running the above code?</p>
 <details class="success">
 <summary>Solution</summary>
 <p>The answer depends on whether or not we are running on a GPU-enabled machine. The <code>test_network1</code> has 4
-parameters, <code>network_size, device, network_type, precision</code>, that respectively can take on <code>3, 2, 4, 3</code> values
-meaning that in total that test will be running <code>3x2x4x3=72</code> times with different parameters on a GPU-enabled
+parameters, <code>network_size, device, network_type, precision</code>, that respectively can take on <code>3, 2, 4, 3</code> values,
+meaning that in total that test will run <code>3x2x4x3=72</code> times with different parameters on a GPU-enabled
 machine and 36 on a machine without a GPU. A similar calculation can be done for <code>test_network2</code>, which only has
-three factors <code>network_size, device, add_dropout</code> that result in <code>3x2x2=12</code> test on a GPU-enabled machine and
+three factors <code>network_size, device, add_dropout</code> that result in <code>3x2x2=12</code> tests on a GPU-enabled machine and
 6 on a machine without a GPU. In total, that means 84 tests would run on a machine with a GPU and 42 on a
 machine without a GPU.</p>
 </details>
@@ -2213,12 +2298,12 @@ machine without a GPU.</p>
 </ol>
 <p>That covers the basics of writing unit tests for Python code. We want to note that <code>pytest</code> of course is not the only
 framework for doing this. Python has a built-in framework called
-<a href="https://docs.python.org/3/library/unittest.html">unittest</a> for doing this also (but <code>pytest</code> offers a bit more
+<a href="https://docs.python.org/3/library/unittest.html">unittest</a> for doing this also (but <code>pytest</code> offers slightly more
 features). Another open-source framework that you could choose to check out is
-<a href="https://github.com/HypothesisWorks/hypothesis">hypothesis</a> which can help catch errors in corner cases of your
+<a href="https://github.com/HypothesisWorks/hypothesis">hypothesis</a>, which can help catch errors in corner cases of your
 code. In addition to writing unit tests it is also highly recommended to test code that you include in your
-docstring belonging to your functions and modulus to make sure that any code there is in your documentation is also
-correct. For such testing, we can highly recommend using Python built-in framework
+docstrings belonging to your functions and modules to make sure that any code that is in your documentation is also
+correct. For such testing, we highly recommend using the built-in Python framework
 <a href="https://docs.python.org/3/library/doctest.html">doctest</a>.</p>
 
 
@@ -2242,7 +2327,7 @@ correct. For such testing, we can highly recommend using Python built-in framewo
     <span class="md-icon" title="Last update">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 13.1c-.1 0-.3.1-.4.2l-1 1 2.1 2.1 1-1c.2-.2.2-.6 0-.8l-1.3-1.3c-.1-.1-.2-.2-.4-.2m-1.9 1.8-6.1 6V23h2.1l6.1-6.1zM12.5 7v5.2l4 2.4-1 1L11 13V7zM11 21.9c-5.1-.5-9-4.8-9-9.9C2 6.5 6.5 2 12 2c5.3 0 9.6 4.1 10 9.3-.3-.1-.6-.2-1-.2s-.7.1-1 .2C19.6 7.2 16.2 4 12 4c-4.4 0-8 3.6-8 8 0 4.1 3.1 7.5 7.1 7.9l-.1.2z"/></svg>
     </span>
-    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">June 4, 2024</span>
+    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date" title="February 3, 2025 06:48:20">February 3, 2025</span>
   </span>
 
     
@@ -2252,7 +2337,7 @@ correct. For such testing, we can highly recommend using Python built-in framewo
     <span class="md-icon" title="Created">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M14.47 15.08 11 13V7h1.5v5.25l3.08 1.83c-.41.28-.79.62-1.11 1m-1.39 4.84c-.36.05-.71.08-1.08.08-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8c0 .37-.03.72-.08 1.08.69.1 1.33.32 1.92.64.1-.56.16-1.13.16-1.72 0-5.5-4.5-10-10-10S2 6.5 2 12s4.47 10 10 10c.59 0 1.16-.06 1.72-.16-.32-.59-.54-1.23-.64-1.92M18 15v3h-3v2h3v3h2v-3h3v-2h-3v-3z"/></svg>
     </span>
-    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">August 30, 2021</span>
+    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date" title="August 30, 2021 12:18:38">August 30, 2021</span>
   </span>
 
     
@@ -2298,13 +2383,13 @@ correct. For such testing, we can highly recommend using Python built-in framewo
         
         
           
-          <a href="../github_actions/" class="md-footer__link md-footer__link--next" aria-label="Next: M17 - Github Actions">
+          <a href="../github_actions/" class="md-footer__link md-footer__link--next" aria-label="Next: M17 - GitHub Actions">
             <div class="md-footer__title">
               <span class="md-footer__direction">
                 Next
               </span>
               <div class="md-ellipsis">
-                M17 - Github Actions
+                M17 - GitHub Actions
               </div>
             </div>
             <div class="md-footer__button md-icon">
@@ -2350,7 +2435,7 @@ correct. For such testing, we can highly recommend using Python built-in framewo
       
     
     <a href="https://github.com/SkafteNicki" target="_blank" rel="noopener" title="github.com" class="md-social__link">
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><!--! Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6m-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3m44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9M244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8M97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1m-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7m32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1m-11.4-14.7c-1.6 1-1.6 3.6 0 5.9s4.3 3.3 5.6 2.3c1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2"/></svg>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><!--! Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6m-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3m44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9M244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8M97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1m-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7m32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1m-11.4-14.7c-1.6 1-1.6 3.6 0 5.9s4.3 3.3 5.6 2.3c1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2"/></svg>
     </a>
   
     
@@ -2361,7 +2446,7 @@ correct. For such testing, we can highly recommend using Python built-in framewo
       
     
     <a href="https://www.linkedin.com/in/nicki-skafte-detlefsen/" target="_blank" rel="noopener" title="www.linkedin.com" class="md-social__link">
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3M135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5m282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9z"/></svg>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3M135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5m282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9z"/></svg>
     </a>
   
 </div>
@@ -2376,10 +2461,14 @@ correct. For such testing, we can highly recommend using Python built-in framewo
     </div>
     
     
-    <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.instant", "navigation.indexes", "navigation.footer", "content.code.copy", "content.code.annotate", "content.action.edit", "content.action.view", "search.suggest", "search.highlight"], "search": "../../assets/javascripts/workers/search.07f07601.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    
+      
+      <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.instant", "navigation.indexes", "navigation.footer", "content.code.copy", "content.code.annotate", "content.action.edit", "content.action.view", "search.suggest", "search.highlight"], "search": "../../assets/javascripts/workers/search.f8cc74c7.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
     
     
-      <script src="../../assets/javascripts/bundle.56dfad97.min.js"></script>
+      <script src="../../assets/javascripts/bundle.c8b220af.min.js"></script>
+      
+        <script src="../../assets/_markdown_exec_pyodide.js"></script>
       
     
   <script id="init-glightbox">const lightbox = GLightbox({"touchNavigation": true, "loop": false, "zoomable": true, "draggable": true, "openEffect": "zoom", "closeEffect": "zoom", "slideEffect": "slide"});

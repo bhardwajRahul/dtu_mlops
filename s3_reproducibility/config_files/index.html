@@ -16,7 +16,7 @@
       
       
       <link rel="icon" href="../../figures/favicon.png">
-      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.5.34">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.12">
     
     
       
@@ -24,7 +24,7 @@
       
     
     
-      <link rel="stylesheet" href="../../assets/stylesheets/main.35f28582.min.css">
+      <link rel="stylesheet" href="../../assets/stylesheets/main.2afb09e1.min.css">
       
         
         <link rel="stylesheet" href="../../assets/stylesheets/palette.06af60db.min.css">
@@ -45,6 +45,10 @@
         <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
       
     
+    
+      <link rel="stylesheet" href="../../assets/_markdown_exec_pyodide.css">
+    
+      <link rel="stylesheet" href="../../assets/_markdown_exec_ansi.css">
     
     <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
@@ -154,11 +158,13 @@
     
     
     
-      <label class="md-header__button md-icon" for="__search">
-        
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
-      </label>
-      <div class="md-search" data-md-component="search" role="dialog">
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
   <label class="md-search__overlay" for="__search"></label>
   <div class="md-search__inner" role="search">
     <form class="md-search__form" name="search">
@@ -192,13 +198,14 @@
     </div>
   </div>
 </div>
+      
     
     
       <div class="md-header__source">
         <a href="https://github.com/SkafteNicki/dtu_mlops" title="Go to repository" class="md-source" data-md-component="source">
   <div class="md-source__icon md-icon">
     
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><!--! Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6m-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3m44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9M244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8M97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1m-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7m32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1m-11.4-14.7c-1.6 1-1.6 3.6 0 5.9s4.3 3.3 5.6 2.3c1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2"/></svg>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><!--! Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6m-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3m44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9M244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8M97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1m-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7m32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1m-11.4-14.7c-1.6 1-1.6 3.6 0 5.9s4.3 3.3 5.6 2.3c1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2"/></svg>
   </div>
   <div class="md-source__repository">
     GitHub
@@ -243,7 +250,7 @@
       <a href="https://github.com/SkafteNicki/dtu_mlops" title="Go to repository" class="md-source" data-md-component="source">
   <div class="md-source__icon md-icon">
     
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><!--! Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6m-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3m44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9M244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8M97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1m-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7m32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1m-11.4-14.7c-1.6 1-1.6 3.6 0 5.9s4.3 3.3 5.6 2.3c1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2"/></svg>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><!--! Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6m-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3m44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9M244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8M97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1m-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7m32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1m-11.4-14.7c-1.6 1-1.6 3.6 0 5.9s4.3 3.3 5.6 2.3c1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2"/></svg>
   </div>
   <div class="md-source__repository">
     GitHub
@@ -263,8 +270,10 @@
       <a href="../.." class="md-nav__link">
         
   
+  
   <span class="md-ellipsis">
     Home
+    
   </span>
   
 
@@ -283,8 +292,10 @@
       <a href="../../pages/timeplan/" class="md-nav__link">
         
   
+  
   <span class="md-ellipsis">
-    Timeplan
+    Time plan
+    
   </span>
   
 
@@ -317,6 +328,7 @@
     
     
     
+    
     <li class="md-nav__item md-nav__item--nested">
       
         
@@ -324,13 +336,14 @@
         <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
         
           
-          
           <div class="md-nav__link md-nav__container">
             <a href="../../s1_development_environment/" class="md-nav__link ">
               
   
+  
   <span class="md-ellipsis">
     S1 - Development Environment 💻
+    
   </span>
   
 
@@ -362,8 +375,10 @@
       <a href="../../s1_development_environment/command_line/" class="md-nav__link">
         
   
+  
   <span class="md-ellipsis">
     M1 - The command line
+    
   </span>
   
 
@@ -383,8 +398,10 @@
       <a href="../../s1_development_environment/package_manager/" class="md-nav__link">
         
   
+  
   <span class="md-ellipsis">
     M2 - Package Manager
+    
   </span>
   
 
@@ -404,8 +421,10 @@
       <a href="../../s1_development_environment/editor/" class="md-nav__link">
         
   
+  
   <span class="md-ellipsis">
     M3 - Editor
+    
   </span>
   
 
@@ -425,8 +444,10 @@
       <a href="../../s1_development_environment/deep_learning_software/" class="md-nav__link">
         
   
+  
   <span class="md-ellipsis">
     M4 - Deep Learning Software
+    
   </span>
   
 
@@ -469,6 +490,7 @@
     
     
     
+    
     <li class="md-nav__item md-nav__item--nested">
       
         
@@ -476,13 +498,14 @@
         <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" >
         
           
-          
           <div class="md-nav__link md-nav__container">
             <a href="../../s2_organisation_and_version_control/" class="md-nav__link ">
               
   
+  
   <span class="md-ellipsis">
     S2 - Organisation and Version Control 📁
+    
   </span>
   
 
@@ -514,8 +537,10 @@
       <a href="../../s2_organisation_and_version_control/git/" class="md-nav__link">
         
   
+  
   <span class="md-ellipsis">
     M5 - Git
+    
   </span>
   
 
@@ -535,8 +560,10 @@
       <a href="../../s2_organisation_and_version_control/code_structure/" class="md-nav__link">
         
   
+  
   <span class="md-ellipsis">
     M6 - Code structure
+    
   </span>
   
 
@@ -556,8 +583,10 @@
       <a href="../../s2_organisation_and_version_control/good_coding_practice/" class="md-nav__link">
         
   
+  
   <span class="md-ellipsis">
     M7 - Good coding practice
+    
   </span>
   
 
@@ -577,8 +606,10 @@
       <a href="../../s2_organisation_and_version_control/dvc/" class="md-nav__link">
         
   
+  
   <span class="md-ellipsis">
     M8 - Data version control
+    
   </span>
   
 
@@ -598,8 +629,10 @@
       <a href="../../s2_organisation_and_version_control/cli/" class="md-nav__link">
         
   
+  
   <span class="md-ellipsis">
     M9 - Command Line Interfaces
+    
   </span>
   
 
@@ -638,6 +671,7 @@
     
     
     
+    
     <li class="md-nav__item md-nav__item--active md-nav__item--nested">
       
         
@@ -645,13 +679,14 @@
         <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" checked>
         
           
-          
           <div class="md-nav__link md-nav__container">
             <a href="../" class="md-nav__link ">
               
   
+  
   <span class="md-ellipsis">
-    S3 - Reproduceability ♻️
+    S3 - Reproducibility ♻️
+    
   </span>
   
 
@@ -667,7 +702,7 @@
         <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_5">
             <span class="md-nav__icon md-icon"></span>
-            S3 - Reproduceability ♻️
+            S3 - Reproducibility ♻️
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
             
@@ -683,8 +718,10 @@
       <a href="../docker/" class="md-nav__link">
         
   
+  
   <span class="md-ellipsis">
     M10 - Docker
+    
   </span>
   
 
@@ -713,8 +750,10 @@
         <label class="md-nav__link md-nav__link--active" for="__toc">
           
   
+  
   <span class="md-ellipsis">
     M11 - Config Files
+    
   </span>
   
 
@@ -724,8 +763,10 @@
       <a href="./" class="md-nav__link md-nav__link--active">
         
   
+  
   <span class="md-ellipsis">
     M11 - Config Files
+    
   </span>
   
 
@@ -819,6 +860,7 @@
     
     
     
+    
     <li class="md-nav__item md-nav__item--nested">
       
         
@@ -826,13 +868,14 @@
         <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6" >
         
           
-          
           <div class="md-nav__link md-nav__container">
             <a href="../../s4_debugging_and_logging/" class="md-nav__link ">
               
   
+  
   <span class="md-ellipsis">
     S4 - Debugging, Profiling and Logging ⏱️
+    
   </span>
   
 
@@ -864,8 +907,10 @@
       <a href="../../s4_debugging_and_logging/debugging/" class="md-nav__link">
         
   
+  
   <span class="md-ellipsis">
     M12 - Debugging
+    
   </span>
   
 
@@ -885,8 +930,10 @@
       <a href="../../s4_debugging_and_logging/profiling/" class="md-nav__link">
         
   
+  
   <span class="md-ellipsis">
     M13 - Profiling
+    
   </span>
   
 
@@ -906,8 +953,10 @@
       <a href="../../s4_debugging_and_logging/logging/" class="md-nav__link">
         
   
+  
   <span class="md-ellipsis">
     M14 - Logging
+    
   </span>
   
 
@@ -927,8 +976,10 @@
       <a href="../../s4_debugging_and_logging/boilerplate/" class="md-nav__link">
         
   
+  
   <span class="md-ellipsis">
     M15 - Boilerplate
+    
   </span>
   
 
@@ -969,6 +1020,7 @@
     
     
     
+    
     <li class="md-nav__item md-nav__item--nested">
       
         
@@ -976,13 +1028,14 @@
         <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_7" >
         
           
-          
           <div class="md-nav__link md-nav__container">
             <a href="../../s5_continuous_integration/" class="md-nav__link ">
               
   
+  
   <span class="md-ellipsis">
     S5 - Continuous Integration ✔️
+    
   </span>
   
 
@@ -1014,8 +1067,10 @@
       <a href="../../s5_continuous_integration/unittesting/" class="md-nav__link">
         
   
+  
   <span class="md-ellipsis">
     M16 - Unit testing
+    
   </span>
   
 
@@ -1035,8 +1090,10 @@
       <a href="../../s5_continuous_integration/github_actions/" class="md-nav__link">
         
   
+  
   <span class="md-ellipsis">
-    M17 - Github Actions
+    M17 - GitHub Actions
+    
   </span>
   
 
@@ -1056,8 +1113,10 @@
       <a href="../../s5_continuous_integration/pre_commit/" class="md-nav__link">
         
   
+  
   <span class="md-ellipsis">
     M18 - Pre-commit
+    
   </span>
   
 
@@ -1077,8 +1136,10 @@
       <a href="../../s5_continuous_integration/cml/" class="md-nav__link">
         
   
+  
   <span class="md-ellipsis">
     M19 - Continuous Machine Learning
+    
   </span>
   
 
@@ -1115,6 +1176,7 @@
     
     
     
+    
     <li class="md-nav__item md-nav__item--nested">
       
         
@@ -1122,13 +1184,14 @@
         <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_8" >
         
           
-          
           <div class="md-nav__link md-nav__container">
             <a href="../../s6_the_cloud/" class="md-nav__link ">
               
   
+  
   <span class="md-ellipsis">
     S6 - The cloud 🌐
+    
   </span>
   
 
@@ -1160,8 +1223,10 @@
       <a href="../../s6_the_cloud/cloud_setup/" class="md-nav__link">
         
   
+  
   <span class="md-ellipsis">
     M20 - Cloud Setup
+    
   </span>
   
 
@@ -1181,8 +1246,10 @@
       <a href="../../s6_the_cloud/using_the_cloud/" class="md-nav__link">
         
   
+  
   <span class="md-ellipsis">
     M21 - Using the Cloud
+    
   </span>
   
 
@@ -1220,6 +1287,9 @@
       
         
       
+        
+      
+    
     
     
     
@@ -1230,13 +1300,14 @@
         <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_9" >
         
           
-          
           <div class="md-nav__link md-nav__container">
             <a href="../../s7_deployment/" class="md-nav__link ">
               
   
+  
   <span class="md-ellipsis">
     S7 - Deployment 📦
+    
   </span>
   
 
@@ -1268,29 +1339,10 @@
       <a href="../../s7_deployment/apis/" class="md-nav__link">
         
   
+  
   <span class="md-ellipsis">
     M22 - Requests and APIs
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../s7_deployment/local_deployment/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    M23 - Local Deployment
+    
   </span>
   
 
@@ -1310,8 +1362,10 @@
       <a href="../../s7_deployment/cloud_deployment/" class="md-nav__link">
         
   
+  
   <span class="md-ellipsis">
-    M24 - Cloud Deployment
+    M23 - Cloud Deployment
+    
   </span>
   
 
@@ -1331,8 +1385,56 @@
       <a href="../../s7_deployment/testing_apis/" class="md-nav__link">
         
   
+  
   <span class="md-ellipsis">
-    M25 - API Testing
+    M24 - API Testing
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../s7_deployment/ml_deployment/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    M25 - ML deployment
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../s7_deployment/frontend/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    M26 - Frontend
+    
   </span>
   
 
@@ -1369,6 +1471,7 @@
     
     
     
+    
     <li class="md-nav__item md-nav__item--nested">
       
         
@@ -1376,13 +1479,14 @@
         <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_10" >
         
           
-          
           <div class="md-nav__link md-nav__container">
             <a href="../../s8_monitoring/" class="md-nav__link ">
               
   
+  
   <span class="md-ellipsis">
     S8 - Monitoring 📊
+    
   </span>
   
 
@@ -1414,8 +1518,10 @@
       <a href="../../s8_monitoring/data_drifting/" class="md-nav__link">
         
   
+  
   <span class="md-ellipsis">
-    M26 - Data Drifting
+    M27 - Data Drifting
+    
   </span>
   
 
@@ -1435,8 +1541,10 @@
       <a href="../../s8_monitoring/monitoring/" class="md-nav__link">
         
   
+  
   <span class="md-ellipsis">
-    M27 - System Monitoring
+    M28 - System Monitoring
+    
   </span>
   
 
@@ -1475,6 +1583,7 @@
     
     
     
+    
     <li class="md-nav__item md-nav__item--nested">
       
         
@@ -1482,13 +1591,14 @@
         <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_11" >
         
           
-          
           <div class="md-nav__link md-nav__container">
             <a href="../../s9_scalable_applications/" class="md-nav__link ">
               
   
+  
   <span class="md-ellipsis">
     S9 - Scalable applications ⚖️
+    
   </span>
   
 
@@ -1520,8 +1630,10 @@
       <a href="../../s9_scalable_applications/data_loading/" class="md-nav__link">
         
   
+  
   <span class="md-ellipsis">
-    M28 - Distributed Data Loading
+    M29 - Distributed Data Loading
+    
   </span>
   
 
@@ -1541,8 +1653,10 @@
       <a href="../../s9_scalable_applications/distributed_training/" class="md-nav__link">
         
   
+  
   <span class="md-ellipsis">
-    M29 - Distributed Training
+    M30 - Distributed Training
+    
   </span>
   
 
@@ -1562,8 +1676,10 @@
       <a href="../../s9_scalable_applications/inference/" class="md-nav__link">
         
   
+  
   <span class="md-ellipsis">
-    M30 - Scalable Inference
+    M31 - Scalable Inference
+    
   </span>
   
 
@@ -1599,10 +1715,7 @@
       
         
       
-        
-      
-        
-      
+    
     
     
     
@@ -1613,13 +1726,14 @@
         <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_12" >
         
           
-          
           <div class="md-nav__link md-nav__container">
             <a href="../../s10_extra/" class="md-nav__link ">
               
   
+  
   <span class="md-ellipsis">
     S10 - Extra 🔥
+    
   </span>
   
 
@@ -1651,8 +1765,10 @@
       <a href="../../s10_extra/documentation/" class="md-nav__link">
         
   
+  
   <span class="md-ellipsis">
-    M31 - Documentation
+    M32 - Documentation
+    
   </span>
   
 
@@ -1672,8 +1788,10 @@
       <a href="../../s10_extra/hyperparameters/" class="md-nav__link">
         
   
+  
   <span class="md-ellipsis">
-    M32 - Hyperparameter optimization
+    M33 - Hyperparameter optimization
+    
   </span>
   
 
@@ -1693,50 +1811,10 @@
       <a href="../../s10_extra/high_performance_clusters/" class="md-nav__link">
         
   
-  <span class="md-ellipsis">
-    M33 - High Performance Clusters
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../s10_extra/frontend/" class="md-nav__link">
-        
   
   <span class="md-ellipsis">
-    M34 - Frontend
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../s10_extra/ml_deployment/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    M35 - ML deployment
+    M34 - High Performance Clusters
+    
   </span>
   
 
@@ -1763,8 +1841,10 @@
       <a href="../../pages/overview/" class="md-nav__link">
         
   
+  
   <span class="md-ellipsis">
     Summary
+    
   </span>
   
 
@@ -1783,8 +1863,10 @@
       <a href="../../pages/projects/" class="md-nav__link">
         
   
+  
   <span class="md-ellipsis">
     Projects
+    
   </span>
   
 
@@ -1803,8 +1885,10 @@
       <a href="../../pages/faq/" class="md-nav__link">
         
   
+  
   <span class="md-ellipsis">
     FAQ
+    
   </span>
   
 
@@ -1886,6 +1970,7 @@
                 
                   
 
+
   
     <a href="https://github.com/SkafteNicki/dtu_mlops/edit/main/s3_reproducibility/config_files.md" title="Edit this page" class="md-content__button md-icon">
       
@@ -1910,20 +1995,20 @@
 experiments magically become reproducible. There are other factors that are important for creating reproducible
 experiments.</p>
 <p>In <a href="https://arxiv.org/abs/1909.06674">this paper</a> (highly recommended read) the authors tried to reproduce the results
-of 255 papers and tried to figure out which factors where significant to succeed. One of those factors were
-"Hyperparameters Specified" e.g. whether or not the authors of the paper had precisely specified the hyperparameter that
-was used to run the experiments. It should come as no surprise that this can be a determining factor for
-reproducibility, however it is not given that hyperparameters are always well specified.</p>
+of 255 papers and tried to figure out which factors were significant to succeed. One of those factors was
+"Hyperparameters Specified" e.g. whether or not the authors of the paper had precisely specified the hyperparameters that
+were used to run the experiments. It should come as no surprise that this can be a determining factor for
+reproducibility. However it is not a given that hyperparameters are always well specified.</p>
 <h2 id="configure-experiments">Configure experiments</h2>
 <p>There is really no way around it: deep learning contains <em>a lot</em> of hyperparameters. In general, a <em>hyperparameter</em> is
 any parameter that affects the learning process (e.g. the weights of a neural network are not hyperparameters because
-they are a consequence of the learning process). The problem with having many hyperparameters to control in your code,
-is that if you are not careful and structure them it may be hard after running a experiment to figure out which
+they are a consequence of the learning process). The problem with having many hyperparameters to control in your code
+is that if you are not careful and structure them it may be hard after running an experiment to figure out which
 hyperparameters were actually used. Lack of proper configuration management can cause serious problems with reliability,
 uptime, and the ability to scale a system.</p>
-<p>One of the most basic ways of structuring hyperparameters, is just to put them directly into you <code>train.py</code> script in
+<p>One of the most basic ways of structuring hyperparameters is just to put them directly into your <code>train.py</code> script in
 some object:</p>
-<div class="language-python highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="k">class</span> <span class="nc">my_hp</span><span class="p">:</span>
+<div class="language-python highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="k">class</span><span class="w"> </span><span class="nc">my_hp</span><span class="p">:</span>
 </span><span id="__span-0-2"><a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a>    <span class="n">batch_size</span><span class="p">:</span> <span class="mi">64</span>
 </span><span id="__span-0-3"><a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a>    <span class="n">lr</span><span class="p">:</span> <span class="mi">128</span>
 </span><span id="__span-0-4"><a id="__codelineno-0-4" name="__codelineno-0-4" href="#__codelineno-0-4"></a>    <span class="n">other_hp</span><span class="p">:</span> <span class="mi">12345</span>
@@ -1932,12 +2017,12 @@ some object:</p>
 </span><span id="__span-0-7"><a id="__codelineno-0-7" name="__codelineno-0-7" href="#__codelineno-0-7"></a><span class="n">dl</span> <span class="o">=</span> <span class="n">DataLoader</span><span class="p">(</span><span class="n">Dataset</span><span class="p">,</span> <span class="n">batch_size</span><span class="o">=</span><span class="n">my_hp</span><span class="o">.</span><span class="n">batch_size</span><span class="p">)</span>
 </span></code></pre></div>
 <p>the problem here is configuration is not easy. Each time you want to run a new experiment, you basically have to
-change the script. If you run the code multiple times, without committing the changes in between then the exact
+change the script. If you run the code multiple times without committing the changes in between then the exact
 hyperparameter configuration for some experiments may be lost. Alright, with this in mind you change strategy to use
-an <a href="https://docs.python.org/3/library/argparse.html">argument parser</a> e.g. run experiments like this</p>
+an <a href="https://docs.python.org/3/library/argparse.html">argument parser</a> e.g. run experiments like this:</p>
 <div class="language-bash highlight"><pre><span></span><code><span id="__span-1-1"><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a>python<span class="w"> </span>train.py<span class="w"> </span>--batch_size<span class="w"> </span><span class="m">256</span><span class="w"> </span>--learning_rate<span class="w"> </span>1e-4<span class="w"> </span>--other_hp<span class="w"> </span><span class="m">12345</span>
 </span></code></pre></div>
-<p>This at least solves the problem with configurability. However, we again can end up with losing experiments if we are
+<p>This at least solves the problem with configurability. However, we again can end up losing experiments if we are
 not careful.</p>
 <p>What we really want is some way to easily configure our experiments where the hyperparameters are systematically saved
 with the experiment. For this we turn our attention to <a href="https://hydra.cc/">Hydra</a>, a configuration tool that is based
@@ -1950,7 +2035,7 @@ around writing config files to keep track of hyperparameters. Hydra operates on 
 </span><span id="__span-2-4"><a id="__codelineno-2-4" name="__codelineno-2-4" href="#__codelineno-2-4"></a><span class="w">  </span><span class="nt">learning_rate</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">1e-4</span>
 </span></code></pre></div>
 <p>with the corresponding Python code for loading the file</p>
-<div class="language-python highlight"><pre><span></span><code><span id="__span-3-1"><a id="__codelineno-3-1" name="__codelineno-3-1" href="#__codelineno-3-1"></a><span class="kn">from</span> <span class="nn">omegaconf</span> <span class="kn">import</span> <span class="n">OmegaConf</span>
+<div class="language-python highlight"><pre><span></span><code><span id="__span-3-1"><a id="__codelineno-3-1" name="__codelineno-3-1" href="#__codelineno-3-1"></a><span class="kn">from</span><span class="w"> </span><span class="nn">omegaconf</span><span class="w"> </span><span class="kn">import</span> <span class="n">OmegaConf</span>
 </span><span id="__span-3-2"><a id="__codelineno-3-2" name="__codelineno-3-2" href="#__codelineno-3-2"></a><span class="c1"># loading</span>
 </span><span id="__span-3-3"><a id="__codelineno-3-3" name="__codelineno-3-3" href="#__codelineno-3-3"></a><span class="n">config</span> <span class="o">=</span> <span class="n">OmegaConf</span><span class="o">.</span><span class="n">load</span><span class="p">(</span><span class="s1">&#39;config.yaml&#39;</span><span class="p">)</span>
 </span><span id="__span-3-4"><a id="__codelineno-3-4" name="__codelineno-3-4" href="#__codelineno-3-4"></a>
@@ -1959,10 +2044,10 @@ around writing config files to keep track of hyperparameters. Hydra operates on 
 </span><span id="__span-3-7"><a id="__codelineno-3-7" name="__codelineno-3-7" href="#__codelineno-3-7"></a><span class="n">optimizer</span> <span class="o">=</span> <span class="n">torch</span><span class="o">.</span><span class="n">optim</span><span class="o">.</span><span class="n">Adam</span><span class="p">(</span><span class="n">model</span><span class="o">.</span><span class="n">parameters</span><span class="p">(),</span> <span class="n">lr</span><span class="o">=</span><span class="n">config</span><span class="p">[</span><span class="s1">&#39;hyperparameters&#39;</span><span class="p">][</span><span class="s1">&#39;learning_rate&#39;</span><span class="p">])</span>
 </span></code></pre></div>
 <p>or using <code>hydra</code> for loading the configuration</p>
-<div class="language-python highlight"><pre><span></span><code><span id="__span-4-1"><a id="__codelineno-4-1" name="__codelineno-4-1" href="#__codelineno-4-1"></a><span class="kn">import</span> <span class="nn">hydra</span>
+<div class="language-python highlight"><pre><span></span><code><span id="__span-4-1"><a id="__codelineno-4-1" name="__codelineno-4-1" href="#__codelineno-4-1"></a><span class="kn">import</span><span class="w"> </span><span class="nn">hydra</span>
 </span><span id="__span-4-2"><a id="__codelineno-4-2" name="__codelineno-4-2" href="#__codelineno-4-2"></a>
-</span><span id="__span-4-3"><a id="__codelineno-4-3" name="__codelineno-4-3" href="#__codelineno-4-3"></a><span class="nd">@hydra</span><span class="o">.</span><span class="n">main</span><span class="p">(</span><span class="n">config_name</span><span class="o">=</span><span class="s2">&quot;basic.yaml&quot;</span><span class="p">)</span>
-</span><span id="__span-4-4"><a id="__codelineno-4-4" name="__codelineno-4-4" href="#__codelineno-4-4"></a><span class="k">def</span> <span class="nf">main</span><span class="p">(</span><span class="n">cfg</span><span class="p">):</span>
+</span><span id="__span-4-3"><a id="__codelineno-4-3" name="__codelineno-4-3" href="#__codelineno-4-3"></a><span class="nd">@hydra</span><span class="o">.</span><span class="n">main</span><span class="p">(</span><span class="n">config_name</span><span class="o">=</span><span class="s2">&quot;config.yaml&quot;</span><span class="p">)</span>
+</span><span id="__span-4-4"><a id="__codelineno-4-4" name="__codelineno-4-4" href="#__codelineno-4-4"></a><span class="k">def</span><span class="w"> </span><span class="nf">main</span><span class="p">(</span><span class="n">cfg</span><span class="p">):</span>
 </span><span id="__span-4-5"><a id="__codelineno-4-5" name="__codelineno-4-5" href="#__codelineno-4-5"></a>    <span class="nb">print</span><span class="p">(</span><span class="n">cfg</span><span class="o">.</span><span class="n">hyperparameters</span><span class="o">.</span><span class="n">batch_size</span><span class="p">,</span> <span class="n">cfg</span><span class="o">.</span><span class="n">hyperparameters</span><span class="o">.</span><span class="n">learning_rate</span><span class="p">)</span>
 </span><span id="__span-4-6"><a id="__codelineno-4-6" name="__codelineno-4-6" href="#__codelineno-4-6"></a>
 </span><span id="__span-4-7"><a id="__codelineno-4-7" name="__codelineno-4-7" href="#__codelineno-4-7"></a><span class="k">if</span> <span class="vm">__name__</span> <span class="o">==</span> <span class="s2">&quot;__main__&quot;</span><span class="p">:</span>
@@ -1977,55 +2062,55 @@ everything gets correctly logged such that you would be able to exactly report t
 configured. In the provided script, the hyperparameters are hardcoded into the code and your job will be to separate
 them out into a configuration file.</p>
 <p>Note that we provide a solution (in the <code>vae_solution</code> folder) that can help you get through the exercise, but try to
-look online for your answers before looking at the solution. Remember: its not about the result, its about the journey.</p>
+look online for your answers before looking at the solution. Remember: it's not about the result; it's about the journey.</p>
 <ol>
 <li>
-<p>Start by installing hydra:</p>
+<p>Start by installing hydra.</p>
 <div class="language-bash highlight"><pre><span></span><code><span id="__span-5-1"><a id="__codelineno-5-1" name="__codelineno-5-1" href="#__codelineno-5-1"></a>pip<span class="w"> </span>install<span class="w"> </span>hydra-core
 </span></code></pre></div>
 <p>Remember to add it to your <code>requirements.txt</code> file.</p>
 </li>
 <li>
-<p>Next take a look at the <code>vae_mnist.py</code> and <code>model.py</code> file and understand what is going on. It is a model we will
+<p>Next, take a look at the <code>vae_mnist.py</code> and <code>model.py</code> files and understand what is going on. It is a model we will
     revisit during the course.</p>
 </li>
 <li>
-<p>Identify the key hyperparameters of the script. Some of them should be easy to find, but at least 3 have made it
-    into the core part of the code. One essential hyperparameter is also not included in the script but is needed to be
-    completely reproducible (HINT: the weights of any neural network are initialized at random).</p>
+<p>Identify the key hyperparameters of the script. Some of them should be easy to find, but at least three have made it
+    into the core part of the code. One essential hyperparameter is also not included in the script but is needed for
+    the code to be completely reproducible (HINT: the weights of any neural network are initialized at random).</p>
 <details class="success">
 <summary>Solution</summary>
 <p>From the top of the file <code>batch_size</code>, <code>x_dim</code>, <code>hidden_dim</code> can be found as hyperparameters. Looking through
-the code it can be seen that the <code>latent_dim</code> of the encoder and decoder, <code>lr</code> or the optimzer, <code>epochs</code> in the
-training loop also are hyperparameters. Finally, the <code>seed</code> is not included in the script but is needed to make
-the script fully reproducible e.g. <code>torch.manual_seed(seed)</code>.</p>
+the code it can be seen that the <code>latent_dim</code> of the encoder and decoder, <code>lr</code> for the optimzer, and <code>epochs</code> in
+the training loop are also hyperparameters. Finally, the <code>seed</code> is not included in the script but is needed to
+make the script fully reproducible, e.g. <code>torch.manual_seed(seed)</code>.</p>
 </details>
 </li>
 <li>
-<p>Write a configuration file <code>config.yaml</code> where you write down the hyperparameters that you have found</p>
+<p>Write a configuration file <code>config.yaml</code> where you write down the hyperparameters that you have found.</p>
 </li>
 <li>
 <p>Get the script running by loading the configuration file inside your script (using hydra) that incorporates the
     hyperparameters into the script. Note: you should only edit the <code>vae_mnist.py</code> file and not the <code>model.py</code> file.</p>
 </li>
 <li>
-<p>Run the script</p>
+<p>Run the script.</p>
 </li>
 <li>
-<p>By default hydra will write the results to a <code>outputs</code> folder, with a sub-folder for the day the experiment was
-    run and further the time it was started. Inspect your run by going over each file the hydra has generated and check
-    the information has been logged. Can you find the hyperparameters?</p>
+<p>By default hydra will write the results to an <code>outputs</code> folder, with a sub-folder for the day the experiment was
+    run and further the time it was started. Inspect your run by going over each file that hydra has generated and
+    check that the information has been logged. Can you find the hyperparameters?</p>
 </li>
 <li>
 <p>Hydra also allows for dynamically changing and adding parameters on the fly from the command-line:</p>
 <ol>
 <li>
-<p>Try changing one parameter from the command-line</p>
+<p>Try changing one parameter from the command-line.</p>
 <div class="language-bash highlight"><pre><span></span><code><span id="__span-6-1"><a id="__codelineno-6-1" name="__codelineno-6-1" href="#__codelineno-6-1"></a>python<span class="w"> </span>vae_mnist.py<span class="w"> </span>hyperparameters.seed<span class="o">=</span><span class="m">1234</span>
 </span></code></pre></div>
 </li>
 <li>
-<p>Try adding one parameter from the command-line</p>
+<p>Try adding one parameter from the command-line.</p>
 <div class="language-bash highlight"><pre><span></span><code><span id="__span-7-1"><a id="__codelineno-7-1" name="__codelineno-7-1" href="#__codelineno-7-1"></a>python<span class="w"> </span>vae_mnist.py<span class="w"> </span>+experiment.stuff_that_i_want_to_add<span class="o">=</span><span class="m">42</span>
 </span></code></pre></div>
 </li>
@@ -2038,17 +2123,17 @@ the script fully reproducible e.g. <code>torch.manual_seed(seed)</code>.</p>
     from the script we need to convert all calls to <code>print</code> with <code>log.info</code></p>
 <ol>
 <li>
-<p>Create a logger in the script:</p>
-<div class="language-python highlight"><pre><span></span><code><span id="__span-8-1"><a id="__codelineno-8-1" name="__codelineno-8-1" href="#__codelineno-8-1"></a><span class="kn">import</span> <span class="nn">logging</span>
+<p>Create a logger in the script.</p>
+<div class="language-python highlight"><pre><span></span><code><span id="__span-8-1"><a id="__codelineno-8-1" name="__codelineno-8-1" href="#__codelineno-8-1"></a><span class="kn">import</span><span class="w"> </span><span class="nn">logging</span>
 </span><span id="__span-8-2"><a id="__codelineno-8-2" name="__codelineno-8-2" href="#__codelineno-8-2"></a><span class="n">log</span> <span class="o">=</span> <span class="n">logging</span><span class="o">.</span><span class="n">getLogger</span><span class="p">(</span><span class="vm">__name__</span><span class="p">)</span>
 </span></code></pre></div>
 </li>
 <li>
-<p>Exchange all calls to <code>print</code> with calls to <code>log.info</code></p>
+<p>Replace all calls to <code>print</code> with calls to <code>log.info</code>.</p>
 </li>
 <li>
 <p>Try re-running the script and make sure that the output printed to the terminal also gets saved to the
-    <code>vae_mnist.log</code> file</p>
+    <code>vae_mnist.log</code> file.</p>
 </li>
 </ol>
 </li>
@@ -2057,9 +2142,9 @@ the script fully reproducible e.g. <code>torch.manual_seed(seed)</code>.</p>
     Then run the <code>reproducibility_tester.py</code> script as</p>
 <div class="language-bash highlight"><pre><span></span><code><span id="__span-9-1"><a id="__codelineno-9-1" name="__codelineno-9-1" href="#__codelineno-9-1"></a>python<span class="w"> </span>reproducibility_tester.py<span class="w"> </span>path/to/run/1<span class="w"> </span>path/to/run/2
 </span></code></pre></div>
-<p>the script will go over trained weights to see if the match and that the hyperparameters was the same.
+<p>the script will go over trained weights to see if they match and that the hyperparameters are the same.
 Note: for the script to work, the weights should be saved to a file called <code>trained_model.pt</code> (this is the default
-of the <code>vae_mnist.py</code> script, so only relevant if you have changed the saving of the weights)</p>
+of the <code>vae_mnist.py</code> script, so only relevant if you have changed the saving of the weights).</p>
 </li>
 <li>
 <p>Make a new experiment using a new configuration file where you have changed a hyperparameter of your own
@@ -2077,10 +2162,10 @@ of the <code>vae_mnist.py</code> script, so only relevant if you have changed th
 </span></code></pre></div>
 </li>
 <li>
-<p>Finally, a awesome feature of hydra is the
+<p>Finally, an awesome feature of hydra is the
     <a href="https://hydra.cc/docs/advanced/instantiate_objects/overview/">instantiate</a> feature. This allows you to define a
-    configuration file that can be used to directly instantiating objects in python. Try to create a configuration file
-    that can be used to instantiating the <code>Adam</code> optimizer in the <code>vae_mnist.py</code> script.</p>
+    configuration file that can be used to directly instantiate objects in python. Try to create a configuration file
+    that can be used to instantiate the <code>Adam</code> optimizer in the <code>vae_mnist.py</code> script.</p>
 <details class="success">
 <summary>Solution</summary>
 <p>The configuration file could look like this</p>
@@ -2092,23 +2177,28 @@ of the <code>vae_mnist.py</code> script, so only relevant if you have changed th
 </span><span id="__span-12-6"><a id="__codelineno-12-6" name="__codelineno-12-6" href="#__codelineno-12-6"></a><span class="w">  </span><span class="nt">weight_decay</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">0</span>
 </span></code></pre></div>
 <p>and the python code to load the configuration file and instantiate the optimizer could look like this</p>
-<div class="language-python highlight"><pre><span></span><code><span id="__span-13-1"><a id="__codelineno-13-1" name="__codelineno-13-1" href="#__codelineno-13-1"></a><span class="kn">import</span> <span class="nn">hydra</span>
-</span><span id="__span-13-2"><a id="__codelineno-13-2" name="__codelineno-13-2" href="#__codelineno-13-2"></a><span class="kn">import</span> <span class="nn">torch.optim</span> <span class="k">as</span> <span class="nn">optim</span>
-</span><span id="__span-13-3"><a id="__codelineno-13-3" name="__codelineno-13-3" href="#__codelineno-13-3"></a>
-</span><span id="__span-13-4"><a id="__codelineno-13-4" name="__codelineno-13-4" href="#__codelineno-13-4"></a><span class="nd">@hydra</span><span class="o">.</span><span class="n">main</span><span class="p">(</span><span class="n">config_name</span><span class="o">=</span><span class="s2">&quot;adam.yaml&quot;</span><span class="p">)</span>
-</span><span id="__span-13-5"><a id="__codelineno-13-5" name="__codelineno-13-5" href="#__codelineno-13-5"></a><span class="k">def</span> <span class="nf">main</span><span class="p">(</span><span class="n">cfg</span><span class="p">):</span>
-</span><span id="__span-13-6"><a id="__codelineno-13-6" name="__codelineno-13-6" href="#__codelineno-13-6"></a>    <span class="n">optimizer</span> <span class="o">=</span> <span class="n">hydra</span><span class="o">.</span><span class="n">utils</span><span class="o">.</span><span class="n">instantiate</span><span class="p">(</span><span class="n">cfg</span><span class="o">.</span><span class="n">optimizer</span><span class="p">)</span>
-</span><span id="__span-13-7"><a id="__codelineno-13-7" name="__codelineno-13-7" href="#__codelineno-13-7"></a>    <span class="nb">print</span><span class="p">(</span><span class="n">optimizer</span><span class="p">)</span>
-</span><span id="__span-13-8"><a id="__codelineno-13-8" name="__codelineno-13-8" href="#__codelineno-13-8"></a>
-</span><span id="__span-13-9"><a id="__codelineno-13-9" name="__codelineno-13-9" href="#__codelineno-13-9"></a><span class="k">if</span> <span class="vm">__name__</span> <span class="o">==</span> <span class="s2">&quot;__main__&quot;</span><span class="p">:</span>
-</span><span id="__span-13-10"><a id="__codelineno-13-10" name="__codelineno-13-10" href="#__codelineno-13-10"></a>    <span class="n">main</span><span class="p">()</span>
+<div class="language-python highlight"><pre><span></span><code><span id="__span-13-1"><a id="__codelineno-13-1" name="__codelineno-13-1" href="#__codelineno-13-1"></a><span class="kn">import</span><span class="w"> </span><span class="nn">os</span>
+</span><span id="__span-13-2"><a id="__codelineno-13-2" name="__codelineno-13-2" href="#__codelineno-13-2"></a>
+</span><span id="__span-13-3"><a id="__codelineno-13-3" name="__codelineno-13-3" href="#__codelineno-13-3"></a><span class="kn">import</span><span class="w"> </span><span class="nn">hydra</span>
+</span><span id="__span-13-4"><a id="__codelineno-13-4" name="__codelineno-13-4" href="#__codelineno-13-4"></a><span class="kn">import</span><span class="w"> </span><span class="nn">torch.optim</span><span class="w"> </span><span class="k">as</span><span class="w"> </span><span class="nn">optim</span>
+</span><span id="__span-13-5"><a id="__codelineno-13-5" name="__codelineno-13-5" href="#__codelineno-13-5"></a>
+</span><span id="__span-13-6"><a id="__codelineno-13-6" name="__codelineno-13-6" href="#__codelineno-13-6"></a><span class="nd">@hydra</span><span class="o">.</span><span class="n">main</span><span class="p">(</span><span class="n">config_name</span><span class="o">=</span><span class="s2">&quot;adam.yaml&quot;</span><span class="p">,</span> <span class="n">config_path</span><span class="o">=</span><span class="sa">f</span><span class="s2">&quot;</span><span class="si">{</span><span class="n">os</span><span class="o">.</span><span class="n">getcwd</span><span class="p">()</span><span class="si">}</span><span class="s2">/configs&quot;</span><span class="p">)</span>
+</span><span id="__span-13-7"><a id="__codelineno-13-7" name="__codelineno-13-7" href="#__codelineno-13-7"></a><span class="k">def</span><span class="w"> </span><span class="nf">main</span><span class="p">(</span><span class="n">cfg</span><span class="p">):</span>
+</span><span id="__span-13-8"><a id="__codelineno-13-8" name="__codelineno-13-8" href="#__codelineno-13-8"></a>    <span class="n">model</span> <span class="o">=</span> <span class="o">...</span>  <span class="c1"># define the model we want to optimize</span>
+</span><span id="__span-13-9"><a id="__codelineno-13-9" name="__codelineno-13-9" href="#__codelineno-13-9"></a>    <span class="c1"># the first argument of any optimize is the parameters to optimize</span>
+</span><span id="__span-13-10"><a id="__codelineno-13-10" name="__codelineno-13-10" href="#__codelineno-13-10"></a>    <span class="c1"># we add those dynamically when we instantiate the optimizer</span>
+</span><span id="__span-13-11"><a id="__codelineno-13-11" name="__codelineno-13-11" href="#__codelineno-13-11"></a>    <span class="n">optimizer</span> <span class="o">=</span> <span class="n">hydra</span><span class="o">.</span><span class="n">utils</span><span class="o">.</span><span class="n">instantiate</span><span class="p">(</span><span class="n">cfg</span><span class="o">.</span><span class="n">optimizer</span><span class="p">,</span> <span class="n">params</span><span class="o">=</span><span class="n">model</span><span class="o">.</span><span class="n">parameters</span><span class="p">())</span>
+</span><span id="__span-13-12"><a id="__codelineno-13-12" name="__codelineno-13-12" href="#__codelineno-13-12"></a>    <span class="nb">print</span><span class="p">(</span><span class="n">optimizer</span><span class="p">)</span>
+</span><span id="__span-13-13"><a id="__codelineno-13-13" name="__codelineno-13-13" href="#__codelineno-13-13"></a>
+</span><span id="__span-13-14"><a id="__codelineno-13-14" name="__codelineno-13-14" href="#__codelineno-13-14"></a><span class="k">if</span> <span class="vm">__name__</span> <span class="o">==</span> <span class="s2">&quot;__main__&quot;</span><span class="p">:</span>
+</span><span id="__span-13-15"><a id="__codelineno-13-15" name="__codelineno-13-15" href="#__codelineno-13-15"></a>    <span class="n">main</span><span class="p">()</span>
 </span></code></pre></div>
 <p>This will print the optimizer object that is created from the configuration file.</p>
 </details>
 </li>
 </ol>
 <h3 id="final-exercise">Final exercise</h3>
-<p>Make your MNIST code reproducible! Apply what you have just done to the simple script to your MNIST code. Only
+<p>Make your MNIST code reproducible! Apply what you have just done to the simple script to your MNIST code. The only
 requirement is that you this time use multiple configuration files, meaning that you should have at least one
 <code>model_conf.yaml</code> file and a <code>training_conf.yaml</code> file that separates out the hyperparameters that have to do with
 the model definition and those that have to do with the training. You can also choose to work with even more complex
@@ -2144,7 +2234,7 @@ that we may try.</p>
     <span class="md-icon" title="Last update">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 13.1c-.1 0-.3.1-.4.2l-1 1 2.1 2.1 1-1c.2-.2.2-.6 0-.8l-1.3-1.3c-.1-.1-.2-.2-.4-.2m-1.9 1.8-6.1 6V23h2.1l6.1-6.1zM12.5 7v5.2l4 2.4-1 1L11 13V7zM11 21.9c-5.1-.5-9-4.8-9-9.9C2 6.5 6.5 2 12 2c5.3 0 9.6 4.1 10 9.3-.3-.1-.6-.2-1-.2s-.7.1-1 .2C19.6 7.2 16.2 4 12 4c-4.4 0-8 3.6-8 8 0 4.1 3.1 7.5 7.1 7.9l-.1.2z"/></svg>
     </span>
-    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">June 10, 2024</span>
+    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date" title="February 3, 2025 06:48:20">February 3, 2025</span>
   </span>
 
     
@@ -2154,7 +2244,7 @@ that we may try.</p>
     <span class="md-icon" title="Created">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M14.47 15.08 11 13V7h1.5v5.25l3.08 1.83c-.41.28-.79.62-1.11 1m-1.39 4.84c-.36.05-.71.08-1.08.08-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8c0 .37-.03.72-.08 1.08.69.1 1.33.32 1.92.64.1-.56.16-1.13.16-1.72 0-5.5-4.5-10-10-10S2 6.5 2 12s4.47 10 10 10c.59 0 1.16-.06 1.72-.16-.32-.59-.54-1.23-.64-1.92M18 15v3h-3v2h3v3h2v-3h3v-2h-3v-3z"/></svg>
     </span>
-    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">August 30, 2021</span>
+    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date" title="August 30, 2021 12:18:38">August 30, 2021</span>
   </span>
 
     
@@ -2252,7 +2342,7 @@ that we may try.</p>
       
     
     <a href="https://github.com/SkafteNicki" target="_blank" rel="noopener" title="github.com" class="md-social__link">
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><!--! Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6m-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3m44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9M244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8M97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1m-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7m32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1m-11.4-14.7c-1.6 1-1.6 3.6 0 5.9s4.3 3.3 5.6 2.3c1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2"/></svg>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><!--! Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6m-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3m44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9M244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8M97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1m-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7m32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1m-11.4-14.7c-1.6 1-1.6 3.6 0 5.9s4.3 3.3 5.6 2.3c1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2"/></svg>
     </a>
   
     
@@ -2263,7 +2353,7 @@ that we may try.</p>
       
     
     <a href="https://www.linkedin.com/in/nicki-skafte-detlefsen/" target="_blank" rel="noopener" title="www.linkedin.com" class="md-social__link">
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3M135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5m282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9z"/></svg>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3M135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5m282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9z"/></svg>
     </a>
   
 </div>
@@ -2278,10 +2368,14 @@ that we may try.</p>
     </div>
     
     
-    <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.instant", "navigation.indexes", "navigation.footer", "content.code.copy", "content.code.annotate", "content.action.edit", "content.action.view", "search.suggest", "search.highlight"], "search": "../../assets/javascripts/workers/search.07f07601.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    
+      
+      <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.instant", "navigation.indexes", "navigation.footer", "content.code.copy", "content.code.annotate", "content.action.edit", "content.action.view", "search.suggest", "search.highlight"], "search": "../../assets/javascripts/workers/search.f8cc74c7.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
     
     
-      <script src="../../assets/javascripts/bundle.56dfad97.min.js"></script>
+      <script src="../../assets/javascripts/bundle.c8b220af.min.js"></script>
+      
+        <script src="../../assets/_markdown_exec_pyodide.js"></script>
       
     
   <script id="init-glightbox">const lightbox = GLightbox({"touchNavigation": true, "loop": false, "zoomable": true, "draggable": true, "openEffect": "zoom", "closeEffect": "zoom", "slideEffect": "slide"});
